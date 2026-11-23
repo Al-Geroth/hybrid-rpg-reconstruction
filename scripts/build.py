@@ -10,6 +10,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import quote
 from architecture import build as graph_build
+import phase2
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs"
@@ -54,10 +55,9 @@ def heading(title,kicker,sub=""):
 
 def page(slug,title,body,selected=None,home=False):
     selected = selected or slug
-    def nav():
-        return '<nav aria-label="Edition contents">'+''.join('<a '+('aria-current="page" ' if key==selected else '')+'href="'+key+'.html">'+label+'</a>' for key,label in NAV)+'</nav>'
-    mast='<header class="mast"><div class="bar"><a class="brand" href="index.html"><span aria-hidden="true" class="seal">h</span> HYBRID / Reading edition</a><a class="shortcut" href="rulebook.html">Rulebook</a><a class="shortcut" href="catalogue.html">Catalogue</a><a class="searchlink" href="search.html">Search</a><details><summary>Contents</summary>'+nav()+'</details></div></header>'
-    shell=('<main class="shell" id="content">'+body+'</main>' if home else '<main class="shell layout" id="content"><aside class="rail"><h2>Reading edition</h2>'+nav()+'</aside><article class="chapter">'+body+'</article></main>')
+    reference_items = NAV[1:]
+    mast='<header class="mast"><div class="bar"><a class="brand" href="index.html"><span aria-hidden="true" class="seal">h</span> HYBRID / Reading edition</a><a class="shortcut" href="handbook.html">Learn and play</a><a class="shortcut" href="reference.html">Research and reference</a><a class="searchlink" href="search.html">Search</a><details><summary>Contents</summary>'+phase2.navigation(reference_items,selected,menu=True)+'</details></div></header>'
+    shell=('<main class="shell" id="content">'+body+'</main>' if home else '<main class="shell layout" id="content"><aside class="rail">'+phase2.navigation(reference_items,selected,menu=False)+'</aside><article class="chapter">'+body+'</article></main>')
     extra = '<script defer src="assets/index.js"></script>' if slug=="search" else ''
     document='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#172f32"><title>'+E(title)+' | HYBRID reading edition</title><link rel="stylesheet" href="assets/site.css">'+extra+'<script defer src="assets/site.js"></script></head><body><a class="skip" href="#content">Skip to content</a>'+mast+shell+'<footer><div class="footer-in"><strong>HYBRID / Reading edition</strong><span>Reference edition · February 2003</span>'+link(REPO,"Repository")+'</div></footer></body></html>\n'
     (OUT/(slug+".html")).write_text(document,encoding="utf-8")
@@ -98,11 +98,7 @@ def chart():
     return '<figure class="plate"><div class="platehead"><span>Magnitude conversion</span><span>Rule 45</span></div><div class="formula" aria-label="x raised to log base ten of x">x<sup>log<sub>10</sub> x</sup></div><img src="assets/magnitude.png" width="1100" height="630" alt="On logarithmic input and output axes, the conversion falls from 10,000 at x = .01 to 1 at x = 1, then rises to 10,000 at x = 100."><figcaption class="plate-foot" style="color:inherit"><span>Input across · output up</span><span>Logarithmic axes</span></figcaption></figure>'
 
 def home():
-    body='<div class="hero"><div><div class="eyebrow">A critical reconstruction · v0.30</div><h1>Deciphering<br><i>HYBRID</i></h1><p class="lede">An early web roleplaying game tried to put ordinary people, superheroes and planets on the same scale. How much of it can you actually play?</p><div class="actions"><a class="button" href="quickstart.html">Read the quickstart</a><a href="rulebook.html">Open the rulebook</a></div></div>'+chart()+'</div>'
-    body+='<section class="routes"><div><div class="eyebrow">Explore the edition</div><h2>Ways into the text</h2><p>Matthew/C++ wrote HYBRID. This edition follows the version Philippe Tromeur hosted in February 2003.</p></div><div class="paths">'
-    for url,title,desc in [('catalogue','Follow a rule','Browse the numbered entries and their editorial segments.'),('glossary','Look up a symbol','Read C2, DP or Psyche in the context of a rule.'),('mathematics','Check the arithmetic','Trace a conversion and inspect its inverse.'),('playability','Try a scene','Follow seven attempts from character creation to the next session.'),('assessment','Read the findings','See where a calculation becomes a playable decision.'),('sources','Inspect the witnesses','Compare surviving editions, capture dates and evidence.')]:
-        body+=f'<a href="{url}.html"><strong>{title}</strong><span>{desc}</span></a>'
-    page("index","Deciphering HYBRID",body+'</div></section>',home=True)
+    page("index","Deciphering HYBRID",phase2.landing_html(chart()),home=True)
 
 def catalogue(rules,segments,contradictions):
     locators={r["segment_id"]:r for r in rows("analysis/mathematics/equation_locators.csv")}
@@ -177,7 +173,7 @@ def mathematics(equations):
     body=heading("Mathematics","The equation register","What survives a change of scale? Start with one conversion, then follow the register into lifespan, movement, points and dice.")
     body+='<div class="prose"><section><h2>One number, two scales</h2><p>Write 20 C2 on a character sheet. Rule 45 lets you express that rating as about 49.28 C3. You gained digits on the page. The character gained no power. Rule 45 also describes a different operation, in which the numeral stays put while the character changes class. Recording the operation alongside the number matters.</p>'+refs(["45"])+'</section><section><h2>Why the curve turns</h2><p>Write the input as 10 raised to <i>u</i>. The output is then 10 raised to <i>u</i> squared. Inputs 0.1 and 10 both give 10, since −1 and +1 have the same square. The real-valued formula takes positive inputs and yields values of at least one. An inverse therefore needs a branch. The increasing branch matches the ordinary positive ratings above one used in the cited examples.</p>'+refs(["45","188"])+'</section></div>'
     body+=table(["Input x","log₁₀ x","Converted magnitude"],[[E(f"{x:g}"),E(f"{math.log10(x):.3g}"),E(f"{10**math.log10(x)**2:,.4f}".rstrip("0").rstrip("."))] for x in [.01,.1,1,10,16,20,100]])
-    body+='<p class="fine">Editorial numerical demonstration, including fractional inputs to expose the domain. '+link("index.html","View the logarithmic plot")+'.</p>'
+    body+='<p class="fine">Editorial numerical demonstration, including fractional inputs to expose the domain. '+link("index.html#magnitude-plate","View the logarithmic plot")+'.</p>'
     body+='<h2>The equation register</h2><p>Each record gives a normalized reading. Several describe local calibrations, proposals, or rival readings of one passage. The number of records counts these analytical entries.</p>'
     audit=js("analysis/mathematics/locator_audit.json")
     body+='<p class="fine">Of '+str(audit["all_segments"])+' segments, '+str(audit["candidate_filter"][1])+' carry a notation, topic or verbal cue. The '+str(len(equations))+' detailed records draw on '+str(audit["registered_direct_evidence_filter"][1])+' of those segments. The other '+str(audit["candidate_segments_with_locator_only"])+' candidates have catalogue locators. '+link("assets/equation_locators.csv","Download the complete locator table (CSV)")+'.</p>'
@@ -277,8 +273,10 @@ def main():
     page("search","Search the edition",heading("Search the edition","Reading tools")+filters("search",[])+'<ul class="search-results entry-list" id="search-results"></ul>')
     for slug,title in NAV:
         index(slug+".html",title,"Reading path","")
+    phase1_indexed = len(INDEX)
+    phase2.publish(page, heading, index)
     (assets/"index.js").write_text("window.EDITION_INDEX="+json.dumps(INDEX,ensure_ascii=False,separators=(',',':'))+";\n",encoding="utf-8")
-    stats=dict(rules=len(rules),segments=len(segments),glossary=len(terms),equations=len(eqs),issues=len(conflicts),indexed=len(INDEX),categories=Counter(s["primary_category"] for s in segments),executability=Counter(s["executability"] for s in segments),trials=Counter(s["status"] for s in scenarios),graph=graph["audit"])
+    stats=dict(rules=len(rules),segments=len(segments),glossary=len(terms),equations=len(eqs),issues=len(conflicts),indexed=phase1_indexed,categories=Counter(s["primary_category"] for s in segments),executability=Counter(s["executability"] for s in segments),trials=Counter(s["status"] for s in scenarios),graph=graph["audit"])
     (ROOT/"analysis/edition-counts.json").write_text(json.dumps(stats,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps(stats,indent=2,ensure_ascii=True))
 

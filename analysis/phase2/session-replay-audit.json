@@ -1,0 +1,41 @@
+{
+  "casestudy": "last-lift",
+  "original_dialogue": {
+    "decision_rows_before": 16,
+    "decision_rows_after": 16,
+    "status_counts": {
+      "D": 6,
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "source_reference_occurrences": 29,
+    "source_reference_matches": 29,
+    "unmatched_source_keys": []
+  },
+  "adapted_dialogue": {
+    "decision_rows_before": 16,
+    "decision_rows_after": 16,
+    "status_counts": {
+      "D": 10,
+      "A": 4,
+      "B": 2
+    },
+    "source_reference_occurrences": 34,
+    "source_reference_matches": 34,
+    "unmatched_source_keys": []
+  },
+  "source_rule_keys_checked": 204,
+  "duplicate_original_ids": 0,
+  "source_edition": "v0.30",
+  "configurations_checked": 5,
+  "adaptation_rules_checked": 4,
+  "additional_design_fields_per_rule": 6,
+  "observed_original": "east by consent, Kit 16 LS / 16 PL; one copy created, expiry open",
+  "observed_adapted": "east by contest, Kit 8 LS / 32 PL until rest; zero copies after close",
+  "counterfactuals": {
+    "decline_trade": "west",
+    "tie_at_18": "west"
+  },
+  "result": "pass"
+}

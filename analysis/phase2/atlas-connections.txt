@@ -1,0 +1,22 @@
+# from segment | to segment or none | connection type | player-facing reading
+rule-123-b|rule-49-a|Explicit use|The 45 C2 DP build ends with AMBS about 6.71. That is the square-root procedure of 49 applied to the new character.
+rule-45-a|rule-188-b|Explicit use|The roll-under example requires converting 35 C3 to C2 before subtracting ten and rounding. Accurate inversion and the author's printed approximation lead to different targets.
+rule-3-a|rule-134-a|Explicit use|Firestorm exchanges LS for PL, raising 100.5 to 502.5 C2 PL. The object affected is then rated 502.5 C3 PL.
+rule-3-a|rule-141-a|Explicit use|The White Lighter example doubles or quadruples power at the expense of life-span and then expresses that life-span in years.
+rule-10-a|rule-30-a|Explicit use|Ship length and C2 power determine warp. Rule 30 takes warp as its input, but two speed outputs survive.
+rule-10-a|rule-130-a|Compatible inputs|Rule 130 needs a warp number, so 10 could provide it. Rule 130's own Voyager example supplies warp ten directly.
+rule-43-a|rule-44-a|Explicit use|Density derived from C2 enters the power of height in the mass calculation. Passing C2 itself as the exponent would produce a different result.
+rule-73-a|rule-15-a|Explicit use|Rule 15 itself computes the one-use die count of 73, then divides C2 by its square root for height. The dice are used without an attack roll.
+rule-111-a|rule-113-a|Explicit use|The C2 size expression becomes the denominator when estimating the animal's C3-to-length factor.
+rule-162-a|rule-166-a|Explicit use|The robot procedure refers to the technology-length rule and explicitly changes a power rating into a baseline during construction.
+rule-18-a|rule-19-a|Compatible inputs|A known number of clones sets retained height by a reciprocal. Rule 19 also provides independent branches for a character with C1 PL or DP.
+rule-134-a|rule-152-a|Repeated operation|The second molecular-control passage repeats the same target-class mapping. The two citations are one operation.
+rule-39-a||Scene comparison|A referee can compare a speed to a stated travel requirement. Rule 39 itself gives a speed-rating relation rather than a chase result.
+rule-173-a||Scene comparison|Once a temporal cargo object has a C1 DP, its required traveller rating can be compared with a character sheet. A destination and timeline are additional inputs.
+rule-174-a||Scene comparison|A passenger count can support a narrowly framed question about moving a known party. The leading device formula leaves fractional capacity unresolved. A separate group comparison discards the fraction in one example.
+rule-189-a||Unconsumed in conflict|DCV is produced. A HYBRID attack procedure consuming that value to decide a hit was not identified.
+rule-146-a||Unconsumed at injury|A pool of damage dice is produced. A general update to a living character's health after rolling that pool was not identified.
+rule-92-a||Descriptive endpoint|The builder's rating gives storeys and height. No procedure for paying for the building, completing it in time or using it to improve a character is supplied.
+rule-51-a||Descriptive endpoint|A cinematic vampire percentage has no identified downstream action, vulnerability or success calculation.
+rule-112-a||Descriptive endpoint|A lifetime cosmic appetite has no identified per-turn consumption interval, depletion track or recovery threshold.
+rule-117-a||Descriptive endpoint|The ring's recharge schedule is a property assigned to one fictional power source. The passage has no general fatigue-and-recovery procedure.

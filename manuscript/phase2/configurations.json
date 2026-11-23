@@ -1,0 +1,68 @@
+{
+  "intro": "A complete loop here starts with an intentional player choice, applies a procedure, and settles the stated fictional question. A lookup performed while the situation remains undecided is an intermediate result. Each trial below holds the cast, scope and question narrow enough to give the source its best chance.",
+  "trials": [
+    [
+      "One courier, one pace",
+      "Closed bounded action · B",
+      [
+        39
+      ],
+      "One human runner with 16 C2 DP. The GM offers two clear routes beside unobstructed moving belts, one at 3 mph and the other at 10. The player picks a route and asks whether the courier can match its pace. Both belts and the choice are scene premises.",
+      "The ratings required are about 14.77 C2 and exactly 20 C2. On the monotone reading of Rule 39, the courier can match the first and cannot match the second. The choice changes which route is reachable. No rival, elapsed-time roll or power selection enters.",
+      "One player, one required benchmark and one published rule can close a fictional action. The GM can repeat it with new speeds. This says little about crossings under fire, endurance or rival runners."
+    ],
+    [
+      "A specialist with one clone model",
+      "Closed bounded power use · A",
+      [
+        18,
+        128
+      ],
+      "Grant the Rule 18 creator of 100 C3 DP and retain that rule's other example assumptions. Set the sole goal to creating sufficient copies at the character's chosen rating. Two additional copies are needed.",
+      "At 50 C3 per copy there is one. At 25 C3 there are three. Selecting a lighter copy changes whether the actor can produce the required number. Restricting the case to integral results avoids adding a rounding convention.",
+      "Rule 18 explicitly gives this model. Sticking to its example is a legitimate choice. Declaring that copies can operate machinery, disappear on cue or obey at a distance would expand it."
+    ],
+    [
+      "Roll for one defined state",
+      "Conditional test · A / C",
+      [
+        17,
+        35,
+        45,
+        188
+      ],
+      "Use Rule 188's printed example for a particular state and a supplied observed total of 8. It gives an inclusive target of 8. Neither opponent nor contested stake is involved.",
+      "The printed route calls this a success. Recomputing its source conversion under Rule 45 produces a target of 7. The choice between the printed worked example and the exact conversion changes this single event.",
+      "A table can follow the printed route explicitly. Combining the optional Rule 17 pool with Rule 35's percentage of a maximum requires a denominator interpretation and yields a different test. Neither single-character check decides who moves a shared handle."
+    ],
+    [
+      "A same-scale opposed physical task",
+      "Open transition · B",
+      [
+        2,
+        17,
+        34,
+        35,
+        188,
+        189
+      ],
+      "Restrict the cast to two ordinary actors. Fix both ratings in C2, rule out special powers and use only the printed roll-high reading for individual successes.",
+      "Removing conversions eliminates one source of ambiguity. If both actors pass their own tests while seeking mutually exclusive outcomes, the next fictional state is still undecided. Magnitude comparison, margin of success and tie priority would each be new choices.",
+      "A consistent scale and a single roll convention can simplify play without supplying common authority for a contested outcome."
+    ],
+    [
+      "A whole rescue with two protagonists",
+      "Referee-completed session · D",
+      [
+        3,
+        18,
+        39,
+        45,
+        128
+      ],
+      "Use only a human courier, a single clone power and a public rescue stake. Players can solve the task by reaching agreement with the rival.",
+      "The genuine source steps make the dialogue playable and constrain several choices. Accepting the copy as a second operator, or having the rival yield, requires a ruling or agreement. The rescue and its consequences can be narrated to completion.",
+      "The existence of local, closed loops and the need for new rules in an opposed rescue can both be true. The separate house game tests a repeatable route through the latter."
+    ]
+  ]
+}
