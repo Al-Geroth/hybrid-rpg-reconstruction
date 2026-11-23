@@ -1,0 +1,266 @@
+{
+  "id": "last-lift",
+  "title": "The last lift at Lantern House",
+  "premise": "A storm has flooded the lower walkway at Lantern House, a glass garden built above a reservoir. The final cable lift can collect one group before the night crew shuts the line. The east platform has two keepers tending a cabinet of newly hatched moths. On the west, Vale and the orchard crew are sheltering cuttings from the rain. Both groups have a dry room for the night. The lift matters because the moths need warmth and the young trees need to be carried under cover.",
+  "people": [
+    {
+      "player": "Jo",
+      "name": "Kit",
+      "role": "Courier",
+      "dp": 16,
+      "scale": "C2",
+      "ls": 16,
+      "pl": 16,
+      "refs": [
+        11,
+        49
+      ],
+      "reason": "Jo chooses the ordinary benchmark in Rule 49. Unmodified LS and PL start at the baseline for this example. No separate endurance, health or skill score is supplied."
+    },
+    {
+      "player": "Ren",
+      "name": "Double",
+      "role": "Hero able to create a duplicate",
+      "dp": 100,
+      "scale": "C3",
+      "com": 50,
+      "refs": [
+        18,
+        47,
+        182
+      ],
+      "reason": "Ren combines the heroic C3 benchmark with the creator in Rule 18. The table grants Double that particular power and uses the appearance allocation assumed in its worked example. No general purchase price is inferred."
+    },
+    {
+      "player": "GM",
+      "name": "Vale",
+      "role": "Keeper protecting the west platform",
+      "dp": 18,
+      "scale": "C2",
+      "ls": 18,
+      "pl": 18,
+      "refs": [
+        11,
+        35
+      ],
+      "reason": "The GM borrows the 18 C2 human example. Vale is competent, wants to keep the route west and will use the baseline rating without a trade."
+    }
+  ],
+  "inputs": {
+    "pace_mph": 3,
+    "copy_rating_c3": 50,
+    "alternative_copy_rating_c3": 25,
+    "rescue_route": "east",
+    "initial_route": "west",
+    "required_callers": 2,
+    "available_lifts": 1,
+    "boost_factor": 2,
+    "quiet_interval": "one uninterrupted interval of rest after the lift has gone"
+  },
+  "intentions": [
+    "Kit will walk the moving service belt, then try to switch the lift east. Jo is willing to shorten Kit's life-span rating for more power if a trade has that use.",
+    "Double will make one copy of 50 C3 DP. Double and the copy will ring the two call bells together.",
+    "Vale will hold the route west without trading life-span. If the lift goes east, Kit will stay to help the west crew through the night."
+  ],
+  "original": [
+    {
+      "title": "At the table, before the last bell",
+      "lead": "The GM sketches two platforms and a single car. The service belt runs beside the selector. The two call bells are on opposite sides of the machinery, within reach of someone already at each position. Vale has already set the selector west. Everyone knows what reaching either platform would mean.",
+      "moves": [
+        [
+          "GM",
+          "D",
+          "setup",
+          "The line has one trip left. You decide whom to help tonight. I’ll take Vale, who grew those trees from seed. They aren't going to lift their hand from the west selector just because a superhero walks in.",
+          "The place, people, physical layout, stakes and clock are playtest inputs.",
+          []
+        ],
+        [
+          "Jo",
+          "A",
+          "human-baseline",
+          "I want to play the person who knows this place on foot. Rule 49 gives me an ordinary starting example at 16 C2 default psyche. Its square root is 4 for average Mind, Body and Soul. I’ll write those two numbers down.",
+          "This produces one baseline and one average. Jo supplies the name Kit and the occupation.",
+          [
+            11,
+            49
+          ]
+        ],
+        [
+          "Ren",
+          "B",
+          "hero-baseline",
+          "My character, Double, was once a whole search party by herself. I’m taking the heroic example at 100 C3 DP. The clone calculation uses a creator at exactly that rating, with 50 C3 allocated to appearance in its example.",
+          "Rules 18 and 182 supply compatible numbers. The choice to combine them belongs to this build.",
+          [
+            18,
+            47,
+            182
+          ]
+        ],
+        [
+          "GM",
+          "D",
+          "grant-power",
+          "Then let’s play Double as someone who can make those copies. Kit has baseline LS and PL of 16 C2 today. I’ll give Vale the 18 C2 human rating and leave it at that.",
+          "The table grants a specific power and fixes the cast's starting inputs. There is no general purchase procedure behind this decision.",
+          [
+            3,
+            18,
+            35,
+            49
+          ]
+        ]
+      ]
+    },
+    {
+      "title": "Catch the moving belt",
+      "lead": "Through the window Kit sees the selector passing along the service belt. A maintenance sign gives the belt's speed. Nobody is trying to stop Kit reaching it.",
+      "moves": [
+        [
+          "GM",
+          "D",
+          "state-pace",
+          "The belt moves at 3 mph. There’s a run of level decking beside it. Match its pace and you can put your hand on the selector. Double can take the first bell while you go.",
+          "A single ordinary obstacle and its consequence are established in the fiction.",
+          []
+        ],
+        [
+          "Jo",
+          "A",
+          "pace-cost",
+          "Rule 39 asks for the speed. The base-ten logarithm of 3 is about 0.4771. Add 1 and multiply by 10. I need about 14.77 C2 to run at that pace.",
+          "The rule supplies a required running rating in DP or PL and specifies mph.",
+          [
+            39
+          ]
+        ],
+        [
+          "GM",
+          "B",
+          "pace-outcome",
+          "Kit has 16. That covers 14.77. You draw level with the belt. Vale puts a shoulder against the selector. ‘If you send it east, who stays with my crew?’",
+          "Reading the increasing requirement as a capacity test settles this bounded action. The stakes of the selector are still open.",
+          [
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "title": "Two people to call one car",
+      "lead": "Double can ring the first bell alone. A bell must sound on the far side at the same time or the car stays put. One additional person in the right place would do.",
+      "moves": [
+        [
+          "Ren",
+          "A",
+          "copy-count",
+          "I want one copy strong enough to work beside me. If I divide my 100 C3 by 50 C3 and subtract one, I get one additional Double. If I asked for 25 C3 copies instead, I’d get three. I'll take the single 50.",
+          "Rule 18 specifies this branch and counts additional copies. The comparison uses two proposed ratings at the same scale.",
+          [
+            18
+          ]
+        ],
+        [
+          "Ren",
+          "C",
+          "copy-agency",
+          "Could she walk over there, wait for my nod and ring her bell? The Lobo example describes copies that share appearance and personality. It sounds as though she could follow a simple plan.",
+          "Rule 128 concerns another kind of copy and offers different formulas. It suggests agency by analogy. It supplies no general command, timing or placement rule for the Rule 18 result.",
+          [
+            18,
+            128
+          ]
+        ],
+        [
+          "GM",
+          "D",
+          "allow-caller",
+          "Yes for this scene. There’s a clear path. You take the near bell, she walks to the far one, and the two sound together. The car is ready, but it’ll still go west unless Kit can move the selector.",
+          "This ruling gives the computed copy an independent routine action in time. It is the first permission the speed and clone calculations cannot settle.",
+          [
+            18,
+            128
+          ]
+        ]
+      ]
+    },
+    {
+      "title": "Two hands on the selector",
+      "lead": "The east keepers have started warming the moth cabinet with their coats. Vale can see them too. Neither caller has any reason to release a bell. Kit has a real choice about how far to press the claim.",
+      "moves": [
+        [
+          "Jo",
+          "A",
+          "trade-arithmetic",
+          "I could trade longevity for power. From 16 and 16, halving C2 life-span gives 8 and doubling C2 power gives 32. My C2 default psyche stays at 16. That arithmetic doesn't require a roll.",
+          "Rule 3 allows paired operations. Rule 183 illustrates this particular factor for a named power. These are proposed ratings, pending authority to use them here.",
+          [
+            3,
+            183
+          ]
+        ],
+        [
+          "Jo",
+          "C",
+          "offer-trade",
+          "Vale is holding at 18. If I put my weight against the handle with 32 power, does that beat their 18? I’m willing to spend the life-span if it will get the keepers clear.",
+          "Nothing in the cited trade establishes which rating governs this struggle, whether the trade is available to Kit here, or whether the larger rating wins. This proposal has not changed Kit's sheet.",
+          [
+            3,
+            34,
+            35,
+            183
+          ]
+        ],
+        [
+          "GM",
+          "B",
+          "check-other-tests",
+          "I can find a skill roll that succeeds at a high threshold, and a worked rule for rolling under a target to attain a state. Suppose you both succeed at your own rolls. I still have two people holding one selector. Which platform gets the car?",
+          "Rules 17, 35 and 188 support local tests. No inspected instruction maps two such successes to one routing decision. Rule 34's comparison counts fictional souls. It does not award the handle.",
+          [
+            17,
+            34,
+            35,
+            188
+          ]
+        ]
+      ]
+    },
+    {
+      "title": "An ending the players can own",
+      "lead": "Kit and Vale can still speak. The scene has reached a consequential choice, even though its numerical procedures have stopped short of choosing a route.",
+      "moves": [
+        [
+          "Jo",
+          "D",
+          "offer-bargain",
+          "Vale, send the lift for the east keepers. I’ll come back along the belt and help you carry every tree into the dry room. I’m giving up my ride too.",
+          "A player offers a fictional concession. The edition supplies no numerical persuasion or acceptance procedure for this exchange.",
+          []
+        ],
+        [
+          "GM",
+          "D",
+          "consensual-end",
+          "Vale looks at your wet boots. ‘Every tree?’ They take their hand away. The car goes east. The moth cabinet gets a warm berth. You and Vale carry the cuttings by hand until sunrise.",
+          "The GM chooses Vale’s response. The reached destination is a table decision. Kit's proposed longevity trade was never activated.",
+          []
+        ],
+        [
+          "Ren",
+          "B",
+          "original-record",
+          "I can record where the car went and that the two of you stayed. I can't find a rule telling me when my second self goes away. I’ll leave that line open for next time.",
+          "The original sheet can persist. Other cloning examples distinguish temporary and permanent effects, but do not establish this copy's expiry or a general end-of-session award.",
+          [
+            45,
+            125,
+            128
+          ]
+        ]
+      ]
+    }
+  ]
+}

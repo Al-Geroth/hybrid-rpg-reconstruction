@@ -1,0 +1,241 @@
+[
+  {
+    "id": "ordinary-courier",
+    "archetype": "Ordinary adult",
+    "concept": "A bicycle courier who knows the town’s footbridges.",
+    "inputs": {
+      "name": "Mara Vale",
+      "age": 31,
+      "route": "benchmark",
+      "scale": "C2",
+      "rating": 16,
+      "dice": "",
+      "sides": 0,
+      "gifts": [],
+      "trade": "none",
+      "amount": 0,
+      "power": "running",
+      "limitation": "",
+      "com": null,
+      "branch": "",
+      "defaultPair": true
+    },
+    "expected": {
+      "dp": 16,
+      "pl": 16,
+      "ls": 16,
+      "ambs": 4,
+      "c3": 28.17766052771087,
+      "years": 169.06596316626522,
+      "speed": 3.981071705534973
+    },
+    "decisions": [
+      "Choose an ordinary human campaign and borrow the 16 C2 DP example in #11 and #49. Mara’s name, age and occupation are editorial choices.",
+      "Leave power and lifespan at the same rating as the baseline. Take no advantages. Individual Mind, Body and Soul remain open.",
+      "For a scene requiring a running speed, choose #39 and use the C2 baseline. The passage expressly permits either DP or PL. They coincide here."
+    ],
+    "capability": "On a clear path her rating corresponds to roughly 3.98 mph. That figure can contribute to a timed journey if the table supplies a distance.",
+    "open": "The long lifespan comes from the below-20 branch in rule 6. Even this human benchmark can outlive a higher-rated character on that reading. No rule here assigns climbing skill, a failure consequence for missing a delivery, or a health pool.",
+    "refs": [
+      11,
+      23,
+      39,
+      45,
+      47,
+      49,
+      6
+    ]
+  },
+  {
+    "id": "trained-runner",
+    "archetype": "Trained human",
+    "concept": "A search volunteer with experience crossing the city on foot.",
+    "inputs": {
+      "name": "Tomas Fen",
+      "age": 38,
+      "route": "benchmark",
+      "scale": "C2",
+      "rating": 18,
+      "dice": "",
+      "sides": 0,
+      "gifts": [],
+      "trade": "none",
+      "amount": 0,
+      "power": "running",
+      "limitation": "",
+      "com": null,
+      "branch": "",
+      "defaultPair": true
+    },
+    "expected": {
+      "dp": 18,
+      "pl": 18,
+      "ls": 18,
+      "ambs": 4.242640687119285,
+      "c3": 37.64515260982956,
+      "years": 150.58061043931824,
+      "speed": 6.309573444801933
+    },
+    "decisions": [
+      "Start at the 18 C2 benchmark that #35 calls elite human. The training background is an editorial choice. No award of two points for training is implied.",
+      "Leave LS and PL at default. Take no rated advantages, and do not assign separate scores to the three parts of AMBS.",
+      "Apply #39 to the C2 DP rating. Rule 17 could also make a 3d6 pool from the numeral 18. Choosing a pool alone does not choose a task or a success threshold."
+    ],
+    "capability": "At about 6.31 mph on the selected running rule, Tomas has a numerical pace to bring to an unobstructed journey. Rule 35 separately gives a pool of three dice.",
+    "open": "Rough terrain, endurance, a chase against another runner and a bonus for search experience all require more information.",
+    "refs": [
+      17,
+      23,
+      35,
+      39,
+      45,
+      47,
+      49,
+      6
+    ]
+  },
+  {
+    "id": "low-mutant",
+    "archetype": "Low-powered mutant",
+    "concept": "A stagehand who can conceal a performer behind a flickering double image.",
+    "inputs": {
+      "name": "Iven Eaves",
+      "age": 24,
+      "route": "mutant",
+      "scale": "C2",
+      "rating": 9,
+      "dice": "",
+      "sides": 0,
+      "gifts": [
+        "Agility",
+        "Minor force field",
+        "Camouflage"
+      ],
+      "trade": "none",
+      "amount": 0,
+      "power": "camouflage",
+      "limitation": "",
+      "com": null,
+      "branch": "",
+      "defaultPair": true
+    },
+    "expected": {
+      "dp": 36,
+      "pl": 36,
+      "ls": 36,
+      "ambs": 6,
+      "c3": 264.28801792873617,
+      "years": 528.5760358574723,
+      "speed": null
+    },
+    "decisions": [
+      "Use the specific #123 build, beginning at 9 C2 DP. Choose agility at the first step. The +1 advantage brings the baseline to 18.",
+      "Choose a minor force field from the second list and add +1/2 on the new baseline to reach 27. Choose camouflage from the third list and apply +1/3 to 27 to reach 36.",
+      "Stop after three choices and keep LS and PL at default. The rule also offers a fourth step, which this character declines. The stage effect is an editorial description of the chosen camouflage."
+    ],
+    "capability": "The sheet distinguishes three actual selections. Iven can declare the use of camouflage or the field. The named choices give the referee something specific to adjudicate.",
+    "open": "The worked construction gives no duration, shield strength or camouflage percentage. Importing #53’s cloaking percentage would require a decision about its inputs and applicability.",
+    "refs": [
+      123,
+      147,
+      23,
+      45,
+      47,
+      49,
+      6
+    ]
+  },
+  {
+    "id": "phase-specialist",
+    "archetype": "Single-power specialist",
+    "concept": "An observatory technician who can render their body insubstantial.",
+    "inputs": {
+      "name": "Nel Orra",
+      "age": 29,
+      "route": "benchmark",
+      "scale": "C2",
+      "rating": 40,
+      "dice": "",
+      "sides": 0,
+      "gifts": [],
+      "trade": "multiply",
+      "amount": 2,
+      "power": "phase",
+      "limitation": "",
+      "com": null,
+      "branch": "",
+      "defaultPair": true
+    },
+    "expected": {
+      "dp": 40,
+      "pl": 80,
+      "ls": 20,
+      "ambs": 6.324555320336759,
+      "c3": 368.63470201779234,
+      "years": 98.5618950951205,
+      "speed": null
+    },
+    "decisions": [
+      "Use the 40 C2 DP desolidification example in #183 as the numerical anchor. The person and the observatory are editorial.",
+      "Choose the multiplicative trade used by the author. Divide C2 LS by two and multiply C2 PL by two. Keep the original DP of 40.",
+      "Record the single power and its source condition. Record duration as unresolved. The example names the capability but specifies no roll for a given barrier."
+    ],
+    "capability": "Nel reproduces the author’s operating configuration exactly and can declare desolidification. At the traded 20 C2 LS, the #6 reading gives about 98.56 years.",
+    "open": "Width or composition of an obstacle, partial activation, and how to restore default ratings during a timed encounter remain open.",
+    "refs": [
+      3,
+      6,
+      45,
+      47,
+      49,
+      183
+    ]
+  },
+  {
+    "id": "time-reader",
+    "archetype": "High-powered superhero",
+    "concept": "A witness who reads the past and the future of an abandoned observatory.",
+    "inputs": {
+      "name": "Rin Calder",
+      "age": 42,
+      "route": "dice",
+      "scale": "C1",
+      "rating": 0,
+      "dice": "20,20",
+      "sides": 20,
+      "gifts": [],
+      "trade": "none",
+      "amount": 0,
+      "power": "time-sight",
+      "limitation": "",
+      "com": null,
+      "branch": "",
+      "defaultPair": true
+    },
+    "expected": {
+      "dp": 368.63470201779234,
+      "pl": 368.63470201779234,
+      "ls": 368.63470201779234,
+      "ambs": 19.19986203121763,
+      "c3": 3867373.6602673563,
+      "years": 7734747.320534713,
+      "speed": null
+    },
+    "decisions": [
+      "Choose a C1 campaign. Rule 107 allows a sum of X dice of Y sides as a tentative starting route. The illustrative 2d20 pool and two faces of 20 are supplied for this example.",
+      "The sum gives 40 C1 DP. Convert it to C2 for calculating AMBS, and leave PL and LS at their default values on this branch.",
+      "Use the 40 C1 DP benchmark in #183 for perceiving both directions of time. This selection describes the external-cost analogy that motivates the character. It does not deduct a newly invented cost from a points account."
+    ],
+    "capability": "Rin meets the specific two-direction perception benchmark. A player can frame a question about an earlier or a later scene without choosing interstellar travel rules.",
+    "open": "Rule 183 also mentions the stunt at 30 C1 DP. Its printed equivalent of 152.02 C3 agrees numerically with C2, and the intended scope of that alternative is uncertain. Neither example gives a time horizon, detail, truth test or frequency. The long lifespan is the rule 6 projection.",
+    "refs": [
+      6,
+      23,
+      45,
+      47,
+      49,
+      107,
+      183
+    ]
+  }
+]

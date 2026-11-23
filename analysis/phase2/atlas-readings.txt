@@ -1,0 +1,206 @@
+# Editorial segment | decision | family | operation/crosswalk | reason and consequence
+front-002|F|outside|-|The warning previews rule 196's arithmetic. Its function here is to direct the reader to sensitive material.
+front-008|E|character|old:c0-psyche|The publication discussion runs into a reading of Doctor Doom. Splitting a character name and assigning numbers to two people illustrates the author's benchmarking method.
+front-009|E|scale|old:class-step|Doom, his double and a HERO character receive different numbers. The passage eventually restates the already registered scale transform.
+front-010|U|effects|-|Antimatter and comic cosmology are analogies for a supposed field principle. The text does not specify which analogy to apply to a new power.
+front-011|E|exchange|old:opposite-operations|The HERO totals and two manifestations of psyche restate existing relations. Successive proposed speed thresholds illustrate the difficulty of picking one.
+front-012|F|outside|-|Edition totals and a repeated reader warning triggered the locator. The masthead is not another rule for generating a character.
+front-013|E|outside|old:version-dating|The date-based version convention corrects a label. The accompanying calculator requirement adds no operation on a game state.
+front-015|C|space|also:warp-input|X, Y and Z are proposed costs for different kinds of travel or observation. The list points the reader to rules with different modifiers.
+front-018|E|scale|old:class-step|The Comet Empire's two suggested CA values are converted to C1. Subtracting ten to compare a SAGA number is a separate crosswalk.
+front-019|A|outside|-|Technology numbers assigned to actual states support a historical forecast. They do not define a player's decision or outcome.
+front-020|V|scale|old:class-step|The self-power transform is the already registered operation. Proposed similarities to other games add no new transformation.
+front-021|E|character|old:ambs|Ranks for television characters use assumed size, plot feats and AMBS. Changing the reading of a scene changes the benchmark.
+front-022|E|time|old:astral-time|The traveller and the provider of a time device can have different ratings. The examples assign responsibility using the story.
+front-023|A|outside|-|Numerical comparisons about relationships and television are presented without a procedure that resolves an event at the table.
+front-024|U|crosswalk|-|One worked strength-to-dice ratio leads to a criticism of adding unlike HERO point totals. There is no selection rule for transferring the ratio to a new character.
+front-026|F|outside|-|The fractions and timing instructions belong to baking. Neither ingredients nor cooking time are game statistics.
+front-027|V|scale|old:class-step|The text resumes the same self-power transform after the recipe.
+front-028|E|character|old:ambs|Rank comparisons from Marvel and BESM motivate the search for a scale. The examples suggest benchmarks but give no universal starting roll.
+front-029|E|scale|old:class-step|The passage explains the discovery of the familiar 20-to-49.28 conversion and the names of the classes.
+front-030|C|scale|old:c0-psyche|C0 holds a displayed number pending a choice of magnitude. The character comparisons show why a context-free conversion fails.
+front-031|E|setting|old:opposite-operations|Size and comic-book comparisons supply proposed cosmic baselines. Altering a comparison character alters the assigned rating.
+front-032|E|setting|old:grade-load|The course-load illustration divides a given rating by the selected credits. Rule 89 gives the registered treatment.
+front-034|V|allocation|also:point-share|The sign indicates an adjustment direction. This is an index to the treatment in 138, with a worked numerical interpretation in 54.
+front-036|E|effects|old:recast-rating|Card creatures and figures in other media illustrate the author's distinction between temporary manifestations and their creators.
+front-037|C|crosswalk|-|D&D hit points are equated with a C3 number. No rule translates an actual injury to that C3 value.
+front-038|C|crosswalk|-|A correction is added to StarCraft creature ratings to bring them onto the chosen scale. Rule 148 gives a different adjustment.
+front-039|C|crosswalk|old:iterated-scale|Synnibarr Life Points can mean C4 PL or a different C3 quantity depending on the item. It is a proposed correspondence by use.
+front-043|C|crosswalk|old:class-step|GURPS attributes and point totals are matched to HYBRID values. Numerical agreement at a benchmark does not establish a common budget.
+front-044|C|crosswalk|-|Nobilis and SAGA average psyche are compared. A remaining balance after using powers is a possible reading, not a general spending rule.
+front-045|C|crosswalk|-|The proposed SAGA rating equals a HYBRID CA baseline less ten. Rules 125 and 144 repeat the same crosswalk.
+front-046|C|crosswalk|old:tcp-linear|Marvel Reason is interpreted as an IQ anchor. The author describes the correspondence as inferred from fictional examples.
+front-047|C|crosswalk|-|Aberrant dots are mapped to the square root of C1. DP or PL may supply that number, so its type must be chosen.
+front-050|C|crosswalk|old:ambs|The review compares dot or attribute values across games. It imports no BESM procedure for settling actions.
+front-051|U|crosswalk|-|Equal nominal HERO costs are assigned different classes depending on the effect. No general rule assigns each new cost to its class.
+front-052|V|allocation|also:point-share|Signed point fractions are placed alongside HERO advantages. The text claims a resemblance rather than giving the two games identical charging rules.
+front-053|E|crosswalk|old:mutant-damage|HERO example builds are translated into C2 or C3 totals and damage pools. The choice of magnitude follows the example.
+front-054|C|crosswalk|old:mutant-damage|Mutants & Masterminds PL is matched to a square of HYBRID default psyche. The result is an external rating, distinct from HYBRID PL.
+front-055|E|character|-|A preferred reading of The Matrix motivates assignments to characters. The numerals are evidence of benchmarking a story.
+front-056|E|character|old:ambs|Moving Blade's AMBS from six to seven gives a higher C2. The sequel supplies the increase, so this is not an advancement award.
+front-057|C|setting|-|Release year and a discretionary adjustment calibrate Godzilla. Rule 137 supplies a date convention without this adjustment.
+2-b|C|character|-|The same threshold on C2 and C1 labels different kinds of protagonist. It is a classification by magnitude, not a character level-up.
+4-a|V|size|old:size-proportion|Alternative height expressions use C3 and an appearance modifier. DP may replace PL for a transforming mutant. The selector is local.
+4-b|A|outside|-|The demographic modifiers are unsupported assignments. Rule 4's general height question can be considered separately.
+7-a|U|effects|-|Several incompatible field and size analogies use C3 with different exponents and mixed units. The text gives no universal field procedure or physical calibration.
+9-a|D|space|new:sublight|The leading relation returns a percentage of light speed for a craft at C2 PL. Size and material enter later qualifications.
+10-a|D|space|new:warp-input|Length and C2 power yield the warp number required by rules 30 and 130. The text also offers 120 and 123 in place of the first calibration of 100.
+11-a|V|setting|old:fictional-salary|The input to an income estimate switches from PL to DP in a more superhuman setting. This changes the salary branch, not the character's actual pay history.
+11-b|C|character|-|Players start with DP and the GM selects the magnitude. The range of illustrative human values does not prescribe a campaign-wide number.
+11-c|V|setting|old:fictional-salary|A logarithmic modifier changes an income estimate attributed to wealth or luck. The assessor must first assign that modifier.
+12-a|D|effects|new:thermal|A logarithmic relationship assigns a rating to the absolute value of a temperature for fictional freezing. It operates over the visible region.
+13-a|V|effects|also:thermal|The same mapping relates uniform heat to a rating. A separate hotter-centre branch inverts a square root, giving a very different number.
+15-a|D|size|new:height-from-dice|The author's formula actually reuses a one-use damage die count as an input to mutant height. This is a rare explicit connection between two calculations.
+16-a|D|motion|new:flight-cost|For a specified medium, mass and speed, the flight rating changes with the dimension and resistance parameters. The book does not automatically set the resistance.
+19-a|D|effects|new:shrink|A clone count, C1 PL or C1 DP can set the retained height fraction. The printed DP and PL branches produce different amounts of shrinkage.
+20-a|D|size|new:monster-size|The monster builder supplies both a C3 divisor and competing C2-based lengths. A GM can size the creature after choosing the convention.
+21-a|C|strength|-|A list of substances gives material-strength benchmarks. The same displayed numeral has another interpretation for muscle or a technological material.
+23-b|V|character|old:recast-rating|Keeping the numeral and promoting C3 DP to C1 DP makes the character super-mutant in this example. It is a change of the fictional being, not equivalent-unit conversion.
+24-a|C|setting|-|A model galaxy of given C1 is assigned a diameter and a star count. Rule 75 repeats the linear diameter calibration.
+26-a|C|setting|-|A galaxy count is normalized to a chosen 120 benchmark. Switching between DP and PL changes which astronomical property is being read.
+26-b|A|outside|-|Numerical intervals in a cosmological metaphor have no character or scene procedure.
+26-c|E|exchange|old:opposite-operations|The already established trade lowers a galaxy's LS and raises PL. The ranges for fictional beings are examples with assigned starting values.
+32-a|V|character|old:appearance|This COM branch takes the logarithm of C3 PL. Rule 106 repeats it and different rules choose different inputs.
+33-a|V|character|old:appearance|Several COM branches depend on character class and the author's demographic assumptions. They have no context-free inverse.
+34-b|E|allocation|old:soul-comparison|Ratios obtained from assumed population or superhero baselines demonstrate the comparison. They supply no empirical evidence about people.
+36-a|V|allocation|old:soul-comparison|The clone and soul comparisons become different bounds on group effort. A role for that result is suggested, but workforce skill and task difficulty must already be chosen.
+38-a|D|effects|new:form-budget|A multiplier based on a chosen fictional percentage sets the rating for an assumed shape. The bionic example demonstrates where points are assigned.
+41-a|U|time|-|A squared relative rating is called a time-travel percentage. It can exceed 100 and the text never defines what event would be sampled.
+42-a|C|setting|old:technology-level|One period-specific convention converts year minus 1900 to technological C2 PL. A second convention uses century and a different magnitude.
+43-a|D|size|new:dense-body|An ogre's C2 DP sets a density exponent. Its separate height and that exponent determine a fictional mass in rule 44.
+44-a|V|size|also:dense-body|Rule 44 writes out the mass step used in the preceding ogre profile. It supplies an explicit consumer of the density value.
+47-a|F|character|-|This is meaningful sheet notation for name, age, COM and the remaining rating. Its symbols alone do not calculate the sheet's inputs.
+48-a|U|size|-|An ideal mass for a fictional object requires an exponent made from several choices. Using the same rating does not select the same object parameters.
+50-a|U|action|-|The square root assigns a supposed victim or counterpart rating. No pursuit contest, turn order or capture test follows from the number.
+51-a|C|effects|-|A fraction of cinematic vampirism is assigned to C2 default psyche. The result labels a character without a further stated effect.
+52-a|E|time|-|The time-crime illustration attaches ratings to television characters. It does not tell a referee how to investigate the crime.
+54-a|D|allocation|new:point-share|A denominator specifies the fraction of a given block of points consumed from the first or last end. The numerical examples clarify a malformed equivalent expression.
+56-a|V|effects|-|The field analogy in 7 is given another exponent for celestial or small natural bodies. It supplies no new player choice.
+59-a|V|size|old:size-proportion|A reference body's appearance and height are scaled by an ordinary ratio, the structure already registered in 37.
+60-a|V|size|old:size-proportion|An alternative exponential height scale and its logarithmic inverse attach stature to C1. It is a different calibration for the already recovered stat.
+61-a|A|outside|-|A relationship stereotype is expressed as a quotient. There is no interpersonal scene procedure attached to it.
+65-a|D|motion|new:observer-range|A character's travel or observational range can be calculated once the modifier and any rating consumed by other powers are selected. Miles are used in the leading expression.
+66-a|E|strength|old:brute-strength|Rule 40's conversion is worked at a much larger C0. The example then converts a rating to pounds by an additional assumption.
+67-a|D|effects|new:dimensions|The minimum macro and maximum micro dimensions are obtained from logarithms at two different magnitudes. The number describes reach, not travel success.
+69-a|C|setting|-|A sequence assigns headcounts to rating bands. It calibrates the imagined population without generating an individual.
+69-b|E|character|old:soul-comparison|The cyborg queen and her opponent receive ratings chosen through scaling and a relative soul estimate.
+70-a|C|setting|old:class-step|C4 is interpreted as a high-end exam score. The source specifically doubts extrapolation to low scores.
+71-a|A|outside|-|The cloning analogy is imposed on marriage. It gives neither a recovered social conflict procedure nor evidence about relationships.
+74-a|V|size|also:monster-size|An exponential of C1 provides another monster length. It can yield heights unlike the C2 and C3 branches in rule 20.
+75-a|E|setting|-|The galaxy diameter convention from 24 is reused to compare a cosmic giant. One comparison does not determine the size of every cosmic being.
+76-a|E|exchange|old:opposite-operations|Starting with an assigned Mars or Earth rating, the author applies the inverse LS/PL trade and changes the role of a size rating.
+81-a|A|outside|-|The identity for zero factorial is attached to a claim about dimensions, with no subsequent play operation.
+82-a|V|strength|old:factorial-strength|Two exponentials give pounds from strength W. The optional extra one in the denominator changes the result even for identical W.
+83-a|V|character|old:appearance|An appearance branch is restricted to a clone and varies between DP and PL for the creator. It elaborates the split already made by 33.
+84-a|U|effects|also:form-budget|Two prior rules are called difference and cloning procedures, although 17 actually describes dice. The proposed temporary form has no unambiguous general construction.
+85-a|C|size|also:shrink|An example crosses a macro or micro boundary using a tenfold requirement at the same magnitude. The text treats both directions by analogy.
+85-b|E|exchange|old:opposite-operations|An imagined upgrade to Yamato spends life-span for drive power. Several component ratings have to be supplied from the story.
+86-a|A|outside|-|Population and appearance differences are inserted into a claimed dating probability. It supplies no evidenced or general interpersonal resolution.
+87-a|U|time|old:fictional-return|Different dimensions call for different point costs, with uncertain magnitude relabelling. The concrete reincarnation interval is in the next segment.
+87-c|E|time|old:fictional-return|Buck Rogers' absence and possible change of era are compared to a waiting time. Assumptions about the storyline select the ratings.
+88-a|C|character|-|A speculative fictional encoding assigns values to chromosome symbols. The assignments are offered with explicit reservations and have no biological standing.
+88-b|U|time|old:fictional-return|The author asks whether suspended animation counts as evolution of the soul. No definite change to the character is prescribed.
+90-a|V|time|also:observer-range|Ordinary distance, teleportation, sponsorship and private travel lead to different units and governing ratings in a Pluto example. The branches illustrate scope choices.
+90-b|C|crosswalk|-|An Active Point may be mapped to C3 or another magnitude depending on the effect. This cannot be used as a universal price conversion.
+90-c|V|time|old:astral-time|The text returns from point costs to temporal range and changing a giant's height. Neither operation establishes an arrival check.
+91-a|V|time|old:astral-time|Temporal reach uses different divisors at C1 DP and PL, distinct from rule 170. At 90 C1 DP the stated result of 100 years follows the leading divisor 30, despite the printed substitution of 3.
+92-a|D|size|new:building|A builder's C3 DP fixes a storey count and building height. This gives a result for designing a structure but no costs or construction time.
+93-a|C|motion|-|Fictional vehicle horsepower is calibrated by mass and a medium-specific coefficient. Efficiency is separately posited.
+94-a|D|time|new:portal|A temporal portal receives a size determined by C1. Its numeral is usable but choosing radius versus diameter and feet versus metres matters before deciding what fits.
+95-a|V|space|old:fictional-warp|The two familiar powers of two are now interpreted as available distance. The modifier, vessel length and branch have to be chosen.
+96-a|V|setting|old:work-time|The author considers soul and clone methods as alternatives before giving the separately registered writing-time ratio.
+97-a|C|space|-|The rating of a fictional collective vessel relative to that of its units is mapped to a length in millimetres. The sources of those ratings are external inputs.
+98-a|A|outside|-|A destructive-effect analogy extends fictional vehicle statistics to real history. No portable game-state update or substantiated physical model follows.
+99-a|C|space|-|A C2 baseline becomes a craft length. Feet and metres are alternatives without a unit selector.
+100-a|A|outside|-|A chart assigns numbers of partners to a character. The count has no developed interaction procedure.
+101-a|V|space|-|The craft-length convention in 99 uses a different divisor when the governing rating is PL.
+102-a|V|motion|-|An alternative horsepower expression uses C2 and then refers back to the mass relation in 93.
+103-a|C|character|old:appearance|Seven arithmetic steps map a stipulated group COM into a power or default rating. The input calibration is the author's unsupported assumption.
+104-a|V|character|old:appearance|The proposed square-root conversion yields a different rating from the other COM rules. It is restricted to one of the author's character categories.
+105-a|A|outside|-|Another numerical relationship metaphor uses a clone-count divisor. It gives no general social procedure.
+106-a|V|character|old:appearance|This is the logarithmic COM relation already written in 32 for the same category and input.
+107-a|C|crosswalk|old:creation-total|The opening of the tentative d20 adaptation interprets point totals and strength. The actual optional starting roll occurs in the next segment.
+108-a|C|setting|-|Celestial C2 is calibrated to a mass in tons. Mars and a star supply examples, without a procedure for what a character can do to them.
+109-a|V|effects|also:shrink|A one-way shrink requires outside help to reverse. Another branch uses actual C2 versus COM. The author gives Y both a starting-length and a logarithm definition.
+110-a|A|outside|-|The author projects a destructive footprint from a fictional rating. The suggested radius, diameter and units do not yield a common game quantity.
+111-a|V|size|also:monster-size|The square of C2 divided by ten repeats the third monster-length expression in 20. Changing from DP to PL invokes the trade in 3.
+112-a|U|effects|-|A lifetime hunger formula needs a factorial of a normally nonintegral value. There is no consumption schedule or general extension of the factorial.
+113-a|V|size|also:monster-size|The animal divisor is reconstructed by reversing the relation between C2 length and C3. The example presumes a particular life-span for its dinosaur.
+114-b|E|character|old:cyborg-calibration|An assumed manufacturing cost for Death's Head is inserted into the existing cyborg rule. The time-travel extension is a further conjecture.
+115-a|C|setting|-|A piecewise transformation around 400 C2 assigns one numeral to size and speed. It is a fictional astronomical calibration with incompatible units.
+116-a|E|space|-|The completed Death Star receives a different assigned power from the incomplete one. Several alternative starting diameters prevent a unique transfer to a new craft.
+117-a|C|effects|-|A ring's stated recharge interval supplies its numeral, but C1 and CA remain possible. No energy pool or universal recharge operation is defined.
+119-a|C|setting|-|A squared relative C2 gives a duration of political office in years. The input is an assigned character profile, not votes or campaign actions.
+120-a|V|size|also:monster-size|This humanoid creature uses yet another height-from-rating formula. The factorial is unambiguous only at suitable discrete inputs.
+121-a|V|effects|also:dimensions|Dimensional access is calibrated at 30 C1 per dimension. An independent branch gives days from C2 PL after a life-span trade.
+123-a|E|character|old:ambs|Comparisons of Godzilla and the film's ninja supply an AMBS range. The subsequent advantage sequence is the separately registered construction.
+125-a|C|crosswalk|-|This repeats the SAGA CA-minus-ten crosswalk and interprets several published characters using it.
+126-a|V|character|old:appearance|Multiplying COM by the constant reverses the earlier pi-based conversion under its stated subcase.
+127-a|C|setting|-|A ruler's maximum reign is calibrated to a tenth of C3 DP. There is no procedure for accession, succession or governing during that period.
+129-a|D|effects|new:clone-illusion|Planetary, galactic and universal scope choose the PL magnitude used to compute apparent years. A later proposed restatement uses C1 DP divided by 20 in the exponent instead of C1 PL divided by 100. They agree only when PL equals five times DP.
+131-a|V|effects|old:clone-alternatives|A monster population uses the same base/exponent arrangement as rule 132's velocity model, now with creature and creator power. The example itself rounds to very different counts.
+133-a|V|space|old:warp-range|At an indefinitely large generation count, a new exponential replaces the finite-warp range. The maximum population rating is an assumed input.
+134-a|D|effects|new:control-target|After a life-span exchange raises the user's C2 PL, copy the numeral into the target object's C3 PL capacity. Equivalent-scale conversion would answer the wrong question.
+135-a|V|time|old:warp-range|A travel budget in light-years also supplies a numerical span in years. This is an explicit fictional reinterpretation, not a unit conversion.
+136-a|U|setting|-|A threshold for the failure of ordinary physics is asserted. How a character performs a specific action above the threshold remains undefined.
+137-a|C|setting|-|A release year calibrates both the monster and the fictional date. The mapping is a setting aid rather than an action or advancement rule.
+138-a|V|allocation|also:point-share|Signs mark opposite ends of a block of points. The rule explicitly directs the reader to 123 for a positive-fraction build.
+139-a|V|damage|old:fictional-defense|An existing dice pool is squared or scaled to estimate DEF and BOD. No hit, subtraction or lasting wound is specified.
+140-a|U|character|also:monster-size|The monster's body and effect both influence creature creation. Different discretionary additions for its powers produce incompatible totals.
+143-a|E|character|old:opposite-operations|A celestial baseline and a trade from rule 3 are proposed for Godzilla. The creature comparison sets the starting value.
+144-a|C|crosswalk|-|Nobilis repeats the CA-minus-ten calibration also used for SAGA. The planetary technology example is an auxiliary comparison.
+148-a|C|crosswalk|-|A numerical correction to a Zerg profile differs from the front review's correction. Neither independently verifies the published stat.
+149-a|C|space|-|Body as size is assigned C2 PL in one game and C3 PL in Synnibarr. This identifies the label needed for an external comparison.
+150-a|C|motion|-|Speed is labelled C2 PL, but a numeral on that scale is not yet a velocity in mph.
+151-a|E|scale|old:class-step|Magic uses CA or C1. The worked number is the existing magnitude transform in a magical context.
+151-b|E|exchange|old:opposite-operations|A reduced LS supports a proposed magical power. The author selects the starting values through a disputed reading of Marvel characters.
+152-a|V|effects|also:control-target|The molecular-control example explicitly repeats the same-numeral shift from the user's C2 PL to the target's C3 PL in 134.
+153-a|U|effects|-|A targeted substance and a character have comparable numbers at different roles. No general function determines how much a vulnerability reduces power.
+154-a|E|character|-|Physical assumptions and ages assigned to literary characters are used to estimate ratings. Their narrative circumstances do not define a creation sequence.
+156-a|C|space|old:warp-fuel|A fixed offset calibrates craft body near a specific speed. It is an alternative interpretation of the body allowance.
+157-a|E|space|old:warp-fuel|The author tries to match an external light-speed benchmark to 10 and 155, and reports disagreement.
+159-a|C|space|old:warp-fuel|The difference between two benchmark values becomes an uncertainty allowance for one size of craft.
+160-a|V|size|old:planet-calibration|A second celestial calibration uses the square of a logarithm of diameter in metres. The units and functional form differ from 25.
+162-a|C|space|-|A technology's C3 PL numeral is read as feet of length. This is explicitly reused to construct robots in 166.
+163-b|S|character|old:tcp-linear|Ten times C3 and ten times C2 are expressly rejected in the retrospective. Only the C1 version is endorsed here.
+163-c|C|strength|-|Four materials are given strengths and cross-compared to Synnibarr Life Points. No procedure for reducing those points follows.
+165-a|U|damage|-|A natural object's life-span reaching zero might change which kind of power it represents. The author acknowledges uncertainty about the damage estimate.
+166-a|D|character|new:robot-leader|The robot template doubles a leader's C2 DP. Height can be supplied by the technological length calibration in 162. No general experience cost is attached.
+167-a|C|setting|old:technology-level|Year supplies an upper benchmark for a genius and a separate technological power. It is a setting-specific limit, not earned improvement.
+168-a|E|character|old:class-step|Mad Thinker receives the numeral of another character at a different magnitude. This profiles a fictional counterpart rather than translating an equivalent rating.
+169-a|U|character|-|A machine is made sentient by reading PL as DP, then several incompatible analogies are invoked. Comparing that result to a person requires additional assumptions.
+171-a|V|time|old:astral-time|One time-travel branch uses a natural logarithm in a base-ten power; another squares a base-ten logarithm. Astral and bodily travel can give very different results.
+172-a|V|effects|also:dimensions|Rule 172 counts dimensions a wizard may travel to. Rule 67 bounds the dimensionality a mutant can manipulate. We grouped them as two uses of a rating to set dimensional reach; their outputs cannot be substituted. Counting travel and manipulation as separate player tasks would raise the new-operation total from 20 to 21.
+173-a|D|time|new:time-cargo|A time traveller's rating must be ten times the target object's C1 DP in the stated interpretation. A portal-size branch repeats 94.
+174-a|D|effects|new:passengers|The opening relation gives a nominal passenger count for a planetary teleporting device. The later group-comparison example drops a fractional person and mentions an equipment penalty. It supplies no general rounding or equipment schedule.
+175-a|E|character|-|Ratings attributed to two fictional captains and a Q-like entity depend on narrative comparisons.
+176-a|E|effects|-|The Dot inherits the chosen power numeral of another superhero. The passage does not define an unrestricted power-acquisition cost.
+179-a|U|motion|old:warp-fuel|COM is to be eliminated by combining 158 and 16, but the elimination and its new domain are not presented.
+180-a|A|outside|-|The destructive-temperature analogy alternates between DP and PL. No rule here settles an attack on a character or updates a character sheet.
+181-a|C|character|-|Sentinel profiles assign PL or DP according to constructed agency. This is a fictional class convention.
+181-c|E|character|-|Several Sentinel and mutant ratings are justified by story encounters. The encounters are used as inputs, not generated as outcomes.
+181-d|A|outside|-|An extra AMBS is suggested inside a historical speculation. No character advancement event awards it.
+182-a|C|character|-|External GURPS examples motivate 25 and 100 C3 DP baselines. These are selectable benchmarks, not a prescribed universal allowance.
+182-b|C|crosswalk|old:fictional-salary|The governing rating for wealth changes with power range. This is a proposed crosswalk for an external advantage.
+184-a|V|setting|old:fictional-salary|An exponential gives earnings but time units change from hour to day based on asserted behaviour. The distinction changes the amount received.
+184-b|E|character|old:ambs|A range of martial-artist ratings depends on whether an actor or a fictional role is being represented.
+185-a|C|setting|-|An analogy doubles the fictional date and supplies a master-genius benchmark. There is no mechanism for the passage of session time.
+186-a|V|space|old:warp-range|Another travel-budget exponential depends on C1 only and allows alternative distance units. It cannot select among the other ship-range proposals.
+186-b|A|outside|-|A numerical budget is used to reinterpret a television captain's motives. The text does not model a decision by that character.
+186-c|E|space|old:warp-range|The same distance expression is applied to another fictional fleet and several comic characters.
+187-a|V|character|old:appearance|A COM and height branch introduces a minimum-cost modifier assigned through unsupported group assumptions. It does not establish a general character stat.
+187-b|A|outside|-|Numerical claims about sexual orientation yield no evidenced player decision or character procedure.
+188-a|C|action|old:roll-low|Two external modifier tables are mapped onto shifting HYBRID baselines. The actual roll-under instruction is in 188-b.
+189-a|D|action|new:defensive-value|Rule 189 gives rival ways to derive DCV, including a third of C2 DP for a creature. The resulting value has no complete hit-against-DCV procedure.
+190-a|V|motion|old:warp-fuel|The monster-speed expression uses a square root of C2 PL/10 in an exponent. The author explicitly separates speed from total range.
+191-a|U|time|-|A field analogy and an intelligence estimate are invoked to make negative energy for fictional time travel. Their numerical relationship to an actual journey is undetermined.
+192-a|V|space|also:warp-input|For the leading calibration, each tenfold growth in length adds 100 C2 to the minimum. It is the warp-one requirement implied by the first version in 10.
+194-a|V|size|old:class-step|Biceps and chest dimensions serve as inputs and outputs of the same scale transform. The anthropometric premise is unsupported.
+194-b|V|size|also:monster-size|The body proportions of another creature are modified by a damage die count. Dinosaur examples have several incompatible physical baselines.
+196-a|A|outside|-|A numerical physiological claim is applied to real people without a supported gameplay outcome or empirical foundation.
+196-b|V|effects|also:shrink|The author specifies exceptions under which a transforming mutant uses DP instead of PL. This affects the choice of an existing size rule.
+198-a|A|outside|-|Technology rankings are assigned to countries and used to predict history. There is no general acquisition procedure or session outcome.
+199-a|A|outside|-|A height equation depends on an arbitrary racial divisor and an appearance score. The assigned constant is unsupported.
+201-a|C|character|-|A mass exponent calibrates several Phoenix identities. The local e differs from other uses of e, and alternative comic comparisons change the answer.
+203-a|V|setting|old:grade-load|An academic rating and credit value estimate years in school. This reuses the load analogy, with a different output from the grade estimate.
+203-b|A|outside|-|Years of study are extrapolated to political history. The segment supplies no independent relation connecting those subjects.

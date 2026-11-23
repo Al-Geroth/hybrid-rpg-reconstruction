@@ -1,0 +1,63 @@
+.tool-form, .sheet-shell, .preset-box {
+  box-sizing: border-box;
+  margin: 1.25rem 0;
+  padding: clamp(.9rem, 2.5vw, 1.65rem);
+  border: 1px solid #c9c7b7;
+  background: #faf9f2;
+}
+.tool-form fieldset { margin:0 0 1.25rem; min-width:0; padding: .9rem 0; border:0; border-top:1px solid #d3d1c2 }
+.tool-form legend, .sheet-shell h3 { font-weight:600; color:#244941 }
+.tool-grid, .tool-controls { display: grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr)); gap:.8rem 1.2rem; align-items:end }
+.tool-form label, .preset-box label { display:grid; gap:.35rem; font:500 .89rem/1.35 "Instrument Sans",system-ui,sans-serif; color:#203a34 }
+.tool-form input, .tool-form select, .preset-box select {
+  box-sizing:border-box; min-width:0; width:100%; padding:.58rem .65rem; background:white;
+  color:#203632; border:1px solid #8d9990; border-radius:.2rem; font:inherit;
+}
+.tool-form [hidden], .tool-controls [hidden] { display:none!important }
+.tool-form .check-label { display:flex; align-items:center; margin:.3rem 0 1rem; gap:.55rem }
+.tool-form input[type=checkbox] { width:1.1rem; height:1.1rem; flex:none }
+.tool-form button, .preset-box button, .print-tool {
+  width:max-content; max-width:100%; border:1px solid #61766b; color:#1e4439; background:#f0f3e9;
+  padding:.55rem .95rem; border-radius:.2rem; font:600 .85rem/1.35 "Instrument Sans",system-ui,sans-serif; cursor:pointer;
+}
+.tool-form button:hover, .preset-box button:hover, .print-tool:hover { background:#dfe8da }
+.tool-form button:focus-visible, .print-tool:focus-visible, .tool-form select:focus-visible, .tool-form input:focus-visible { outline:2px solid #3a7162; outline-offset:3px }
+.sheet-shell { border-top:3px solid #2a5b4f; background:#fffef8; }
+.sheet-shell h2, .sheet-shell h3 { margin:.15rem 0 .6rem }
+.worksheet, .tool-results { margin:1rem 0; display:grid; grid-template-columns:minmax(8rem, .72fr) minmax(8rem, 1.6fr) }
+.worksheet dt, .worksheet dd, .tool-results dt, .tool-results dd { padding:.55rem .65rem .55rem 0; border-bottom:1px solid #d9d9cb; margin:0; overflow-wrap:anywhere }
+.worksheet dt, .tool-results dt { color:#38574c; font:600 .85rem/1.45 "Instrument Sans",system-ui,sans-serif }
+.blank-field { display:block; min-height:1.25rem }
+.field-note { border-bottom:1px solid #d4d6c8; padding:.55rem 0 }
+.field-note h3 { margin: .4rem 0 .1rem }
+.tool-results dd>span,.tool-results a,.tool-form output>span,.tool-form output>strong { display:block }
+.tool-results dd>span,.tool-form output>span { margin:.35rem 0; font-size:.91rem }
+.tool-refs, .tool-results a { font-size:.79rem; font-family:"Instrument Sans",system-ui,sans-serif }
+.tool-form output { display:block; margin:1rem 0; padding:.9rem; background:#eaf0e4; border-left:3px solid #5a7d67; overflow-wrap:anywhere }
+.tool-form output>strong { font:600 1.2rem/1.35 "Instrument Sans",system-ui,sans-serif }
+.tool-error { font-weight:600; color:#854721 }
+.character-role { color:#466452; font-weight:600; margin-top:-.3rem }
+.worked-character,.play-demo { margin:2.7rem 0 }
+.meter-chart { display:grid; gap:.25rem; padding:.6rem 0 }
+.meter-row { display:grid; grid-template-columns: minmax(5rem, .7fr) minmax(2rem,2fr) minmax(3rem,auto); gap:.45rem; align-items:center; font:500 .8rem/1.4 "Instrument Sans",system-ui,sans-serif }
+.meter-row b { font-variant-numeric:tabular-nums; text-align:right }
+.meter-track { height:.5rem; border-radius:.1rem; overflow:hidden; background:#d6dfcc }
+.meter-track i { display:block; height:100%; background:#49725c }
+@media (max-width:470px) {
+  .worksheet,.tool-results { grid-template-columns:1fr }
+  .worksheet dt,.tool-results dt { border-bottom:0;padding-bottom:0 }
+  .worksheet dd,.tool-results dd { padding-top:.2rem }
+}
+@media print {
+  @page { margin:13mm; }
+  body.tool-printing { background:white!important; font-size:10pt; }
+  .tool-printing .mast,.tool-printing .rail,.tool-printing footer,.tool-printing .skip,.tool-printing .print-tool {display:none!important}
+  .tool-printing main,.tool-printing .layout,.tool-printing article {display:block!important;max-width:none!important;width:auto!important;margin:0!important;padding:0!important}
+  .tool-printing article > :not(.print-target):not(:has(.print-target)),
+  .tool-printing article :has(.print-target) > :not(.print-target):not(:has(.print-target)) {display:none!important}
+  .tool-printing .sheet-shell { margin:0;padding:0;border:0;background:white; }
+  .tool-printing .worksheet,.tool-printing .tool-results {display:grid;grid-template-columns:31% 69%}
+  .tool-printing .worksheet dt,.tool-printing .worksheet dd,.tool-printing .tool-results dt,.tool-printing .tool-results dd {padding:4pt 4pt 4pt 0;border-bottom:1px solid #bbb;break-inside:avoid}
+  .tool-printing .blank-field {min-height:1.6em}
+  .tool-printing .sheet-shell h2,.tool-printing .sheet-shell h3 {font-size:15pt}
+}

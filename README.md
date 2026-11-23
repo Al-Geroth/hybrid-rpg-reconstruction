@@ -1,6 +1,12 @@
 # Deciphering HYBRID
 
-An English critical reconstruction of Matthew/C++’s HYBRID RPG, using the v0.30 witness archived on February 13, 2003. [Read the edition](https://al-geroth.github.io/hybrid-rpg-reconstruction/) or start with [the quickstart](https://al-geroth.github.io/hybrid-rpg-reconstruction/quickstart.html).
+An English critical reconstruction of Matthew/C++’s HYBRID RPG, using the v0.30 witness archived on February 13, 2003. [Read the edition](https://al-geroth.github.io/hybrid-rpg-reconstruction/).
+
+## Learn and play
+
+Start with [HYBRID in Plain English](https://al-geroth.github.io/hybrid-rpg-reconstruction/handbook.html), then [make a character](https://al-geroth.github.io/hybrid-rpg-reconstruction/builder.html) or [sit in on a session](https://al-geroth.github.io/hybrid-rpg-reconstruction/session.html). Five worked sheets, printable forms and a mathematical playground put names and actions beside the numbers. The [experimental game](https://al-geroth.github.io/hybrid-rpg-reconstruction/adaptation.html) and [its replay](https://al-geroth.github.io/hybrid-rpg-reconstruction/replay.html) disclose each added rule.
+
+The [Phase II atlas](https://al-geroth.github.io/hybrid-rpg-reconstruction/atlas.html) gives a disposition for every one of the 205 previously locator-only candidates. The Phase I registers below retain their original counts and stable identifiers. [Research and reference](https://al-geroth.github.io/hybrid-rpg-reconstruction/reference.html) provides a separate route to that evidence.
 
 ## What can you play?
 
@@ -20,7 +26,7 @@ You can give a character a scale-labelled rating, express the same rating on ano
 | Independent internal review and counterexamples | [Review](analysis/review/independent-reading.md) |
 | Release counts and publication checks | [Counts](analysis/edition-counts.json) and [QA](analysis/review/publication-qa.md) |
 
-The reference has 204 rule headings numbered 0–203. The catalogue divides their contents into 246 units and the preceding material into another 58. The mathematical register contains 54 detailed readings. The broader equation-locator index includes 205 additional candidate passages for which the edition supplies a locator only. The distinction matters when comparing either figure with the author's claimed number of equations.
+The reference has 204 rule headings numbered 0–203. The catalogue divides their contents into 246 units and the preceding material into another 58. The Phase I mathematical register contains 54 detailed readings. Its locator index initially left 205 other candidate passages for further study. Phase II investigates those passages and records its results separately.
 
 ## Build and check
 
@@ -34,6 +40,17 @@ python -m http.server 8713 --bind 127.0.0.1 --directory docs
 ```
 
 Open [the local edition](http://127.0.0.1:8713/). GitHub Pages serves the generated `docs/` directory on `master`. The reader uses native HTML, local fonts, and small JavaScript filters. Every chapter, catalogue segment and glossary entry has a static address. The full-text search index and graph are local assets.
+
+To repeat the Phase II checks, use a Git checkout that includes the Phase I reference commit. The atlas uses its checked-in source locators offline. Passing `--source` additionally checks all 205 spans against the private witness after retrieval.
+
+```sh
+python scripts/phase2_atlas.py
+python tests/phase2_session_replay.py
+node tests/phase2_tools.cjs --numeric
+python tests/phase2_edition.py
+```
+
+With the preview running and Playwright installed, run `node tests/browser.cjs`, `node tests/phase2_navigation.cjs` and `node tests/phase2_tools.cjs`. Each also accepts the published base URL, including its trailing slash. The [first-reader report](analysis/phase2/comprehension-review.md) records the handbook revisions. The [release checks](analysis/phase2/publication-qa.md) document how the examples, session and publication were verified.
 
 To reconstruct the catalogue from the primary witness, run the following sequence. The first command downloads the payload on a cache miss, checks its SHA-256, then aligns the hand-authored annotations. Later runs can omit `--fetch`. `math_inventory.py` uses the private reference payload to locate mathematical cues. The `--write` flags refresh the numerical derivatives when changing their inputs.
 

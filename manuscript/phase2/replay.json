@@ -1,0 +1,223 @@
+{
+  "title": "The last lift, played again",
+  "intro": "Jo and Ren play Kit and Double again. The belt still runs at 3 mph, Vale still wants the west platform served, and the same pair of bells still calls a single lift. Jo makes the same offer to trade life-span, and then to stay with the cuttings. This time the table has agreed on four additional rules before the GM opens the scene.",
+  "beats": [
+    {
+      "title": "Who gets to be Double?",
+      "lead": "Before play, Ren puts the creator's 100 C3 DP on the sheet. This time the table has an explicit way to authorize the power.",
+      "moves": [
+        [
+          "GM",
+          "D",
+          "setup",
+          "One lift. East has the moth keepers, west has Vale's trees. West is the current setting. When the lift leaves, its destination is settled for the night.",
+          "These are precisely the original scenario facts. R2 also turns them into a public stake and a stopping condition.",
+          [],
+          "r2"
+        ],
+        [
+          "Jo",
+          "A",
+          "human-baseline",
+          "Kit is still a courier. Sixteen C2 DP gives me 4 average Mind, Body and Soul. I have the same character before anything happens.",
+          "Rule 49 is unchanged.",
+          [
+            49
+          ],
+          ""
+        ],
+        [
+          "Ren",
+          "B",
+          "hero-baseline",
+          "I’ll keep the 100 C3 hero and 50 C3 appearance allocation. I’ll use the clone ratio, not the alternate Lobo calculation.",
+          "The starting numbers and the selected source branch are the same as before.",
+          [
+            18,
+            47,
+            128,
+            182
+          ],
+          ""
+        ],
+        [
+          "GM",
+          "D",
+          "grant-power",
+          "Write ‘make copies at a specified C3 rating’ as your one supported power. One copy can do one agreed routine task until the scene ends. Jo, Kit starts with 16 C2 LS and PL, and Vale has 18 for each. Vale declares no boost.",
+          "R1 authorizes the sheets. The limited scope for a created actor comes from R2 and its expiry from R4. Vale's stated intention matches the first run.",
+          [
+            3,
+            18,
+            35,
+            49
+          ],
+          "r1 r2 r4"
+        ]
+      ]
+    },
+    {
+      "title": "Reaching the controls",
+      "lead": "Double walks to the near bell. Kit sets off alongside the moving belt. So far the new rules change scarcely anything a player says.",
+      "moves": [
+        [
+          "GM",
+          "D",
+          "state-pace",
+          "Three miles per hour and a clear deck, just like before. Matching its speed gets your hand on the selector. That's all this test settles.",
+          "The previously agreed consequence is now the standing R2 procedure.",
+          [
+            39
+          ],
+          "r2"
+        ],
+        [
+          "Jo",
+          "A",
+          "pace-cost",
+          "Three mph costs about 14.77 C2. I can reach that with my 16.",
+          "Rule 39's logarithmic rating calculation is unchanged.",
+          [
+            39
+          ],
+          ""
+        ],
+        [
+          "GM",
+          "B",
+          "pace-outcome",
+          "You keep pace. Vale is holding the selector west. You can reach it without receiving any bonus on the contest that's coming.",
+          "The same monotone capacity reading applies. Neither pace nor its margin is added to Kit's rating.",
+          [
+            39
+          ],
+          ""
+        ],
+        [
+          "Ren",
+          "A",
+          "copy-count",
+          "I want the same single 50 C3 copy. One hundred divided by fifty, less one, gives me exactly one extra person.",
+          "Rule 18's calculation returns the same count.",
+          [
+            18
+          ],
+          ""
+        ],
+        [
+          "Ren",
+          "D",
+          "allow-caller",
+          "I take the near bell. My other self walks to the far one. We wait until we can see each other and ring together.",
+          "R2 authorizes the one routine task. No second roll or bonus for the copy is needed. Both calls now register.",
+          [
+            18,
+            128
+          ],
+          "r2"
+        ]
+      ]
+    },
+    {
+      "title": "The car can go only one way",
+      "lead": "The selectors are live. Vale could let go in either version of the scene, but the keeper has publicly declared that they will hold on. There is no further negotiation before the lift is sent.",
+      "moves": [
+        [
+          "GM",
+          "D",
+          "opposition",
+          "Vale stays at 18. Kit, you have 16. If you leave your sheet alone, Vale keeps the selector west. Do you still want to switch it?",
+          "R3 settles the competing physical intentions at their current C2 PL. The tie convention would also leave the setting west.",
+          [
+            35,
+            45,
+            188
+          ],
+          "r3"
+        ],
+        [
+          "Jo",
+          "D",
+          "offer-trade",
+          "Yes. It’ll leave me with only half my life-span rating until I rest. I can’t do this a second time tonight if another problem comes up. I accept that and take the trade.",
+          "R4 permits a physical action to use this multiplier, locks out another trade and supplies its eventual recovery. These permissions are additions.",
+          [
+            3,
+            183
+          ],
+          "r4"
+        ],
+        [
+          "Jo",
+          "A",
+          "trade-arithmetic",
+          "I cross out 16 LS and write 8 C2 LS. Sixteen power becomes 32 C2 PL. The baseline stays at 16.",
+          "The inverse pair of operations is the same one proposed in the original scene. The authority to apply it now has already been recorded.",
+          [
+            3,
+            183
+          ],
+          ""
+        ],
+        [
+          "GM",
+          "D",
+          "resolve-contest",
+          "Your 32 beats Vale’s 18. The selector locks east. Vale keeps trying for a moment, then hears the car moving away. ‘That's our lift gone, Kit.’",
+          "R3 awards the public stake to one side. R2 carries that result into the fiction. Nobody loses hit points.",
+          [
+            3,
+            35,
+            45,
+            188
+          ],
+          "r2 r3"
+        ],
+        [
+          "Jo",
+          "D",
+          "offer-bargain",
+          "I meant it about the trees. I'll stay with you. Tell me which ones can't spend another hour in the rain.",
+          "Kit makes the same offer to help as in the first scene. The mechanical result is already binding, so Vale's consent to change the route cannot alter the outcome.",
+          [],
+          "r2"
+        ]
+      ]
+    },
+    {
+      "title": "What is on the sheet at dawn?",
+      "lead": "The east keepers travel with their moth cabinet. Kit and Vale take the cuttings inside by hand. The rescue has cost the west crew its ride and the courier a night of work. Neither cost needs to be translated into damage dice.",
+      "moves": [
+        [
+          "Ren",
+          "D",
+          "close-scene",
+          "Once the car leaves, there's nothing left for either Double to ring. I erase the copy. What goes into next session?",
+          "R2 closes the scene at the declared stake. R4 ends the single-scene duplicate. Double retains the starting baseline. No XP schedule is attached.",
+          [
+            18,
+            45,
+            125,
+            128
+          ],
+          "r2 r4"
+        ],
+        [
+          "GM",
+          "D",
+          "recovery",
+          "Write ‘east evacuated, west sheltered, Kit stayed’. Kit spends the night moving plants, so keep 8 LS and 32 PL through that work. At dawn a relief crew arrives. Kit takes the first uninterrupted quiet interval. Restore 16 LS and 16 PL then.",
+          "R4 specifies exactly when the stored ratings return. The lift's destination and the work already done persist. Only the added recovery rule supplies this reset.",
+          [
+            3,
+            6,
+            45,
+            183
+          ],
+          "r4"
+        ]
+      ]
+    }
+  ],
+  "comparison": "The same people end up at the same platforms in these two runs. In the source-led version, Vale's consent settles the route and Kit's proposed trade never changes the sheet. In the house version, Kit can force the selector east by taking a cost even if Vale continues to resist. Declining the trade would leave Kit at 16 against 18 and send the lift west. This counterfactual is the design change that matters. The copy's service, its expiry and Kit's recovery have also acquired explicit timing."
+}

@@ -1,0 +1,55 @@
+operation,branch,expression,inputs,expected,origin,computed
+sublight,Leading sublight percentage,(2*p/100)**2,p=350,49,"Printed example in 9, percentage points",49
+sublight,Limit of the sublight interpretation,(2*p/100)**2,p=500,100,Editorial boundary at light speed,100
+warp-input,First coefficient,p/(100*(1+log10(length))),"p=400,length=10",2,Editorial input in metres; 30 gives two possible speeds,2
+warp-input,Second coefficient,p/(120*(1+log10(length))),"p=400,length=10",1.666666666666667,Same input with the alternate coefficient from 10,1.66666666667
+warp-input,Uncertainty version,p/(123*(m+log10(length))),"p=246,length=10,m=1",1,Editorial input for the third branch,1
+thermal,Uniform cold magnitude,10*log10(t),t=100,20,Editorial positive magnitude; negative sign is the cold context,20
+thermal,Uniform heat forward,10**(p/10),p=50,100000,Printed uniform numerical example in 13; the source offers conflicting unit conventions,100000
+thermal,Centre against uniform reading,10**sqrt(p),p=49,10000000,"Printed central-temperature example in 13, a fictional calibration",10000000
+height-from-dice,Given an integer pool,p/sqrt(n),"p=20,n=4",10,"Editorial integer case, feet",10
+height-from-dice,Pool derived first,p/sqrt(sqrt(c3)-1),"p=20,c3=25",10,Same case through the pool calculation in 15,10
+flight-cost,Fixed medium factor and dimension,10*f*(log10(mass)+d*log10(speed)),"mass=10,speed=100,d=2,f=1",50,Editorial fictional craft; tons and mph,50
+flight-cost,Change only dimension,10*f*(log10(mass)+d*log10(speed)),"mass=10,speed=100,d=3,f=1",70,Editorial comparison with a different environment,70
+shrink,Copies to retained fraction,1/(1+n),n=3,0.25,Editorial test of the clone-count branch in 19,0.25
+shrink,Power to retained fraction,1/(10**(p/10-1)),p=30,0.01,Editorial comparison of the two rating roles,0.01
+shrink,Baseline to retained fraction,1/(10**((d/10-1)**2)),d=30,0.0001,Printed DP example in 19,0.0001
+monster-size,Choose cubic divisor,c3/c3**(1/3),c3=125,25,Editorial case using rule 20,25
+monster-size,Linear C2 length,10*c2,c2=50,500,Editorial branch comparison using the example C2,500
+monster-size,Quadratic C2 length,10*(c2/10)**2,c2=50,250,Same input as preceding case,250
+form-budget,Selected percentage times baseline,log10(percent)*base,"percent=100,base=18",36,"Bionic example in 38, where the log multiplier equals two",36
+form-budget,Baseline check,log10(percent)*base,"percent=10,base=18",18,Editorial comparison with multiplier one,18
+dense-body,Rating to exponent,c2/10,c2=40,4,Ogre profile in 43,4
+dense-body,Exponent to mass,height**density/2.2,"height=2,density=4",7.27272727272727,Editorial case in the units of 44,7.27272727273
+dense-body,Joint calculation,height**(c2/10)/2.2,"height=2,c2=20",1.818181818181818,Editorial test with lower exponent at the same height,1.81818181818
+point-share,First portion,points/den,"points=20,den=2",10,Worked positive example in 54,10
+point-share,Last portion,points/den,"points=30,den=30",1,Worked negative-end example in 54; count consumed is positive,1
+point-share,Percentage of whole,100/den,den=30,3.333333333333333,Recomputes the approximately 3.3 percent in the example,3.33333333333
+observer-range,Lower modifier,10**(3*(c2/10+m)),"c2=20,m=-1",1000,Fits the printed 65 distance when the assumed modifier is minus one,1000
+observer-range,Same input without modifier,10**(3*(c2/10+m)),"c2=20,m=0",1000000,Editorial demonstration of modifier sensitivity,1000000
+dimensions,Macro C1 bound,log10(c1),c1=1000,3,Printed macro example in 67,3
+dimensions,Micro C2 bound,log10(c2),c2=1000,3,"Same numeral, different magnitude and bound",3
+dimensions,Wizard alternative in 172,10**(ca/10-m),"ca=20,m=1",10,Printed wizard case with chosen M,10
+building,Storeys,c3,c3=8,8,Editorial worker profile,8
+building,Total height in feet,10*c3,c3=8,80,The same structure in feet,80
+portal,C1 index to nominal span,10**(c1/30),c1=30,10,Editorial case before a unit and radius/diameter decision,10
+portal,Larger portal,10**(c1/30),c1=60,100,Editorial comparison in the same unit,100
+clone-illusion,Apparent years,10**(p/100),p=100,10,Editorial planetary C2 PL example,10
+clone-illusion,Larger magnitude numeral,10**(p/100),p=200,100,Editorial galactic C1 PL example with a different numeral,100
+clone-illusion,Proposed baseline restatement,10**(d/20),d=60,1000,Printed C1 DP example in rule 129,1000
+clone-illusion,Keep the same numeral at default power,10**(p/100),p=60,3.9810717055349722,Editorial counterexample to unconditional equivalence of the PL and DP versions,3.98107170553
+clone-illusion,Conditional agreement after a fivefold trade,10**(p/100),p=300,1000,Editorial galactic comparison where 300 C1 PL equals five times 60 C1 DP,1000
+control-target,Input from trade,d*k,"d=100.5,k=5",502.5,Printed Firestorm power after the exchange in 134,502.5
+control-target,Relabel rather than convert,p,p=502.5,502.5,Printed Firestorm target C3 PL at the same numeral,502.5
+control-target,Independent identity check,p,p=80,80,Editorial test at a different user C2 PL,80
+robot-leader,Apply leader multiplier,2*d,d=20,40,Editorial robot template with a supplied baseline,40
+robot-leader,Second starting rating,2*d,d=30,60,Editorial leader example at the same selected magnitude,60
+time-cargo,Written logarithmic requirement,10**(1+log10(target)),target=100,1000,Galaxy example in 173,1000
+time-cargo,Simplified positive case,10*target,target=25,250,Editorial positive C1 DP case,250
+passengers,Small whole group,10**(d/100),d=100,10,Editorial test of the opening 174 relation,10
+passengers,Larger whole group,10**(d/100),d=200,100,Editorial second device,100
+passengers,Fractional boundary,10**(d/100),d=50,3.16227766016838,Editorial counterexample to an automatic integer passenger count,3.16227766017
+passengers,Recorded truncation in the alternate group example,floor(printed),printed=2965.76,2965,Rule 174 drops the fractional person from its printed group-comparison result,2965
+defensive-value,C2 character branch,d/3,d=60,20,Printed Godzilla defensive value in 189,20
+defensive-value,Second source example,d/3,d=90,30,Printed second creature rating in 189,30
+defensive-value,Alternative C1 convention,c1,c1=20,20,"Third branch in 189, numerically direct but with no subsequent hit test",20

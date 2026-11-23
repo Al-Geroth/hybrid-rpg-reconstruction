@@ -1,0 +1,80 @@
+{
+  "purpose": "This appendix is a small house game for cooperative superhero rescues where a contested action has a public, nonlethal stake. A player still writes a Psyche rating and its scale, uses published power formulas, and may change the balance between power and life-span. Four table rules decide who can use those numbers, when they apply and what follows. You can finish a scene under this procedure even when the original pages supply no handoff.",
+  "setup": "Choose a GM and one or more players. Take a sheet with a baseline and at least one locally supported action, or make one with R1. Before committing to a move, any player may ask what a success and a failure would do. The GM announces the particular outcome before the players choose their approach. A rescue can cost time, transport or an opportunity. This variant needs no injury track.",
+  "rules": [
+    {
+      "id": "r1",
+      "name": "Agree on the sheet and one supported power",
+      "procedure": "The GM selects a campaign scale and offers a stated starting benchmark, an explicit build such as Rule 123, or the Rule 107 dice method. Each player chooses among the offered options and records DP with its scale. Set unmodified LS and PL to the same numerical baseline on the same scale unless the chosen example says otherwise. A specialist may select one power with a documented input and output. The GM and player must name its scope, model and any required input in advance. A character with no power is a valid choice. Additional advantages are available only through the chosen template.",
+      "gap": "How does a new character obtain the right to invoke an effect whose mathematical definition assumes they already possess it?",
+      "refs": [
+        3,
+        11,
+        18,
+        47,
+        49,
+        107,
+        123,
+        182
+      ],
+      "alternatives": "Use only named pregenerated characters, or create a universal point-price list. The first excludes many player concepts. The second requires prices absent from the edition.",
+      "minimal": "One permission attaches a specific, documented calculation to a chosen hero. Already complete source templates can be used as printed.",
+      "effect": "Double can use the C3 ratio in Rule 18. Choosing that option gives neither unlimited powers nor a general conversion between games’ budgets.",
+      "philosophy": "Preserves the source's practice of calibrating particular types of character. Allowing a player to claim a formula from a shortlist creates new player authority."
+    },
+    {
+      "id": "r2",
+      "name": "Declare the stake and carry a result into the scene",
+      "procedure": "The GM states one achievable objective, the present state and what success or failure changes. Each participant declares an intention before resolving competing ones. A routine, uncontested action permitted by the sheet and fiction succeeds. If a published rule returns the requested capability, use that result at its stated scale. Apply its immediate, agreed effect once. If the formula returns a created actor, the actor may perform one agreed routine task during this scene. A copy created this way cannot produce further copies. A task requiring an undefined power must be changed or refused. Close the scene as soon as the declared stake is settled.",
+      "gap": "How does a measured pace, count or percentage alter this particular fictional situation? How can the group tell when to stop?",
+      "refs": [
+        18,
+        39,
+        45,
+        53,
+        128
+      ],
+      "alternatives": "Require a roll for every routine task, or let the GM decide each consequence after the outcome is known. Both introduce additional opportunities to revise a result.",
+      "minimal": "A single declared handoff connects a source output to a bounded fictional effect. Uncontested benchmarks retain their existing arithmetic.",
+      "effect": "A 50 C3 DP duplicate can ring an accessible bell once on cue. A phasing percentage alone still cannot tell a player that any wall can be crossed.",
+      "philosophy": "Preserves the predominantly deterministic local tests. The timing, cap on copy actions, and authority to establish stakes belong to this appendix."
+    },
+    {
+      "id": "r3",
+      "name": "Resolve incompatible intentions on one scale",
+      "procedure": "When the stated actions cannot both succeed, choose one acting character for each intention before calculating. For the physical conflicts covered here, compare their current power ratings on C2. Convert equivalent ratings through Rule 45, using the branch with input at least one when moving backwards. The larger C2 PL secures the declared stake. A tie leaves the prior state in place. A supporting character may enable an action in the fiction, but its rating does not add to the lead's. Declared stakes must have a prior state, even if it is simply that no one has reached the goal. Unopposed routine obstacles still use R2.",
+      "gap": "Whose mutually exclusive action takes effect, what happens on a tie and how does a numerically successful actor change the other side's situation?",
+      "refs": [
+        17,
+        34,
+        35,
+        39,
+        45,
+        188,
+        189
+      ],
+      "alternatives": "Roll independently under Rule 188, interpret Rule 35 for both sides and reroll ties, or use the soul comparison in Rule 34. None of those passages assigns the contested objective in this domain.",
+      "minimal": "One comparison and a tie convention settle the scene. The rule adds no initiative order, opposed-dice arithmetic, defense score or injury pool.",
+      "effect": "It matters which hero takes the lead. Holding the selector at 18 C2 PL beats an unmodified opponent at 16. If both reach 18, the last lift keeps its initial route.",
+      "philosophy": "A deterministic contest suits the author's interest in differences of magnitude. Elevating PL and giving defenders the status quo on ties are substantive new design decisions. This narrow comparison does not purport to resolve social disputes by rating."
+    },
+    {
+      "id": "r4",
+      "name": "Offer one reversible power trade",
+      "procedure": "Before a physical contest, a participant may use the Rule 3 multiplicative pair once. Double current C2 PL and halve current C2 LS, leaving DP unchanged. Announce choices before comparing values. A character with an outstanding trade cannot trade again. The changed ratings persist after the action and through any further challenge until that character spends one uninterrupted quiet interval resting. The GM states when such an interval is available. Restore the pre-trade LS and PL at its end. Scene-limited copies expire when the objective is settled. The achieved or lost stake persists after rest.",
+      "gap": "When can a character use a named power/life-span trade during action, and on what schedule do an outstanding trade and a routine copy end?",
+      "refs": [
+        3,
+        6,
+        45,
+        128,
+        183
+      ],
+      "alternatives": "Make a trade permanent, use additive offsets, or price fatigue and recovery in turns. A permanent trade is a defensible variant if the group wants lasting sacrifice. Each option changes the stakes.",
+      "minimal": "Use one multiplier already illustrated by the source, allow one outstanding commitment and one recovery condition. Record a pair of old ratings; no expendable health or fatigue currency is added.",
+      "effect": "Kit must decide whether to risk continuing with only 8 C2 LS and no second boost. Rest restores the sheet but cannot bring back the lift. A character can decline and accept the opposed result.",
+      "philosophy": "The arithmetic is original. Extending it to any participant in these physical contests, and especially making an LS change reversible through rest, changes its fictional meaning. In Rule 6 a life-span rating can imply years of life; this appendix makes no claim that a night's sleep restores years under the original game."
+    }
+  ],
+  "advancement": "For a one-shot, the final route and the characters' obligations are sufficient consequences. For another session, retain the sheets, the route taken, any outstanding trade and any promise. This variant gives no points for winning. Rule 123's next character-building advantage and Rule 125's experience-like grades supply no general award rate. Adding purchased growth would require another design decision, which this experiment leaves open."
+}
