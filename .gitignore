@@ -1,0 +1,7 @@
+sources/raw/
+__pycache__/
+*.pyc
+.qa-local/
+.env
+.env.*
+node_modules/

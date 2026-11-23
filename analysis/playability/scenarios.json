@@ -1,0 +1,234 @@
+[
+  {
+    "id": "ordinary-human",
+    "title": "Create an ordinary human courier",
+    "status": "Partially executable",
+    "refs": [
+      "6",
+      "11",
+      "45",
+      "47",
+      "49",
+      "79",
+      "107",
+      "182"
+    ],
+    "inputs": [
+      "A GM running an ordinary-human campaign on the C2 DP scale (Rule 11).",
+      "The 16 C2 DP ordinary benchmark in Rule 49. The courier's name and occupation are editorial choices."
+    ],
+    "steps": [
+      "Use 16 C2 DP as baseline. Calculate AMBS = √16 = 4.",
+      "Convert to about 28.18 C3 DP using Rule 45. Retain the C2 DP original on the sheet.",
+      "Rule 47 calls for age, COM and the remainder for powers. Attempt to fill these and to identify the character's occupational skills.",
+      "Rule 107 can instead generate a baseline by rolling dice for an optional d20 version. It attaches the roll to C1 and describes low-level mutants. It does not complete the missing ordinary courier skill allocation."
+    ],
+    "determinate": "A named human with a baseline and a derived average can be made reproducibly. A complete playable courier with a unique allocation and skill set cannot.",
+    "missing": [
+      "A general method connecting this baseline to a free selection of skills and their individual costs.",
+      "An instruction assigning a mandatory COM expenditure for this build or integrating Rule 79's ideal ratio."
+    ],
+    "conflicts": [
+      "Rule 182 gives 25 C3 DP as a normal benchmark. Its positive higher-valued C2 inverse is about 15.22. The two normal examples are close but distinct, and neither is identified as universal."
+    ],
+    "assumptions": [
+      "The chosen campaign uses Rule 49's benchmark. The GM has authority over the campaign scale."
+    ]
+  },
+  {
+    "id": "superhuman",
+    "title": "Build a low-powered character with camouflage",
+    "status": "Executable",
+    "refs": [
+      "49",
+      "53",
+      "123",
+      "138",
+      "141"
+    ],
+    "inputs": [
+      "Rule 123's low-powered mutant starting package at 9 C2 DP.",
+      "Select agility, increased height and camouflage in that order from its tier-specific lists."
+    ],
+    "steps": [
+      "First advantage multiplies 9 by 2, giving 18 C2 DP.",
+      "Second advantage multiplies 18 by 3/2, giving 27 C2 DP.",
+      "Third advantage multiplies 27 by 4/3, giving 36 C2 DP. Write the three selected traits on the sheet.",
+      "Use Rule 49 to obtain AMBS 6."
+    ],
+    "determinate": "The stated build goal is reached. The named powers and final baseline are recoverable. The same selections produce the same output.",
+    "missing": [
+      "The build does not specify how an observer detects this camouflage. That would be a separate action test."
+    ],
+    "conflicts": [
+      "Rule 141 offers another initial-advantage calculation. Rule 123 explicitly supplies its own starting number and multipliers for this template."
+    ],
+    "assumptions": [
+      "The character belongs to the type in Rule 123. Choosing among permitted options is a player decision explicitly provided by the passage."
+    ]
+  },
+  {
+    "id": "physical-action",
+    "title": "Keep pace with a float at 10 mph",
+    "status": "Executable",
+    "refs": [
+      "39"
+    ],
+    "inputs": [
+      "An ordinary runner with 20 C2 DP.",
+      "A constant pace of 10 mph. The question concerns the pace itself."
+    ],
+    "steps": [
+      "Rule 39 gives the required C2 rating as 10 × (1 + log₁₀(v)), using mph.",
+      "At 10 mph the rating is 10 × (1 + 1) = 20 C2 DP or PL.",
+      "The runner has exactly the required rating. The stated pace is within this character's capability in this model."
+    ],
+    "determinate": "Yes for the specified pace. No referee-selected numerical parameter or die roll enters the calculation.",
+    "missing": [
+      "An endurance limit or a duration before fatigue would be needed for a different question about a long journey."
+    ],
+    "conflicts": [
+      "Rule 64's separate movement model is expressly for mutants or metahumans. This ordinary runner was selected to avoid that overlap."
+    ],
+    "assumptions": [
+      "Constant-speed travel on an unobstructed route is part of the scenario. No general-purpose skill procedure is added."
+    ]
+  },
+  {
+    "id": "contest",
+    "title": "Decide a race between a human and a mutant",
+    "status": "Ambiguous",
+    "refs": [
+      "35",
+      "39",
+      "45",
+      "64"
+    ],
+    "inputs": [
+      "A human and a mutant, each at 20 C2 DP, with equal starts and a straight, unobstructed course.",
+      "A comparison of running capacity. Both contestants use their full rated pace."
+    ],
+    "steps": [
+      "Using Rule 39 for both runners, solve 20 = 10 × (1 + log₁₀(v)). Each has v = 10 mph.",
+      "For the mutant, Rule 45 also gives about 49.28 C3 DP. Rule 64 directly associates the mutant's C3 number with mph.",
+      "The shared running relation yields a tie. Under the mutant movement relation the mutant wins. Rule 35 supplies an individual success criterion without a tie-break for this comparison."
+    ],
+    "determinate": "No unique race outcome. The difference appears before any die roll or fatigue calculation.",
+    "missing": [
+      "A statement specifying whether Rule 64 supersedes Rule 39 for a mutant running on foot.",
+      "A simultaneous-finish or opposed-success procedure."
+    ],
+    "conflicts": [
+      "Two readings assign different speeds to the same contestant, 10 and about 49.28 mph."
+    ],
+    "assumptions": [
+      "Rule 64 describes movement broadly. Treating it as an applicable running speed is a hypothetical reading.",
+      "Instant attainment of rated pace is held equal for comparing the two procedures."
+    ]
+  },
+  {
+    "id": "combat-encounter",
+    "title": "Resolve a fictional duel through its final turn",
+    "status": "Non-executable",
+    "refs": [
+      "2",
+      "17",
+      "35",
+      "139",
+      "146",
+      "188",
+      "189"
+    ],
+    "inputs": [
+      "Two fictional contestants, one at 18 C2 DP for the Rule 17 example, each trying to outlast the other.",
+      "A declared action and, for illustration, an already-observed 3d6 total of 12."
+    ],
+    "steps": [
+      "Rule 17 gives the 18-rated contestant three six-sided dice. If the 66 percent in Rule 35 is taken against 18, a 12 reaches the threshold.",
+      "Rule 2 offers another success figure from the contestant's C2 DP. The edition gives no handoff establishing that this figure modifies that roll.",
+      "Rule 188 supplies local roll-under tests, while Rule 189 offers alternative DCV values. Attempt to choose the acting order, compare a resolved action with a specific defense, record its effect and start the next turn."
+    ],
+    "determinate": "Individual numbers and even a possible successful test are available. A winner and final state for this duel cannot be derived.",
+    "missing": [
+      "An acting-order rule and an identified relation between these success and defense measures for this exchange.",
+      "A state transition for the opposing character, a next-turn rule and a stopping condition."
+    ],
+    "conflicts": [
+      "The introductory combat example calls Rules 17 and 188 contradictory and prefers 188. Its roll-under example concerns obtaining a state, so the preference still leaves this duel without a full exchange."
+    ],
+    "assumptions": [
+      "The 3d6 total illustrates the threshold reading. No percent die, opposed roll or imported HERO attack matrix is supplied."
+    ]
+  },
+  {
+    "id": "damage",
+    "title": "Trace a fictional impact through injury and recovery",
+    "status": "Partially executable",
+    "refs": [
+      "73",
+      "79",
+      "123",
+      "139",
+      "141",
+      "146",
+      "161",
+      "189"
+    ],
+    "inputs": [
+      "An agreed successful fictional power effect from a mutant with 20 C2 DP.",
+      "An observed four-die result of 3, 3, 4 and 4. A hit is stipulated to isolate the consequence stage."
+    ],
+    "steps": [
+      "Rule 146 gives (20/10)² = 4 damage dice. The observed total is 14.",
+      "Check Rule 139's treatment of DEF and BOD and Rule 161's comparison to life and hit points in other games for an instruction to update an ordinary target.",
+      "Try to determine the target's injury, available next action and recovery time. The cited models do not complete those steps."
+    ],
+    "determinate": "The pool and its observed total are determinate. The target's changed condition and recovery are unresolved.",
+    "missing": [
+      "A general procedure mapping this damage total and the target's defense to an injury or loss of capacity.",
+      "An ordinary healing rate or schedule, including when a character can act again."
+    ],
+    "conflicts": [
+      "Rule 73 describes a one-time maximum calculated from C3 PL. A different rating and purpose prevent silently substituting its pool for Rule 146's.",
+      "Rule 79 defines health in terms of physical attributes but does not specify a pool from which to subtract 14."
+    ],
+    "assumptions": [
+      "The illustrative totals are given inputs. Healing powers named in Rules 123 and 141 are not automatically available to the target."
+    ]
+  },
+  {
+    "id": "continuation",
+    "title": "Carry a character forward and award advancement",
+    "status": "Non-executable",
+    "refs": [
+      "0",
+      "45",
+      "87",
+      "123",
+      "125",
+      "128"
+    ],
+    "inputs": [
+      "The camouflage character ends a session at 36 C2 DP.",
+      "One completed adventure. To test persistence separately, consider a creator with an active Rule 45 effect."
+    ],
+    "steps": [
+      "Copy the existing 36 C2 DP rating onto the next session's record. This is ordinary bookkeeping.",
+      "Look for a rule translating the completed adventure into a points award, new advantage or higher baseline.",
+      "Rule 123's fourth advantage would produce 45 C2 DP during character construction. Rule 125's letters compare skill and experience grades in another game. Neither sets an adventure reward.",
+      "In the parallel Rule 45 case, the creator can regain an earlier status when an effect expires. The time of expiry is unspecified.",
+      "Rule 87 also gives a conditional post-death wait before receiving a new body. Neither the end of an adventure nor ordinary earned advancement triggers that rule."
+    ],
+    "determinate": "Existing numbers can be carried forward. No repeatable award or post-session change follows from the specified adventure.",
+    "missing": [
+      "A trigger for earning advancement, the size of an award and a method for spending it in later sessions.",
+      "A common expiry or recovery clock for ongoing effects."
+    ],
+    "conflicts": [
+      "A creation step, a comparative grade, an effect expiring and the edition's publication calendar describe four different sorts of change. None is identified as a general advancement procedure."
+    ],
+    "assumptions": [
+      "Persistence of a written rating is separated from advancement. No points are invented for completing the adventure."
+    ]
+  }
+]

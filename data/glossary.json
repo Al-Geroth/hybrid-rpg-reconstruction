@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "pc",
+    "term": "PC / PrCp",
+    "expansion": "Persecution-complex, or playing character",
+    "definition": "A label for a hunted-character relation. Rule 50 also explicitly distinguishes the initials used for a playing character.",
+    "function": "Provides a model relating a fictional pursuer and a victim or players and their GM.",
+    "domain": "Local square and square-root comparisons on C2 or C3 as specified.",
+    "related": [
+      "gm",
+      "dp",
+      "c2"
+    ],
+    "references": [
+      "50"
+    ],
+    "example": "",
+    "ambiguity": "The source uses PrCp to disambiguate one sense. Its analogies are fictional calibrations and can include prejudicial commentary.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "gm",
+    "term": "GM",
+    "expansion": "Game Master",
+    "definition": "The person responsible for a campaign, mentioned in connection with determining the power scale.",
+    "function": "In #11 the campaign and the GM determine which class of magnitude applies. #50 offers an analogy between the GM and the hunted-character relation.",
+    "domain": "A table role. The chosen class is a separate, typed input.",
+    "related": [
+      "pc",
+      "c-something",
+      "magnitude"
+    ],
+    "references": [
+      "11",
+      "50"
+    ],
+    "example": "",
+    "ambiguity": "The assigned role in selecting campaign magnitude does not supply all missing arbitration, timing or advancement rules.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "def",
+    "term": "DEF / BOD",
+    "expansion": "Defense and Body in a HERO comparison",
+    "definition": "Two externally named stats compared with C2 PL and strength.",
+    "function": "#183 offers half the C2 PL value for each in one interpretation.",
+    "domain": "Game points. #139 gives another combined-rating comparison.",
+    "related": [
+      "health",
+      "dc",
+      "dcv",
+      "str"
+    ],
+    "references": [
+      "139",
+      "183"
+    ],
+    "example": "",
+    "ambiguity": "The stat called BOD here is distinct from the word Body in AMBS. Neither cited conversion defines a complete sequence for taking damage.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "force-field",
+    "term": "Force field",
+    "expansion": "Fictional field or barrier model",
+    "definition": "A family of proposed relations for extraordinary phenomena, including a fictional defensive power choice.",
+    "function": "Examples connect field size and a character’s rating. #123 allows a minor or later field in a sample build.",
+    "domain": "Context-specific rating, length, or other magnitude in the selected passage.",
+    "related": [
+      "pl",
+      "power-stunt",
+      "mc"
+    ],
+    "references": [
+      "preface",
+      "7",
+      "48",
+      "123",
+      "155"
+    ],
+    "example": "",
+    "ambiguity": "The word can denote a named power or a speculative physical analogy. Calling a power a field does not determine when it stops another effect.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ff",
+    "term": "ff",
+    "expansion": "Fudge factor",
+    "definition": "A local environmental-resistance multiplier used in a fictional flight calculation.",
+    "function": "Adjusts a rating according to the medium being traversed.",
+    "domain": "A dimensionless multiplier, sometimes related to a material-strength rating.",
+    "related": [
+      "ms",
+      "pl",
+      "tl"
+    ],
+    "references": [
+      "16"
+    ],
+    "example": "",
+    "ambiguity": "This lowercase parameter is not simply another spelling of force field.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "cl",
+    "term": "CLASS (Marvel reference)",
+    "expansion": "Class",
+    "definition": "The author’s description of an external rank or unit against which the letter C and some HYBRID ratings are compared.",
+    "function": "Motivates the invention of multiple scale labels.",
+    "domain": "External rank or numeric rating. Mapping is passage-specific.",
+    "related": [
+      "mu",
+      "c",
+      "c0"
+    ],
+    "references": [
+      "preface",
+      "5",
+      "157",
+      "158"
+    ],
+    "example": "",
+    "ambiguity": "The author’s reading is evidence for HYBRID’s design, not an independently verified account of another RPG’s mechanics.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "psyche",
+    "term": "Psyche",
+    "expansion": "Psyche",
+    "definition": "The statistic the author names as the game’s principal rating. It can characterize a person, creature or cosmic being.",
+    "function": "Provides a common starting vocabulary for character magnitude, often given as Default Psyche.",
+    "domain": "A number with a scale label. C0 Psyche and baseline DP need not have identical numerals.",
+    "related": [
+      "dp",
+      "c0",
+      "ap"
+    ],
+    "references": [
+      "preface",
+      "5",
+      "125"
+    ],
+    "example": "",
+    "ambiguity": "Some examples compare it with Reason, Intuition or Psyche in the 1986 Marvel game. These are local comparisons, not a definition of one universal psychological trait.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "dp",
+    "term": "DP",
+    "expansion": "Default Psyche",
+    "definition": "A baseline magnitude from which the source describes departures in lifespan and power.",
+    "function": "During a #3 trade the baseline stays fixed. Character creation examples assign DP by a die total. A fictional effect may instead change the baseline itself.",
+    "domain": "A numerical rating on a named class, e.g. 40 C2 DP.",
+    "related": [
+      "psyche",
+      "ls",
+      "pl",
+      "c2"
+    ],
+    "references": [
+      "preface",
+      "3",
+      "6",
+      "45",
+      "107"
+    ],
+    "example": "#183 uses an initial 40 C2 rating while the traded LS and PL become 20 and 80.",
+    "ambiguity": "DP is not an abbreviation for a pool of damage points. An object, civilization or star can also receive a DP rating.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ls",
+    "term": "LS",
+    "expansion": "Life-span",
+    "definition": "The life-related side of the principal exchange. A lifespan rating is a number on a class scale.",
+    "function": "Accepts an operation opposite to the one applied to PL. #6 offers a subsequent translation into years.",
+    "domain": "Typically C1 or C2 LS in trade examples, C3 for the #6 time conversion.",
+    "related": [
+      "dp",
+      "pl",
+      "immortality"
+    ],
+    "references": [
+      "3",
+      "6",
+      "23",
+      "31"
+    ],
+    "example": "Halving LS from 40 to 20 C2 doubles PL from 40 to 80 in #183.",
+    "ambiguity": "A year and a C2 lifespan point are distinct. Other examples reinterpret the traded side, for instance as delayed gratification in #89.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "pl",
+    "term": "PL",
+    "expansion": "Power level",
+    "definition": "A magnitude assigned to the active side of an effect, capability or exertion.",
+    "function": "Varies with LS in a #3 trade, and is an input to ability-specific calculations.",
+    "domain": "A numerical rating on a named class, e.g. 80 C2 PL.",
+    "related": [
+      "dp",
+      "ls",
+      "power-stunt",
+      "mnm-pl"
+    ],
+    "references": [
+      "3",
+      "8",
+      "45",
+      "144",
+      "146"
+    ],
+    "example": "",
+    "ambiguity": "A field labeled PL in another game can map to a nonlinear function of HYBRID DP. The identical letters do not guarantee transferable values.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c",
+    "term": "C",
+    "expansion": "Class, by the source’s attribution",
+    "definition": "The preface traces C to Class in the 1986 Marvel game and distinguishes its term from Channeling in Fuzion.",
+    "function": "Prefixes the notation specifying the magnitude scale for a number.",
+    "domain": "Indexed family, including CA, C1, C2, C3 and C4. C0 needs local context.",
+    "related": [
+      "ca",
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "letter"
+    ],
+    "references": [
+      "preface",
+      "3",
+      "45",
+      "55",
+      "58"
+    ],
+    "example": "",
+    "ambiguity": "Bare C can also be the third letter in a power-rating code. It is not always a numeric coefficient.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ca",
+    "term": "CA",
+    "expansion": "A-labeled class scale",
+    "definition": "The input class immediately preceding C1 in the forward power-log chain.",
+    "function": "Supports especially large fictional baselines and magic ratings. Its numeral is transformed to find the equivalent C1 value.",
+    "domain": "Positive real rating under the logarithmic class step.",
+    "related": [
+      "c",
+      "c1",
+      "ap"
+    ],
+    "references": [
+      "45",
+      "125",
+      "144",
+      "151",
+      "200"
+    ],
+    "example": "100 CA becomes 10,000 C1.",
+    "ambiguity": "The A label does not mean that CA is C0. #125 says CA DP is the author’s own notation.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c0",
+    "term": "C0",
+    "expansion": "Context-specific scale zero",
+    "definition": "A label assigned to a local output, such as Psyche, strength, material strength, a ghost reading or immortality.",
+    "function": "Gives a reported value for a particular subject and comparison.",
+    "domain": "Different numerical relations depending on the statistic and the subject.",
+    "related": [
+      "c",
+      "str",
+      "psyche",
+      "ms",
+      "immortality",
+      "pk"
+    ],
+    "references": [
+      "5",
+      "21",
+      "27",
+      "31",
+      "40"
+    ],
+    "example": "In #5, 100 C1 DP can produce 50 C0 Psyche on one named reading, or directly 100 on another.",
+    "ambiguity": "The sequence CA → C1 → C2 does not imply C0 → C1 via the same transform.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c1",
+    "term": "C1",
+    "expansion": "Class scale 1",
+    "definition": "Rating on the first numbered scale in the printed CA-to-C3 chain.",
+    "function": "Used for creation totals, point translations, and high-magnitude character comparisons.",
+    "domain": "Positive input for f(x) when converting to C2.",
+    "related": [
+      "c",
+      "ca",
+      "c2",
+      "dp",
+      "tcp"
+    ],
+    "references": [
+      "3",
+      "8",
+      "45",
+      "107",
+      "122"
+    ],
+    "example": "20 C1 DP gives about 49.28 C2 DP.",
+    "ambiguity": "The numeral alone is insufficient. Twenty C1 and twenty C2 are usually different magnitudes.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c2",
+    "term": "C2",
+    "expansion": "Class scale 2",
+    "definition": "The intermediate numbered scale used repeatedly for character ratings, powers and lifespan.",
+    "function": "Feeds local formulas for success grade, lifespan, movement and aggregate attributes.",
+    "domain": "Positive input for f(x) when converting to C3.",
+    "related": [
+      "c",
+      "c1",
+      "c3",
+      "ambs"
+    ],
+    "references": [
+      "2",
+      "6",
+      "35",
+      "39",
+      "45",
+      "49"
+    ],
+    "example": "16 C2 DP gives 4 AMBS.",
+    "ambiguity": "C2 without a qualifier may be DP or PL. The source sometimes explicitly varies between them.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c3",
+    "term": "C3",
+    "expansion": "Class scale 3",
+    "definition": "The next scale after C2. The source compares C3 DP with total points in other games.",
+    "function": "Expresses a baseline, an effect, hit-point analogies or a total, depending on context.",
+    "domain": "Positive class-scale rating. It can be transformed again into C4.",
+    "related": [
+      "c",
+      "c2",
+      "c4",
+      "tcp",
+      "life-points"
+    ],
+    "references": [
+      "45",
+      "46",
+      "47",
+      "161"
+    ],
+    "example": "20 C2 DP gives about 49.28 C3 DP.",
+    "ambiguity": "Calling C3 a total does not give it a universal identity with health or an automatically spendable currency.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c4",
+    "term": "C4",
+    "expansion": "Class scale 4",
+    "definition": "The scale obtained by applying the same transform to C3.",
+    "function": "Used for exceptionally large ratings and for cross-game life-point analogies.",
+    "domain": "Positive real rating for the source’s worked conversions.",
+    "related": [
+      "c",
+      "c3",
+      "life-points"
+    ],
+    "references": [
+      "70",
+      "161",
+      "200"
+    ],
+    "example": "",
+    "ambiguity": "Different subject labels survive the translation. A C4 life-point analogy is not a universal HYBRID hit-point pool.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "c-something",
+    "term": "C_something",
+    "expansion": "Unspecified class",
+    "definition": "A placeholder for the scale that a particular rule, power or campaign will use.",
+    "function": "Makes a formula reusable, or leaves a class selection open to the reader.",
+    "domain": "Requires substitution of an actual class when the result is used.",
+    "related": [
+      "c",
+      "magnitude"
+    ],
+    "references": [
+      "17",
+      "41",
+      "47",
+      "62"
+    ],
+    "example": "A pool computed from 18 C1 and one from 18 C2 both have three dice in #35.",
+    "ambiguity": "An unspecified class prevents comparing the result with a number from another rule.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "magnitude",
+    "term": "Magnitude / point distribution",
+    "expansion": "Magnitude / point distribution",
+    "definition": "The author’s terms for how a numeral expresses quantity and power in a given class.",
+    "function": "Motivates using the same class transformation across several statistics and external game comparisons.",
+    "domain": "Class-labeled numerals, sometimes also a raised or lower class status.",
+    "related": [
+      "c",
+      "dp",
+      "x"
+    ],
+    "references": [
+      "preface",
+      "3",
+      "45",
+      "46"
+    ],
+    "example": "",
+    "ambiguity": "The phrase does not specify how to allocate a finite starting pool among abilities.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "x",
+    "term": "X / x",
+    "expansion": "Context-specific variable",
+    "definition": "An input to the foundational expression, a lifespan multiplier, a rating/base ratio, a letter-coded 120, or a letter position, depending on passage.",
+    "function": "Names independent local quantities. The preface itself differentiates its general x from an unrelated use in #196.",
+    "domain": "Domain follows the local formula. The logarithmic input must be positive.",
+    "related": [
+      "letter",
+      "magnitude",
+      "base",
+      "modifier"
+    ],
+    "references": [
+      "preface",
+      "6",
+      "53",
+      "55",
+      "196",
+      "200"
+    ],
+    "example": "",
+    "ambiguity": "Do not pass a numerical value from one occurrence of X to another without a local definition.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ambs",
+    "term": "AMBS",
+    "expansion": "Average Mind, Body and Soul",
+    "definition": "An aggregate of three named character aspects derived from the square root of C2 DP.",
+    "function": "Converts a baseline into a compact attribute score. Some build examples use AMBS milestones.",
+    "domain": "Nonnegative square root of the numerical C2 DP rating.",
+    "related": [
+      "dp",
+      "karma",
+      "strength-body"
+    ],
+    "references": [
+      "8",
+      "49",
+      "123"
+    ],
+    "example": "A baseline of 64 produces 8 AMBS.",
+    "ambiguity": "The source gives an average. Individual values cannot be recovered from it without another constraint.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "strength-body",
+    "term": "Mind, Body and Soul",
+    "expansion": "Mind, Body and Soul",
+    "definition": "Three aspect names grouped in AMBS. Mental and physical attributes are grouped differently in #79.",
+    "function": "Used to describe character balance and to assign an average.",
+    "domain": "The named three-part score uses AMBS as its average.",
+    "related": [
+      "ambs",
+      "karma"
+    ],
+    "references": [
+      "49",
+      "79",
+      "123"
+    ],
+    "example": "",
+    "ambiguity": "Body here need not mean the vehicle Body or the HERO BOD statistic.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "com",
+    "term": "COM",
+    "expansion": "Appearance or beauty rating. Exact expansion unresolved in this edition.",
+    "definition": "An appearance rating for characters, and an explicit ship-size or body cost in the flight calculations of rules 155 and 158.",
+    "function": "#47 places COM next to the points remaining for powers. Several rules propose divergent numeric mappings.",
+    "domain": "May be a bare rating or a number of points explicitly typed as C1, C2 or C3.",
+    "related": [
+      "pl",
+      "remaining",
+      "tcp"
+    ],
+    "references": [
+      "4",
+      "6",
+      "32",
+      "47",
+      "124",
+      "155",
+      "158",
+      "197"
+    ],
+    "example": "At 20 C2 a later proposal gives COM 9, while one earlier conversion gives about 11.90.",
+    "ambiguity": "Its formulas depend on prejudicial classifications. The original gives several incompatible estimates and no global priority order.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "remaining",
+    "term": "Remaining points",
+    "expansion": "Remainder after COM",
+    "definition": "The part of the character’s written total assigned to powers after the appearance component.",
+    "function": "Lets a character line record appearance and a residual capability amount.",
+    "domain": "Points in the same selected class for a subtraction to make sense.",
+    "related": [
+      "com",
+      "power-stunt",
+      "advantage"
+    ],
+    "references": [
+      "6",
+      "47",
+      "54"
+    ],
+    "example": "#6 describes a case with equal PL and COM on C2, leaving no difference for a mutant power.",
+    "ambiguity": "No general schedule specifies how much of the remainder buys an arbitrary named power.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "tcp",
+    "term": "TCP / total points",
+    "expansion": "Total Character Points",
+    "definition": "A translated total, especially in the author’s comparisons with HERO or Champions.",
+    "function": "Offers a way of expressing a HYBRID character in another game’s point vocabulary.",
+    "domain": "External game points. #122 gives alternatives from C1 DP and C3 DP.",
+    "related": [
+      "dp",
+      "iq",
+      "c1",
+      "c3"
+    ],
+    "references": [
+      "8",
+      "46",
+      "122"
+    ],
+    "example": "",
+    "ambiguity": "The two estimates disagree. Neither supplies a universal earned-currency or experience system.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "iq",
+    "term": "IQ",
+    "expansion": "Intelligence quotient as used in the fiction",
+    "definition": "A rating associated with ten times C1 in a default case. Sometimes compared to HERO character points.",
+    "function": "Used to calibrate characters and proposed technology levels.",
+    "domain": "Dimensionless fictional score. Its underlying input can be C1 PL, or C1 DP when identifying a point total.",
+    "related": [
+      "pl",
+      "tcp",
+      "tl"
+    ],
+    "references": [
+      "8",
+      "122",
+      "144"
+    ],
+    "example": "",
+    "ambiguity": "The source switches between capacity, point budget and intelligence. It provides no empirical validation as a human measure.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "tl",
+    "term": "TL",
+    "expansion": "Technology level, also technology in context",
+    "definition": "A technology rating in some formulas. Elsewhere TL can refer to technology or an object with a rating.",
+    "function": "Connects fictional capability or historical calibration with PL.",
+    "domain": "C1 PL divided by 3 in #8; different operations in #145.",
+    "related": [
+      "pl",
+      "iq",
+      "mc"
+    ],
+    "references": [
+      "8",
+      "63",
+      "145"
+    ],
+    "example": "",
+    "ambiguity": "The explicit alternatives in #145 disagree even in the example proposed as their common case.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "pr",
+    "term": "PR",
+    "expansion": "Power rating",
+    "definition": "A comparative label for a character’s broad power standing.",
+    "function": "Used to place one fictional character alongside another and estimate appropriate baselines.",
+    "domain": "Often expressed in C1 or C2 DP, sometimes linked to C0.",
+    "related": [
+      "dp",
+      "pl",
+      "psyche"
+    ],
+    "references": [
+      "preface",
+      "5",
+      "31"
+    ],
+    "example": "",
+    "ambiguity": "A comparison between fictional exploits is not an independent measurement of PR.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "str",
+    "term": "STR",
+    "expansion": "Strength",
+    "definition": "A fictional strength score that can be reported as a local C0 rating or converted to a lifting estimate.",
+    "function": "Used for highly physical character archetypes and cross-system comparisons.",
+    "domain": "C0 STR, a C2 input or a mass/weight numeral in separately chosen formulas.",
+    "related": [
+      "c0",
+      "ms",
+      "llm"
+    ],
+    "references": [
+      "5",
+      "40",
+      "78",
+      "82"
+    ],
+    "example": "",
+    "ambiguity": "#40 and #82 distinguish competing expressions and vary the assigned physical unit. They cannot all be equivalent.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ms",
+    "term": "MS / m.s.",
+    "expansion": "Material strength",
+    "definition": "A game statistic for how resistant a material is, compared across different roleplaying systems.",
+    "function": "Supplies example ratings for materials and may be associated with STR in a mutant example.",
+    "domain": "Usually C3 PL or a C0 material-strength label in #21.",
+    "related": [
+      "str",
+      "c0",
+      "c3"
+    ],
+    "references": [
+      "9",
+      "21",
+      "139"
+    ],
+    "example": "",
+    "ambiguity": "The source offers more than one reference value and also invokes an external x@y notation.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "base",
+    "term": "Base",
+    "expansion": "Reference rating",
+    "definition": "A local reference from which a ratio or bonus is calculated.",
+    "function": "Normalizes a phasing score, establishes a ghost scale, or supplies a starting offset.",
+    "domain": "Often 10 C2 in examples. Some campaign scales and origins differ.",
+    "related": [
+      "phasing",
+      "pk",
+      "roll-under"
+    ],
+    "references": [
+      "53",
+      "72",
+      "188"
+    ],
+    "example": "",
+    "ambiguity": "Base is context-specific. A C1 campaign base and a C2 campaign base are physically different game magnitudes.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "advantage",
+    "term": "Advantage",
+    "expansion": "Advantage",
+    "definition": "A modifier to a character or an effect, often expressed as a signed fraction.",
+    "function": "Can raise a baseline by multiplication and can be taken more than once under #147.",
+    "domain": "Fraction, bonus or context-specific increment with an identified base.",
+    "related": [
+      "limitation",
+      "dp",
+      "com"
+    ],
+    "references": [
+      "3",
+      "123",
+      "138",
+      "141",
+      "147"
+    ],
+    "example": "",
+    "ambiguity": "The mechanism varies across passages and does not by itself say how modifiers are earned, chosen, paid for or combined in all cases.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "limitation",
+    "term": "Limitation / disadvantage",
+    "expansion": "Limitation or disadvantage",
+    "definition": "A constraint or modifier used when describing a capability.",
+    "function": "A trade can impose a lifespan cost, and limitations can be applied repeatedly in character construction.",
+    "domain": "Context-specific signed or fractional notation.",
+    "related": [
+      "advantage",
+      "ls",
+      "pl"
+    ],
+    "references": [
+      "3",
+      "111",
+      "138",
+      "147"
+    ],
+    "example": "",
+    "ambiguity": "Negative signs can identify a direction or order of point consumption. They do not always mean subtract that number from DP.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "power-stunt",
+    "term": "Power stunt / effect",
+    "expansion": "Named application of a power",
+    "definition": "A particular use of a character’s capabilities, such as a special mode of perception.",
+    "function": "Bridges a general rating and an effect for which the author provides a local mapping or analogy.",
+    "domain": "Usually class-specific PL, occasionally requiring an explicit DP and LS trade.",
+    "related": [
+      "pl",
+      "ls",
+      "mc"
+    ],
+    "references": [
+      "8",
+      "45",
+      "54",
+      "62",
+      "183"
+    ],
+    "example": "",
+    "ambiguity": "There is no single universal list of inputs, duration and costs for all stunts.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "llm",
+    "term": "LLM / brick",
+    "expansion": "Low-level mutant / strength-focused archetype",
+    "definition": "The low-level mutant label qualifies one of the fictional strength scales. A brick is the physical powerhouse example.",
+    "function": "Restricts the context of an STR formula. #2 separately proposes category boundaries for mutants.",
+    "domain": "Game categories and associated C-class bounds.",
+    "related": [
+      "str",
+      "dp",
+      "super-mutant"
+    ],
+    "references": [
+      "2",
+      "5",
+      "40",
+      "107"
+    ],
+    "example": "",
+    "ambiguity": "Being a mutant does not select an STR rule for every possible ability.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "super-mutant",
+    "term": "Super-mutant / meta-human",
+    "expansion": "Superhuman categories",
+    "definition": "Character-type labels for powers beyond ordinary human ratings. Rule 2 places a super-mutant above 30 C1 DP.",
+    "function": "Can determine which local comparison, motion rule or power equation an example uses.",
+    "domain": "Class-qualified thresholds. #2 gives a different 30 C2 threshold for mutant or genius.",
+    "related": [
+      "llm",
+      "pl",
+      "c1",
+      "c2"
+    ],
+    "references": [
+      "2",
+      "23",
+      "40",
+      "64"
+    ],
+    "example": "",
+    "ambiguity": "The author also changes a scale label to promote a figure in #23. Threshold and status promotion are different operations.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "immortality",
+    "term": "Immortality",
+    "expansion": "C0 immortality rating",
+    "definition": "A stat attached to longevity or an extremely long-lived character.",
+    "function": "Relates C0 and a lifespan baseline. It can be converted toward a finite duration through separate steps.",
+    "domain": "C0 stat or converted C2 rating, distinct from years.",
+    "related": [
+      "ls",
+      "c0",
+      "dp"
+    ],
+    "references": [
+      "6",
+      "31"
+    ],
+    "example": "",
+    "ambiguity": "#31 proposes two conversions and qualifies them by character status. The name alone does not establish unlimited lifespan.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "mag",
+    "term": "MAG",
+    "expansion": "Martial Arts Grade",
+    "definition": "A combat success fraction determined from the character’s baseline.",
+    "function": "Uses one minus the reciprocal square root of C2 DP.",
+    "domain": "For C2 DP ≥ 1 the expression lies between 0 inclusive and 1 exclusive.",
+    "related": [
+      "dp",
+      "roll-high",
+      "roll-under"
+    ],
+    "references": [
+      "2"
+    ],
+    "example": "16 C2 gives 0.75.",
+    "ambiguity": "There is no opponent input in this expression and its relation to the conflicting dice conventions is unresolved.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "dice",
+    "term": "Nd6 / XdY",
+    "expansion": "Dice pool notation",
+    "definition": "A number of dice and their number of sides. #107 explicitly describes X dice with Y sides and sums example outcomes.",
+    "function": "Used for starting DP, some rolls for success, and separate damage quantities.",
+    "domain": "Nonnegative whole counts are directly rollable. Some source expressions give fractional dice.",
+    "related": [
+      "roll-high",
+      "roll-under",
+      "dc"
+    ],
+    "references": [
+      "17",
+      "35",
+      "73",
+      "107",
+      "146"
+    ],
+    "example": "#107’s example three sixes total 18 C1 DP.",
+    "ambiguity": "A pool of damage dice and a pool for a success test do different work.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "roll-high",
+    "term": "Two-thirds / 66%",
+    "expansion": "High success threshold",
+    "definition": "A threshold at or above the stated fraction for a roll in the selected magnitude.",
+    "function": "One of the proposed ways to test skills or conflicts. #35 gives an 18-rated pool as an example.",
+    "domain": "Percentage or fraction of a reference amount which must be interpreted.",
+    "related": [
+      "dice",
+      "mag",
+      "roll-under"
+    ],
+    "references": [
+      "preface",
+      "17",
+      "35"
+    ],
+    "example": "",
+    "ambiguity": "The preface states two thirds, #35 states 66%. Treating either as a fraction of maximum is a reconstruction, not an intrinsic success probability.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "roll-under",
+    "term": "#− / roll under",
+    "expansion": "Target or less",
+    "definition": "An integer target followed by a minus sign represents a roll equal to or below that target.",
+    "function": "Tests a desired rating or behavioral state in a set of examples influenced by HERO.",
+    "domain": "Die total and inclusive integer upper bound.",
+    "related": [
+      "dice",
+      "roll-high",
+      "base"
+    ],
+    "references": [
+      "188"
+    ],
+    "example": "",
+    "ambiguity": "This minus sign does not mean subtract one. #188 explicitly marks a conflict with #17.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "dc",
+    "term": "DC",
+    "expansion": "Damage Class",
+    "definition": "A game measure of an effect’s damage. The text sometimes puts it alongside a count of six-sided dice.",
+    "function": "Expresses a local damage magnitude. #118 distinguishes PL-based and DP-based readings.",
+    "domain": "Numerical game class, not automatically a target number or lost health.",
+    "related": [
+      "dice",
+      "pl",
+      "dp",
+      "health"
+    ],
+    "references": [
+      "25",
+      "73",
+      "118",
+      "146"
+    ],
+    "example": "",
+    "ambiguity": "Elsewhere DC refers to the comics publisher or its RPG. Context distinguishes it from Damage Class and DCV.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "dcv",
+    "term": "DCV",
+    "expansion": "Defense statistic from the HERO comparison. Exact expansion unstated here.",
+    "definition": "A defense statistic imported into a comparison with a HERO velocity table.",
+    "function": "Rule 189 proposes alternative mappings of the stat.",
+    "domain": "Context-specific C1 or fractions of C2 ratings in the proposed mappings.",
+    "related": [
+      "dc",
+      "pl",
+      "dp"
+    ],
+    "references": [
+      "189",
+      "190"
+    ],
+    "example": "",
+    "ambiguity": "A defensive number is not a complete attack-versus-defense procedure. #189 leaves multiple candidate mappings.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "health",
+    "term": "Health",
+    "expansion": "Physical attributes in an ideal ratio",
+    "definition": "#79 names the physical aspect of an ideal character or object and sets it alongside karma and powers.",
+    "function": "Provides proportional guidance for a build. Elsewhere the author discusses life points or borrowed Body and Defense.",
+    "domain": "A relative 12 parts out of 24 in #79’s ideal allocation.",
+    "related": [
+      "karma",
+      "life-points",
+      "dc"
+    ],
+    "references": [
+      "79",
+      "161",
+      "183"
+    ],
+    "example": "",
+    "ambiguity": "No damage-subtraction or healing rule follows from #79’s ratio itself.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "karma",
+    "term": "Karma",
+    "expansion": "Mental attributes in an ideal ratio",
+    "definition": "The mental-attribute part of the proposed karma, powers and health ratio.",
+    "function": "Represents one share of the ideal build.",
+    "domain": "Four parts to eight of powers and twelve of health.",
+    "related": [
+      "health",
+      "ambs"
+    ],
+    "references": [
+      "79"
+    ],
+    "example": "",
+    "ambiguity": "The label does not establish an award of spendable experience after a session.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "life-points",
+    "term": "Life points / hit points",
+    "expansion": "Borrowed point-pool analogues",
+    "definition": "The author identifies some numbers in other RPGs with points on HYBRID’s scales.",
+    "function": "#161 maps a Synnibarr life-point example to C4 and compares C3 with D&D hit points.",
+    "domain": "External points mapped to class ratings. The stat may be marked LS, PL or DP.",
+    "related": [
+      "c3",
+      "c4",
+      "health"
+    ],
+    "references": [
+      "148",
+      "161",
+      "183"
+    ],
+    "example": "",
+    "ambiguity": "An analogy to a published pool does not import every rule governing injury, healing or depletion.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "pk",
+    "term": "PK",
+    "expansion": "Ghost or entity reading",
+    "definition": "A numbered reading for the fictional ghost scale, illustrated by Ghostbusters characters.",
+    "function": "A C2 baseline is divided by ten to obtain the PK reading in #27.",
+    "domain": "Number on a C0-style scale. Squaring it gives a percentage in one #72 reading.",
+    "related": [
+      "dp",
+      "c0",
+      "ghost"
+    ],
+    "references": [
+      "27",
+      "72"
+    ],
+    "example": "",
+    "ambiguity": "The source explains how the number is used more clearly than what the initials expand to. The expansion remains unresolved.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ghost",
+    "term": "Ghost percentage",
+    "expansion": "Degree of ghostliness",
+    "definition": "A quantity attached to a fictional spirit that varies with a PK reading and the campaign’s base scale.",
+    "function": "Squaring the PK reading supplies the percentage in the ordinary example.",
+    "domain": "Percentage points. It need not stay in the ordinary 0–100 range for unrestricted ratings.",
+    "related": [
+      "pk",
+      "base"
+    ],
+    "references": [
+      "27",
+      "72"
+    ],
+    "example": "",
+    "ambiguity": "The percentage’s consequence in an encounter is unspecified.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "phasing",
+    "term": "Phasing / cloaking",
+    "expansion": "Passing through an obstacle or becoming concealed",
+    "definition": "#53 describes moving through an obstacle, and assigns the same percentage calculation to cloaking.",
+    "function": "Uses a triangular-number calculation from total and base. #68 references it for invisibility.",
+    "domain": "Percentage points from a ratio of like point ratings.",
+    "related": [
+      "base",
+      "pl"
+    ],
+    "references": [
+      "53",
+      "68"
+    ],
+    "example": "",
+    "ambiguity": "A percent of phasing and a probability of passing through a given wall are not identified as equivalent by the procedure.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "tk",
+    "term": "TK",
+    "expansion": "Telekinesis",
+    "definition": "The less costly reference ability in a comparison with a telepathic version of a previously specified stunt.",
+    "function": "The original rating supplies the number and scale from which a corresponding TP rating is calculated.",
+    "domain": "A class-labeled game rating.",
+    "related": [
+      "tp",
+      "power-stunt"
+    ],
+    "references": [
+      "62"
+    ],
+    "example": "",
+    "ambiguity": "The worked example specifies an already priced stunt. It does not establish the cost of every telekinetic effect.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "tp",
+    "term": "TP",
+    "expansion": "Telepathy",
+    "definition": "A mental power compared to a telekinetic analogue.",
+    "function": "Add ten to the numeral and move to a stronger magnitude scale in #62’s example.",
+    "domain": "Class-qualified game rating.",
+    "related": [
+      "tk",
+      "pl",
+      "c-something"
+    ],
+    "references": [
+      "62"
+    ],
+    "example": "",
+    "ambiguity": "Moving higher in status can mean going from C3 to C2, a lower index.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "mc",
+    "term": "MC",
+    "expansion": "Minimum cost",
+    "definition": "A lower cost or threshold for a particular proposed effect.",
+    "function": "Used in fictional travel and in an analogy to example costs in HERO.",
+    "domain": "Game points on a particular scale. Some values depend on size or effect.",
+    "related": [
+      "power-stunt",
+      "pl",
+      "quantum"
+    ],
+    "references": [
+      "10",
+      "30",
+      "183",
+      "192"
+    ],
+    "example": "",
+    "ambiguity": "There are different local estimates even for the same broad effect. The abbreviation alone does not settle a unique threshold.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "quantum",
+    "term": "Quantum barrier",
+    "expansion": "Fictional scale or threshold",
+    "definition": "A boundary invoked to describe extraordinary travel, partly through comparisons with fiction and other games.",
+    "function": "Used when giving a minimum cost or a warp calibration.",
+    "domain": "Example-dependent PL or other labeled rating.",
+    "related": [
+      "mc",
+      "warp",
+      "ftl"
+    ],
+    "references": [
+      "preface",
+      "10",
+      "30",
+      "192"
+    ],
+    "example": "",
+    "ambiguity": "The name borrows scientific language. The text supplies no empirical evidence for the fictional boundary.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ftl",
+    "term": "FTL",
+    "expansion": "Faster than light",
+    "definition": "A fictional travel regime beyond the reference speed of light.",
+    "function": "Separates some ship-speed calculations from ordinary sublight ratings.",
+    "domain": "Multiples of light speed, occasionally translated to a named speed unit.",
+    "related": [
+      "warp",
+      "quantum",
+      "tl"
+    ],
+    "references": [
+      "10",
+      "30",
+      "155",
+      "157",
+      "192"
+    ],
+    "example": "",
+    "ambiguity": "The author gives several different formulas for the same regime.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "warp",
+    "term": "Warp number",
+    "expansion": "Warp index",
+    "definition": "The intermediate index in some fictional starship velocity calculations.",
+    "function": "A C2 figure divided by a cost/size term produces the index and #30 maps it to a speed multiple.",
+    "domain": "Dimensionless game index, commonly denoted Z in #30.",
+    "related": [
+      "ftl",
+      "mc",
+      "modifier"
+    ],
+    "references": [
+      "10",
+      "30",
+      "192"
+    ],
+    "example": "",
+    "ambiguity": "The same index can give 2ᶻ − 1 or 2^(z−1) times light speed.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "letter",
+    "term": "Letter power codes",
+    "expansion": "Alphabetic rating shorthand",
+    "definition": "A letter’s position supplies a numerical value for some categories of power.",
+    "function": "#55 uses different multipliers, #58 gives position times ten for its Q example, and #200 uses positions to label a scale.",
+    "domain": "Alphabet positions 1–26, typically with a separate C-class label on the result.",
+    "related": [
+      "c",
+      "x",
+      "magnitude"
+    ],
+    "references": [
+      "55",
+      "58",
+      "200"
+    ],
+    "example": "",
+    "ambiguity": "The letter C can represent a code worth 30 in one example and signal the scale itself in another.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "modifier",
+    "term": "M / modifier",
+    "expansion": "Local modifier",
+    "definition": "A parameter whose meaning is supplied by a particular equation. It can concern a subjective percentage, craft size or a narrative characterization.",
+    "function": "Shifts or rescales a local calculation.",
+    "domain": "Local numerical domain. The logarithm of a percentage may use the percentage numeral rather than a fractional probability.",
+    "related": [
+      "x",
+      "uncertainty"
+    ],
+    "references": [
+      "4",
+      "10",
+      "172"
+    ],
+    "example": "",
+    "ambiguity": "The symbol cannot be assigned one scale-independent meaning. A numeral of 10 and a probability of 0.10 have different logarithms.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "l",
+    "term": "L",
+    "expansion": "Usually a local length or load symbol",
+    "definition": "A local symbol used for measures such as ship or creature length and its meaning changes with the subsection.",
+    "function": "Sets a size calibration in travel equations or names an output length.",
+    "domain": "Meters or feet in the cited size examples. Qualifications must travel with the symbol.",
+    "related": [
+      "warp",
+      "modifier"
+    ],
+    "references": [
+      "10",
+      "94",
+      "113",
+      "196"
+    ],
+    "example": "",
+    "ambiguity": "The preface and #196 use letters in an unrelated context. L is not consistently a lifespan abbreviation.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "e",
+    "term": "e / exp",
+    "expansion": "Local exponent, count, or Euler’s number",
+    "definition": "A number of environments in #14, the base of the natural exponential in #60, and a mass exponent in the fictional Phoenix example in #201.",
+    "function": "Changes the divisor in one scale, marks a natural exponential in another, and stands for an exponent in a third.",
+    "domain": "An integer count, a dimensionless constant, or a logarithmic exponent relative to a named mass unit.",
+    "related": [
+      "x",
+      "modifier"
+    ],
+    "references": [
+      "14",
+      "60",
+      "201"
+    ],
+    "example": "",
+    "ambiguity": "Using Euler’s constant where #201 requests an exponent would yield a completely different calculation.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "n",
+    "term": "n / N",
+    "expansion": "Local count, divisor or dimension count",
+    "definition": "Depending on the expression, a size divisor, a number of dice, or the count of fictional dimensions to which a character has access.",
+    "function": "Carries a local relationship between size, an effect or a count.",
+    "domain": "May be a fraction, a nonnegative integer die count, or a dimension count.",
+    "related": [
+      "dice",
+      "e"
+    ],
+    "references": [
+      "14",
+      "73",
+      "113",
+      "121"
+    ],
+    "example": "",
+    "ambiguity": "Case is meaningful in #14, where n is derived from N and a count of environments. The text does not maintain one meaning throughout.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "d",
+    "term": "d / dimension",
+    "expansion": "Dimension index",
+    "definition": "An index distinguishing kinds of movement or effect and elsewhere, a count of dimensions visited.",
+    "function": "Determines the exponent used in the teleport proposal or the scale assigned to dimensional access.",
+    "domain": "Small integer for the teleport cases.",
+    "related": [
+      "tk",
+      "magnitude"
+    ],
+    "references": [
+      "14",
+      "23",
+      "121"
+    ],
+    "example": "",
+    "ambiguity": "This lower-case letter in a distance formula is different from the d in 3d6, and need not be a spatial dimension measured in physics.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "uncertainty",
+    "term": "Uncertainty / margin of error",
+    "expansion": "Difference, modifier or range",
+    "definition": "The author’s label for numerical disagreements or ranges between formulas and estimates.",
+    "function": "Can be a literal difference between two point totals or a modifier inserted in a local expression.",
+    "domain": "Sometimes points, sometimes a percentage entered as its numeral.",
+    "related": [
+      "modifier",
+      "tcp"
+    ],
+    "references": [
+      "8",
+      "28",
+      "34",
+      "122",
+      "159"
+    ],
+    "example": "",
+    "ambiguity": "These uses do not give confidence intervals or an error model fitted to observations.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "binary",
+    "term": "Binary logic / soul equation",
+    "expansion": "Order or soul comparison",
+    "definition": "An authorial label for an approach based on comparing unlike magnitudes, illustrated with fictional souls.",
+    "function": "A #34 difference between C2 DP ratings can yield a ratio or count. #96 offers it as one candidate for a time comparison.",
+    "domain": "Locally defined relative values on C2 DP.",
+    "related": [
+      "fuzzy",
+      "dp",
+      "uncertainty"
+    ],
+    "references": [
+      "1",
+      "28",
+      "34",
+      "36",
+      "96"
+    ],
+    "example": "",
+    "ambiguity": "There is no Boolean truth table in the written procedure. Treating this game label as formal binary logic would import an external meaning.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "fuzzy",
+    "term": "Fuzzy logic / cloning equation",
+    "expansion": "Chaos or duplicate comparison",
+    "definition": "An authorial label for a contrasting arithmetic family exemplified by comparing a creator’s and a duplicate’s C3 ratings.",
+    "function": "Uses ratios for some game estimates, with the option of another model for the same broad comparison.",
+    "domain": "Ratings on like scales when divided.",
+    "related": [
+      "binary",
+      "uncertainty"
+    ],
+    "references": [
+      "1",
+      "18",
+      "28",
+      "34",
+      "36",
+      "96"
+    ],
+    "example": "",
+    "ambiguity": "The notation does not supply a formal fuzzy-set model.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "ap",
+    "term": "AP",
+    "expansion": "Average Psyche",
+    "definition": "A proposed cross-game average Psyche measure in comparisons with Marvel SAGA and Nobilis.",
+    "function": "Subtract ten from a CA DP rating in the described reading.",
+    "domain": "Comparison points, from a CA rating.",
+    "related": [
+      "ca",
+      "psyche",
+      "dp"
+    ],
+    "references": [
+      "125",
+      "144"
+    ],
+    "example": "",
+    "ambiguity": "The author expressly distinguishes the source game’s own terminology from HYBRID’s invented CA notation.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "mnm-pl",
+    "term": "PL in Mutants & Masterminds",
+    "expansion": "External power level",
+    "definition": "A proposed translation target distinct from HYBRID’s own PL.",
+    "function": "#144 equates it to the square of one tenth of HYBRID C2 DP. #146 reuses the result as a damage-dice count.",
+    "domain": "External game level.",
+    "related": [
+      "pl",
+      "dp",
+      "dice"
+    ],
+    "references": [
+      "144",
+      "146"
+    ],
+    "example": "",
+    "ambiguity": "This is a comparison made by HYBRID’s author. It does not establish official compatibility between the rulesets.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "hero",
+    "term": "HERO / Champions",
+    "expansion": "External roleplaying system",
+    "definition": "A recurrent comparison system, especially for point budgets, advantages, defenses and roll-under targets.",
+    "function": "Provides examples and terminology to which the author tries fitting local ratings.",
+    "domain": "External character points, modifiers and values that must be identified individually.",
+    "related": [
+      "tcp",
+      "advantage",
+      "dcv"
+    ],
+    "references": [
+      "8",
+      "122",
+      "183",
+      "188",
+      "189"
+    ],
+    "example": "",
+    "ambiguity": "The presence of a HERO reference does not automatically import a HERO combat sequence.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "mu",
+    "term": "MU / Marvel games",
+    "expansion": "Marvel Universe and multiple game lines",
+    "definition": "Comic-book characters and multiple distinct licensed game systems used as numerical reference points.",
+    "function": "Provides example opponents, rosters and scale names against which HYBRID is calibrated.",
+    "domain": "Fictional exemplars and external ranks, not one shared rules scale.",
+    "related": [
+      "psyche",
+      "pr",
+      "ap"
+    ],
+    "references": [
+      "preface",
+      "5",
+      "125",
+      "144"
+    ],
+    "example": "",
+    "ambiguity": "The 1986 TSR game and Marvel SAGA are not the same edition or mechanics.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "permanence",
+    "term": "Permanent effect",
+    "expansion": "Change of creator status for an enduring effect",
+    "definition": "A duration category in which the creator accepts a change of class status for the same numeral.",
+    "function": "Contrasts C3 PL for a temporary creation with a change to the creator’s own rating for a permanent one.",
+    "domain": "#45’s example holds 75 fixed and relabels it from C2 DP to C3 DP.",
+    "related": [
+      "dp",
+      "c2",
+      "c3",
+      "power-stunt"
+    ],
+    "references": [
+      "45"
+    ],
+    "example": "",
+    "ambiguity": "The rule allows restoration after the effect wears off naturally, leaving the meaning of permanent and the duration uncertain.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  },
+  {
+    "id": "multiplied",
+    "term": "2×C / C×2",
+    "expansion": "Ordered multiplier notation",
+    "definition": "Notation which distinguishes doubling a class numeral from doubling an input before it is converted.",
+    "function": "Makes explicit that a nonlinear transform does not commute with multiplication.",
+    "domain": "Class-specific numerical values whose order of operations matters.",
+    "related": [
+      "c2",
+      "c3",
+      "magnitude"
+    ],
+    "references": [
+      "46"
+    ],
+    "example": "Doubling f(20) gives about 98.56, whereas f(2×20) gives about 368.63.",
+    "ambiguity": "Numbers near 98.56 and 368.63 can both occur in the same example but refer to different operations.",
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30"
+  }
+]

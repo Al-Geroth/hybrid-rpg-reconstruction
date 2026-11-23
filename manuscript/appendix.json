@@ -1,0 +1,73 @@
+{
+  "id": "appendix",
+  "title": "Editorial appendix",
+  "sections": [
+    {
+      "title": "Four kinds of statement",
+      "text": "A marks a direct statement or worked procedure from the source. B joins passages or checks a source calculation with explicit mathematics. C preserves a possible reading with insufficient evidence to give it priority. D marks a new assumption, recording convention or demonstration supplied by the editors. Sections on provenance and editorial analysis can appear without a letter. A layer describes a statement's provenance. A clear ancient or modern claim can still be mathematically inconsistent or factually unsupported.",
+      "refs": [],
+      "layer": ""
+    },
+    {
+      "title": "What a rule number identifies",
+      "text": "A number locates a passage. It is neither a guarantee that the passage defines a game action nor a count of the equations it contains. Rule 0 dates the publication. Rule 163 records changes in a formula. Rule 188 develops several comparisons before a roll example. Conversely, the preliminary material contains a reading guide and a preference about combat rules. Numbered and unnumbered material both contribute to the reconstruction.",
+      "refs": [
+        "0",
+        "17",
+        "163",
+        "188"
+      ],
+      "layer": ""
+    },
+    {
+      "title": "What stays in the catalogue",
+      "text": "The reference edition mixes game reviews, a recipe, notices about publication, fictional examples, personal judgments, explicit sexual material and discriminatory generalizations. Rules 4, 193, 195, 196 and 199 illustrate different ways such subjects enter the numbered series. A paraphrase records the subject and the mechanical role when there is one. A reader can examine a disputed rule without having to apply a degrading category to a character.",
+      "refs": [
+        "4",
+        "193",
+        "195",
+        "196",
+        "199"
+      ],
+      "layer": ""
+    },
+    {
+      "title": "How to recognize an editorial repair",
+      "text": "Keep the author's number beside the recalculated one. In Rule 188 the difference changes an inclusive target, so the original and the computed branch appear together. In Rule 17 the apparent self-reference is clarified by introductory Example 4 and the return reference in Rule 188. That supports identifying the intended pair of rules. It does not harmonize their procedures.",
+      "refs": [
+        "17",
+        "45",
+        "188"
+      ],
+      "layer": "B"
+    },
+    {
+      "title": "What an absence verdict covers",
+      "text": "The scenarios ask whether a reader can reach a named outcome with the inputs given. A missing handoff can defeat that specific trial even when nearby rules produce several useful quantities. The assessment applies to this recovered edition. A different edition, an unidentified procedure in an ambiguous passage, or a table's own convention could yield a different result.",
+      "refs": [
+        "45",
+        "73",
+        "123",
+        "125",
+        "139",
+        "146",
+        "188",
+        "189"
+      ],
+      "layer": ""
+    },
+    {
+      "title": "Comparisons and internal references",
+      "text": "The rulebook can report that HYBRID compares an output with GURPS points or a HERO target. That is a claim about the HYBRID passage. Each would need independent comparison with the named game and its particular edition to establish that the systems actually agree. A link from one HYBRID rule to another likewise records a reference. Reading both passages determines whether an output from the first can supply an input to the second.",
+      "refs": [
+        "17",
+        "45",
+        "125",
+        "182",
+        "188",
+        "189"
+      ],
+      "layer": ""
+    }
+  ]
+}

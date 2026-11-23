@@ -1,0 +1,452 @@
+[
+  {
+    "id": "what-is-hybrid",
+    "title": "What is HYBRID?",
+    "sections": [
+      {
+        "title": "Start with a character you recognize",
+        "text": "Imagine a player asking how a human courier and a comic-book speedster could appear on the same character sheet. HYBRID's answer begins with a rating whose scale travels with the number. The author moves between people, cartoon monsters, vehicles and planets in the same vocabulary. Familiar fictional characters supply benchmarks. A reader is often given the character first and invited to work backward to a rating.",
+        "refs": [
+          "39",
+          "64",
+          "123",
+          "140",
+          "166"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "What the author set out to do",
+        "text": "The introduction calls Psyche the common statistic, with life-span and power level as two expressions. It recommends a calculator with a base-ten logarithm. In the preface, the author describes trying to reconcile unequal abilities that other games express with similar-looking numbers. Rule 163 tells how the author's IQ formula changed across years. Changes to the formula are evidence of design history. They provide no measurements of intelligence.",
+        "refs": [
+          "3",
+          "45",
+          "163",
+          "182"
+        ],
+        "layer": ""
+      },
+      {
+        "title": "How much of a game survives?",
+        "text": "Several pages tell a player exactly which calculation to make. A few also identify a successful roll. These procedures have different scopes. Rule 39 can price a running speed in C2 points, while Rule 188 can test a particular state of a character. Neither specifies how a referee should resolve an arbitrary scene. The title page's percentage of completion follows the calendar convention in Rule 0. It cannot tell us what fraction of playable procedures is present.",
+        "refs": [
+          "0",
+          "35",
+          "39",
+          "188"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "basic-model",
+    "title": "Reading a HYBRID rating",
+    "sections": [
+      {
+        "title": "Keep three pieces together",
+        "text": "Read 20 C2 DP as three pieces of information. The number is 20. C2 selects a numerical scale. DP identifies the quantity as default psyche. Changing any one of the three may change the character being described. LS stands for life-span and PL for power level. Keep the scale label even when an entry eventually yields a familiar unit such as miles per hour or years.",
+        "refs": [
+          "3",
+          "6",
+          "39",
+          "45"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Translate a number to a neighbouring scale",
+        "text": "Rule 45 gives the map between several neighbouring scales. In a C2-to-C3 conversion, raise the C2 number to the power of its own base-ten logarithm. A value of 20 C2 DP therefore becomes about 49.28 C3 DP. The character retains the same rating expressed on another scale. Rule 46 shows why doubling before conversion gives a different number from doubling afterward.",
+        "refs": [
+          "45",
+          "46"
+        ],
+        "layer": "A"
+      },
+      {
+        "title": "What a player can change",
+        "text": "Rule 3 pairs changes in LS and PL around an unchanged DP. Its examples include moving equal amounts in opposite directions and multiplying one quantity while dividing the other by the same factor. The first preserves a sum, the second a product. The two operations create different characters from the same starting numbers. The text supplies examples of both and does not give a general rule for choosing between them.",
+        "refs": [
+          "3",
+          "6",
+          "183"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "What counts as an outcome",
+        "text": "A computed speed, a change in a rating and a successful roll are different kinds of result. Only some passages tell us which fictional event follows. Treat each question locally. A definition of running speed answers a question about pace. To settle an interrupted journey would also require rules for the interruption.",
+        "refs": [
+          "35",
+          "39",
+          "45",
+          "188"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "character-creation",
+    "title": "Creating a character",
+    "sections": [
+      {
+        "title": "Choose the campaign's scale",
+        "text": "Rule 11 gives the GM a concrete responsibility. Players begin with DP, and the campaign and GM determine its scale. Rule 182 relates an ordinary character to 25 C3 DP and a heroic one to 100 C3 DP in a comparison with GURPS. Rule 49 offers a different ordinary benchmark of 16 C2 DP. That converts to roughly 28.18 C3 DP. Both work as starting examples. Treating them as the same mandatory starting total would introduce a discrepancy of our own.",
+        "refs": [
+          "11",
+          "45",
+          "49",
+          "182"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Roll a starting magnitude in the optional d20 version",
+        "text": "Rule 107 proposes another entry point. Roll one twenty-sided die and read its face as C1 DP. The source also allows pools. In its 3d6 example the faces 6, 6 and 6 give 18 C1 DP, about 37.65 C2 DP. The proposed d20 version therefore contains an explicit random generation procedure even though much of the game is diceless. It supplies a baseline. The rule does not make every character a product of that procedure.",
+        "refs": [
+          "45",
+          "107"
+        ],
+        "layer": "A"
+      },
+      {
+        "title": "Give the numbers a place on the sheet",
+        "text": "Rule 47 asks for the humanoid's name and age, then a COM allocation and the points remaining for powers at a named scale. In Rule 6, a character whose COM consumes the whole example power rating has nothing left for mutant powers. Rule 79 separately gives an ideal ratio of 4 to 8 to 12 for mental attributes, powers and physical attributes. It does not specify a sequence that allocates the Rule 47 budget into all three.",
+        "refs": [
+          "6",
+          "47",
+          "79"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Build one kind of superhuman",
+        "text": "Rule 123 supplies an actual sequence of choices. Begin at 9 C2 DP. Choose agility as the first advantage and double the rating to 18. Choose increased height as the second and multiply by one and a half to reach 27. Choose camouflage as the third and multiply by four thirds to finish at 36. These three choices are an editorial selection from the author's lists. Each is available at the selected step. Rule 49 then yields an average Mind, Body and Soul rating of 6.",
+        "refs": [
+          "49",
+          "123"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Where the template stops",
+        "text": "Rule 123 gives sufficient steps for that particular build. Rule 141 uses a different way to size an initial advantage from COM and demonstrates increasing a named character's ratings. Rule 47 describes a write-up in terms of points left after an allocation. Applying all three as compulsory steps of a single build could charge for the same ability twice. The edition does not establish that sequence.",
+        "refs": [
+          "47",
+          "123",
+          "138",
+          "141"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "attributes-powers",
+    "title": "Attributes, powers and effects",
+    "sections": [
+      {
+        "title": "A derived score",
+        "text": "Average Mind, Body and Soul, abbreviated AMBS, is the square root of C2 DP in Rule 49. At 36 C2 DP the result is 6. The rule gives an average. Inferring three separately determined attributes, each equal to 6 for every character at this rating, would throw away the distinction between a mean and its components.",
+        "refs": [
+          "49",
+          "123"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "A power with a numerical effect",
+        "text": "Rule 18 compares the creator's and the copy's C3 DP. Divide the first rating by the second and subtract one to obtain the number of additional copies. At a creator rating of 90 and a copy rating of 30, the result is two. These are trial inputs. Rule 128 presents other cloning expressions and calls attention to their differing results. Specify the rule and the ratings whenever using a copy count.",
+        "refs": [
+          "18",
+          "128"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Possessing a power and using it",
+        "text": "Rule 123 can establish that the character has camouflage. Rule 53 can compute a percentage for phasing or cloaking from a total and a base. The shared idea of concealment makes it tempting to treat the new character's entire DP as that total. Neither passage supplies that instruction for camouflage. A numerical rating of concealment and the result of an observer's attempt to detect the character therefore remain separate questions.",
+        "refs": [
+          "53",
+          "68",
+          "123"
+        ],
+        "layer": "C"
+      },
+      {
+        "title": "Temporary effects can alter later play",
+        "text": "Rule 45 distinguishes a creator at DP from the created effect at PL. Its permanence example reassigns the creator's number to a different scale and allows restoration once the effect expires naturally. This gives the character a state that can change. The example leaves the timing of expiry open.",
+        "refs": [
+          "45",
+          "128"
+        ],
+        "layer": "A"
+      }
+    ]
+  },
+  {
+    "id": "resolution",
+    "title": "Actions, thresholds and contests",
+    "sections": [
+      {
+        "title": "A question the rules can answer",
+        "text": "A runner needs to match a float travelling at 10 mph. Read Rule 39 in its stated direction. Take the base-ten logarithm of the speed, add one and multiply by ten. The required rating is 20 C2, in DP or PL. A runner already rated at 20 C2 meets this particular requirement. A finish time, fatigue and interference from someone else would each require further information.",
+        "refs": [
+          "39"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "A die roll with a target",
+        "text": "Rule 17 optionally derives a die count from a rating. An example at 18 gives three six-sided dice. Rule 35 calls for 66 percent or more on a combat or skill attempt. The introductory disclaimer also describes two thirds. Reading this as a fraction of the maximum total gives 12 or more on 3d6. With fair dice this occurs in 81 of 216 ordered outcomes, or 37.5 percent. The example demonstrates why a success threshold should never be reported as the probability of success. Using the maximum as denominator is an inference.",
+        "refs": [
+          "17",
+          "35"
+        ],
+        "layer": "C"
+      },
+      {
+        "title": "A second way to roll",
+        "text": "Rule 188 distinguishes a creation-only comparison from a target that can be rolled during play. In the latter example the author assigns a target of 11 or less to a character trying to attain a particular state. Later in the same rule a converted target is rounded. This is evidence for an inclusive roll-under test in its stated setting. Extending it to every skill or choosing the dice for every such test requires another decision.",
+        "refs": [
+          "17",
+          "35",
+          "188"
+        ],
+        "layer": "A"
+      },
+      {
+        "title": "What happens when two characters compete?",
+        "text": "Rule 34 gives a ratio for two rated souls in a particular fictional model. Rule 35 tests success for an individual. Neither passage explains how to resolve two simultaneous successes in an ordinary contest. Even if both participants have a speed, Rule 64 assigns a mutant a speed directly from C3 DP, while Rule 39 prices running from C2. The choice of speed rule can change the outcome of a race.",
+        "refs": [
+          "34",
+          "35",
+          "39",
+          "64"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "combat",
+    "title": "Combat, damage and recovery",
+    "sections": [
+      {
+        "title": "Find the separate quantities",
+        "text": "Rule 2 produces a combat success figure called Martial Arts Grade. Rule 17 proposes a die pool, Rule 35 a roll-high criterion, and Rule 188 a roll-under criterion for particular states. The introductory Example 4 prefers Rule 188 for combat and acknowledges disagreement with Rule 17. The preference tells us where the author wanted readers to look. It still leaves the connection between an attacker's test and an opponent's defense unspecified.",
+        "refs": [
+          "2",
+          "17",
+          "35",
+          "188",
+          "189"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Rate a fictional effect",
+        "text": "Rule 146 maps a mutant's C2 DP into a count of six-sided damage dice. Its own 20 C2 DP example yields four dice. Rule 73 gives another expression, uses C3 power level and labels the result a one-time maximum. Rule 139 uses a brick character as the basis for relating damage, DEF and BOD. These three passages describe different inputs and circumstances. A difference between two outputs is not by itself an error.",
+        "refs": [
+          "73",
+          "139",
+          "146"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Follow the target beyond the roll",
+        "text": "Suppose the four damage dice show a total of 14. The example establishes a numerical result. Rule 189 offers several definitions of a defensive value borrowed from HERO. Rule 161 compares other games' life points with HYBRID's scales. Neither gives a general instruction to subtract those 14 points from a character's DP. Healing is named as a power in Rules 123 and 141. We found no general recovery interval or injury track to carry that target into the following turn.",
+        "refs": [
+          "123",
+          "139",
+          "141",
+          "146",
+          "161",
+          "189"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "physical-scaling",
+    "title": "Scaling from people to planets",
+    "sections": [
+      {
+        "title": "Look for the unit at the end",
+        "text": "Rule 39 explicitly measures running speed in mph. Rule 75 assigns a fictional galaxy a diameter in light-years from C1 DP. Rule 160 infers C2 DP from a diameter measured in metres. Each application needs its own physical unit and interpretation. Entering kilometres in an expression calibrated on metres changes the number inside the logarithm. Conversion of the physical unit and conversion along the C-scale are different operations.",
+        "refs": [
+          "39",
+          "45",
+          "75",
+          "160"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "The same algebra can serve different stories",
+        "text": "Roots, logarithms, ratios and changes of scale recur. A ratio of two ratings can count copies in Rule 18. A square root gives AMBS in Rule 49. Rule 37 uses a proportional comparison with a standard height. These procedures can be evaluated independently. The author's program of connecting them through Psyche does not supply a mathematical derivation of every formula from the neighbouring-scale map.",
+        "refs": [
+          "18",
+          "37",
+          "45",
+          "49"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "How to read a claim about nature",
+        "text": "Rule 136 grants extraordinary characters a threshold beyond which the author's version of physical law changes. This can define a property of an imagined world. Rule 4 assigns numerical modifiers to human groups and connects them to appearance. Neither a fictional exception nor a calculation with invented group coefficients establishes a scientific relationship. The catalogue records where such assumptions enter a mechanic.",
+        "refs": [
+          "4",
+          "136",
+          "199"
+        ],
+        "layer": ""
+      }
+    ]
+  },
+  {
+    "id": "progression",
+    "title": "What persists into another session?",
+    "sections": [
+      {
+        "title": "An effect can end",
+        "text": "The clearest example of persistence concerns an effect. Rule 45 allows the creator to regain an earlier status when a creation wears off. Rule 128 distinguishes certain temporary copies from lasting ones. A GM could record the current ratings and whether the effect is still present. Neither passage supplies an expiry time that every table would independently recover.",
+        "refs": [
+          "45",
+          "128"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Reincarnation has a waiting time",
+        "text": "Rule 87 does give one time interval following a declared death. For the class of beings specified there, squaring the C3 rating gives years until a new body. The author qualifies its application to other beings and dimensions. It supplies neither the condition that declares an ordinary character dead nor an instruction for what survives on the new sheet.",
+        "refs": [
+          "87"
+        ],
+        "layer": "A"
+      },
+      {
+        "title": "Advancement means something more specific",
+        "text": "Adding the second and third advantages in Rule 123 is a character-building sequence. Rule 125 discusses experience-like letter grades in a comparison with Marvel SAGA. Rule 0 ties a version number to years. None of these passages awards a character points for events at the table. We could carry the values on the sheet forward, but could not calculate an earned increase after a session from this edition.",
+        "refs": [
+          "0",
+          "45",
+          "123",
+          "125"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "examples",
+    "title": "Three worked examples",
+    "sections": [
+      {
+        "title": "Translate a courier's rating",
+        "text": "Give a courier 16 C2 DP, the ordinary example in Rule 49. The square root gives AMBS 4. The scale map gives about 28.18 C3 DP. Nothing has happened to the courier. The two calculations answer different questions about one baseline.",
+        "refs": [
+          "45",
+          "49"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Spend longevity on power",
+        "text": "Rule 183 starts with a 40 C2 DP character, then halves the life-span rating to 20 C2 LS and doubles power to 80 C2 PL for a named effect. DP stays 40. Write the new labels beside the new numbers. Twenty here is a rating. Rule 6 provides a separate procedure for relating a life-span rating to a duration.",
+        "refs": [
+          "3",
+          "6",
+          "183"
+        ],
+        "layer": "A"
+      },
+      {
+        "title": "One die result, two verdicts",
+        "text": "Rule 188 takes a state rated at 35 C3 DP, converts it to 17.7 C2 DP, subtracts 10 and rounds to an 8-or-less target. Using the increasing inverse of Rule 45 gives about 17.4826. Subtracting 10 and rounding to the nearest integer then gives 7 or less. A die total of 8 succeeds in the printed example and fails on the recalculated path. The source result and the editorial check are preserved side by side.",
+        "refs": [
+          "45",
+          "188"
+        ],
+        "layer": "B"
+      }
+    ]
+  },
+  {
+    "id": "running",
+    "title": "Running a scene at the table",
+    "sections": [
+      {
+        "title": "Begin with a bounded question",
+        "text": "Give the GM and players the starting rating and its scale, the rule to use and the outcome being asked for. The GM's selection of a campaign scale is explicit in Rule 11. For an ordinary running benchmark the remaining inputs can be as small as the speed in mph and the runner's C2 DP. The printed calculation returns a requirement the player can compare with the character's rating.",
+        "refs": [
+          "11",
+          "39"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Stop where the fiction needs another decision",
+        "text": "A group can perform a short exchange. The player asks whether the runner can keep pace at 10 mph, the GM chooses Rule 39, and the two compare the 20 C2 requirement with the sheet. Introducing a mutant opponent brings Rule 64 into play. Adding a chase through a crowd introduces interruptions and opposition. A GM can adjudicate, but a ruling about those events cannot be recovered from the speed calculation.",
+        "refs": [
+          "35",
+          "39",
+          "64"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Record an editorial choice when one enters play",
+        "text": "For a table experiment, record the declared action, chosen rule, input values, intermediate results, and any ruling that changed the fiction. A ruling might settle which movement model applies in a race. This recording practice belongs to the reconstruction. It lets another group repeat a trial and identify the first point where independent procedures diverged.",
+        "refs": [
+          "39",
+          "64"
+        ],
+        "layer": "D"
+      }
+    ]
+  },
+  {
+    "id": "open-questions",
+    "title": "Where reconstruction runs out",
+    "sections": [
+      {
+        "title": "Two routes to a movement rating",
+        "text": "At 20 C2 DP, Rule 39 implies a running speed of 10 mph. Translating that rating by Rule 45 gives 49.28095 C3 DP. Rule 64 would read the latter number directly as mph for a mutant or metahuman. The text does not say whether the second route overrides the first for mutants running on foot. An unopposed ordinary runner and a mutant entering a race therefore pose different editorial problems.",
+        "refs": [
+          "39",
+          "45",
+          "64"
+        ],
+        "layer": "C"
+      },
+      {
+        "title": "Two meanings of a scale change",
+        "text": "Rule 45 translates a rating while retaining its meaning. Rule 23 proposes turning a human into a super-mutant by keeping the written number and relabelling C3 DP as C1 DP. The second operation changes the character's magnitude. Treating both operations as a conversion that preserves strength would erase the power increase the second example is meant to achieve.",
+        "refs": [
+          "23",
+          "45",
+          "141"
+        ],
+        "layer": "B"
+      },
+      {
+        "title": "Which gaps matter in play?",
+        "text": "The difference between roll-high and roll-under is visible and sometimes resolvable from the local example. A harder gap is the handoff from an individual success to an opponent's changed state, followed by the next turn. No cited calculation supplies that whole sequence. The seven playability trials track the last determinate step in each case so that a successful calculation receives credit even when the scene remains unfinished.",
+        "refs": [
+          "2",
+          "35",
+          "73",
+          "146",
+          "188",
+          "189"
+        ],
+        "layer": "B"
+      }
+    ]
+  }
+]

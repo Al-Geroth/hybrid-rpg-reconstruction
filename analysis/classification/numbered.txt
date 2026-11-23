@@ -1,0 +1,247 @@
+# Locator | primary then secondary category codes | executability/confidence | editorial title | paraphrase
+0|admin math|NH|Dating the web edition|The author derives a version and a completion percentage from the calendar year. The percentage measures a naming convention.
+1|world phil|NH|Order, chaos and two families of equations|Binary and fuzzy logic stand for rival cosmological principles. The author associates each with a different way of comparing beings.
+2|combat math|PM|Martial arts grade|A C2 baseline produces a proposed success fraction. Its interaction with the general combat roll is unspecified.
+2@93|character pop|PM|Mutant and super-mutant thresholds|The same numerical threshold at two different magnitudes distinguishes character classes. Comic characters illustrate the distinction.
+3|core character math|EH|Trading power for life-span|Choose an operation on life-span and apply its inverse operation to power level while holding default psyche fixed. The text illustrates several choices and names magnitude conversion as the other essential operation.
+4|character math|AM|Height and choice of baseline|Alternative formulas relate height to C3 and a modifier. The starting rating can change between an ordinary and a powered character.
+4@674|prejudice pseudo character|AL|Appearance modifiers assigned by ancestry|The author assigns appearance values to real populations and applies different height calculations. The assignments have no evidentiary basis.
+5|derived math combat|AM|C0 depends on the class of being|The mapping between C1, C2 and a displayed C0 strength or damage varies between people, superhumans and divine beings.
+5@931|character math pop|AM|Four further psyche conventions|Different fictional character types receive incompatible mappings to a C0 psyche. Comic-book comparisons illustrate the freedom to change conventions.
+6|derived math character|PM|Converting a life-span rating to years|A multiplier of C3 varies with the C2 life-span band. The general expression and the piecewise condition need to be read together. A cosmic character illustrates trading longevity against power.
+7|physical math world|AM|Artificial and natural fields|Several empirical-sounding field-size and energy analogies are attached to C ratings. The author designates these as a foundation and offers alternative exponents for different phenomena.
+8|derived math character|PM|Intelligence, technology and default power|C1 links technology level and IQ. The rule distinguishes baseline capabilities from the rating assigned to a specific effect.
+9|physical math|AM|A speed expressed as a fraction of light speed|A squared C2 rating is interpreted as a percentage. Craft size and mass complicate its use.
+10|powers physical math|PM|Ship size and warp number|The proposed warp rating depends on both the craft's C2 and its length. Further conditions attach to mass and minimum cost.
+11|derived math prejudice|AM|Earnings as a character rating|The author adapts the form of a height calculation to estimate earnings, adding unsupported assumptions about social groups and resources.
+12|powers physical math|PM|Rating a freezing effect|C2 represents a logarithm of the absolute numerical value of a negative temperature within sight. The temperature convention and uniformity matter.
+13|powers physical math|PM|Rating a heating effect|The heat rule distinguishes a uniform temperature across the visible region from a separate core temperature.
+14|physical math character|PM|Animal size and environments|C3, the count of environments and a further factor feed an animal-size estimate. Examples depend on how habitats are counted.
+15|character combat math|EH|Height of a mutant from a damage parameter|At specified C2 and C3 the rule derives a dice count and a height in feet. It is a character calculation with a restricted square-root domain.
+16|powers physical math|PM|Cost of flight by dimensions|The rating for flight uses mass and velocity, with different multipliers or dimensions for different flight conditions.
+17|action combat math|PM|Optional dice pool by magnitude|A rating divided by six supplies the number of six-sided dice. The examples choose particular magnitudes. Other passages give different combat directions.
+18|powers math|EH|Clones from a C3 ratio|The creator's default rating and a proposed clone rating determine the number of clones in the stated example. Fractional results need a convention before they can count people.
+19|powers math|AM|Shrinking by clone ratios or power|Shrinking is likened to splitting a being between copies. Another expression uses power level and yields a different route.
+20|character powers math|PM|Building a giant monster from size|The text combines the animal-size rule with a monster-specific divisor. Habitat and the choice of scale affect the result.
+21|derived physical math|PM|Muscle strength and material strength|Living strength, technological requirements and the resistance of materials are distinguished even when they share a displayed number.
+22|powers world math|PM|Moving a rating for time travel|The author raises both the numeral and the magnitude of a time-tunnelling object. The procedure does not specify a destination or resolve a journey.
+23|powers math|PM|Teleportation distance by dimensions|A power of ten converts a character rating into range. The dimensional exponent depends on how the teleportation is described.
+24|world physical math|AM|Galaxies as characters|A model galaxy receives a psyche, diameter and star count. The passage offers qualifications to the numerical analogy.
+25|physical math|AM|Diameter to celestial psyche|A logarithm of diameter produces an interstellar object's C2. Miles and kilometres are both permitted for the input.
+26|world physical math|AM|Counting galaxies by rating|An exponential count changes interpretation with the choice of default psyche or power. The examples anchor the calculation to an assumed galaxy.
+27|powers world math|PM|Ghost readings|A ghost's C2 rating maps to a PK reading and a C0 designation. Establishing which rating applies remains a fictional premise.
+28|design|NH|Allowance for discrepancies|The author anticipates conflicting answers and compares them to competing theories. The passage supplies no precedence rule.
+29|world powers|NH|Tachyons as a fictional substance|A speculative medium connects magic and science and is associated with several effects without a procedure for producing one.
+30|powers math physical|AM|Two warp-speed exponentials|Two placements of a subtraction in a power of two yield different faster-than-light multipliers for the same warp number.
+31|powers math|PM|Immortality rating|The author offers a magnitude conversion for longevity and associates it with an interpretation of Marvel material.
+32|character math prejudice|EM|Appearance as a logarithm of power|Within the stated convention the logarithm of C3 PL yields COM. The passage applies it asymmetrically to characters.
+33|character math prejudice|AM|Different COM functions for different characters|Multiple conversions depend on sex and on whether the character is a clone or mutant. The underlying categories are editorially reported as the author's assignments.
+34|derived world math|PM|Difference between two psyche ratings|A difference between two C2 baselines is transformed into a ratio of fictional souls. Other magnitudes are said to change its interpretation.
+34@529|prejudice pseudo example|PM|National groups and fictional characters as examples|The author assigns unequal values to populations and then to individual fictional characters. The social comparisons have no evidentiary support.
+35|action combat|PM|Success threshold for combat and skills|A roll must reach 66 percent. Identical numerals at C1 and C2 are illustrated with different kinds of character.
+36|derived math world|AM|Two estimates of collective effort|Soul and clone comparisons bound a suggested workforce. The size and skill distribution of a task group are assumed.
+37|powers math|PM|Changing one proportion in a height calculation|The passage introduces old and desired ratios and rearranges a height relation. A target statistic must be selected.
+38|powers math character|PM|Shape-changing by a new baseline|A change in shape is represented through ratings for a mutant body and a percentage term.
+39|powers physical math|EH|Running speed to required rating|For a given speed in miles per hour, a base-ten logarithm gives a C2 requirement. The example makes the local computation reproducible.
+40|powers math|AM|Strength ratings for different power classes|The passage connects C0 and C2 with powers and converts strength to pounds. The applicable expression varies with the class of power.
+41|powers world math|PM|Percentage for motion through time|The square of a rating relative to ten gives a percentage at the chosen magnitude. It is applied to both living and nonliving targets.
+42|physical math|PM|Technology from date of manufacture|Calendar years in a restricted twentieth-century interval map to C2 technology power. The text distinguishes a technological baseline from power.
+43|character physical math|EM|Superhuman body density|A C2 baseline gives a density factor. An ogre illustrates using it alongside a height convention.
+44|physical math|EH|Mass from height and a density exponent|Given a character height in feet and the preceding density factor, a power calculation produces a number labelled kilograms.
+45|core math|EH|Converting between successive scales|The self-power transform maps CA to C1, C1 to C2 and C2 to C3. The text distinguishes the interpretation of a default rating from the interpretation of a power rating.
+46|core math|EH|Multiplying before or after conversion|The source's two placements of a multiplier have different numerical consequences. The example demonstrates the order dependence of a nonlinear conversion.
+47|character|PH|A notation for humanoid profiles|The template records name and age alongside an appearance component and the remaining rating at a chosen magnitude. It presumes values already assigned.
+48|physical math powers|PM|An ideal mass for a technological object|A force-field analogy gives mass from an assigned C3 and an exponent. The latter requires further choices about technology and modifiers.
+49|character math|EH|Average Mind, Body and Soul|The square root of C2 default psyche gives the composite AMBS. The worked value is an average rather than three independently generated attributes.
+50|derived world math|AL|A rating for pursuit|A square-root relation models the author's notion of a hunted character and invokes the AMBS rule. Its connection to a resolved pursuit is unclear.
+51|powers math|EM|Degree of cinematic vampirism|A C2 baseline is used in a fractional expression for vampirism, with a numerical illustration. The cited shape-changing cross-reference needs care.
+52|world phil|NH|Time travel and future crimes|The author speculates on legal and historical consequences of time travel without an adjudication procedure.
+53|powers math|PH|Phasing and cloaking as percentages|Divide the character's total by a base normally set at ten C2. The resulting triangular number is read as a phasing or cloaking percentage. The text gives no check against an obstacle rating.
+54|world physical pseudo|XL|Power stunts as resonance|The author invokes waves, resonance and Doppler effects to explain fictional powers. No reliable method for choosing or resolving an effect emerges.
+55|derived math|PM|Encoding numerical ratings in letters|Alphabet positions and one of three multipliers produce letter-based power labels. A reader must identify the convention in use.
+56|physical math|PM|Applying fields to stars and small objects|The rule proposes a changed exponent for using field calculations on natural objects at very different sizes.
+57|world personal|NH|Three proposed personality types|The author divides people into overlapping personality classes without assigning an effect in play.
+58|character world math|EM|A letter name as a power rating|The position of a letter becomes a numerical default psyche. Q provides a worked fictional example.
+59|character math prejudice|PM|Appearance and height through a ratio|The passage rescales an assumed reference person's appearance and height. Its group-specific aesthetic premises have no objective basis.
+60|character math|EM|Height and psyche as inverse expressions|The author supplies paired logarithmic and exponential relations for a male character and illustrates the calculated height.
+61|prejudice character math|PM|Appearance treated as a partner budget|The author converts a man's rating into a supposed limit on a woman's appearance. It is a quantified stereotype.
+62|powers math|EH|Telepathy relative to telekinesis|Beginning with a stated telekinetic cost, the rule raises both its numeral and its magnitude to cost a telepathic effect.
+63|physical math powers|EH|Sublight speed and technology level|Given a sublight speed in miles per hour, a logarithm produces a C2 technology rating. Faster-than-light travel is referred elsewhere.
+64|powers math character|EH|Matching speed to C3|For the specified superhuman case, the C3 number is read directly as miles per hour. The same number is also called character points.
+65|physical math|PM|Astronomical range and a discretionary modifier|An exponential estimate of observation distance depends on a person-specific modifier within a stated range.
+66|powers example math|PM|A strength conversion worked at a high rating|An imposed C0 value is taken through C2 into lifting strength. The illustration presupposes the character type used in rule 40.
+67|powers world math|PM|Dimensional reach of a cosmic mutant|A logarithm of default psyche is related to the dimensions affected at a universal scale. Time streams introduce a further convention.
+68|powers|PM|Where to find invisibility|The entry routes readers to the mass and phasing rules for an invisibility percentage. It does not explain how to combine them.
+69|world math pseudo|PM|A population sequence for elite characters|A pattern of exponents assigns headcounts to increasingly high character ratings. Its population model is asserted.
+70|derived math pseudo|EM|SAT scores at the upper end|A student's C3 is converted to C4 and interpreted as a test score. The author limits the claimed correspondence to high scores.
+71|prejudice math|AM|Applying the clone analogy to marriage|The source treats women as units of a man's character capacity and invokes a clone-count relation. Its social premises are unsupported.
+72|powers math|AM|A percentage rating for ghosts|Squaring a rescaled rating gives a degree of ghostliness. A different campaign baseline changes the magnitude used.
+73|combat math|PM|Maximum damage as a dice pool|C3 power yields a suggested count of six-sided dice for a one-time maximum. The text includes a fractional dice count without a rolling convention.
+74|character physical math|EM|A second monster-length convention|A power of ten applied to C1 yields length in feet. The passage compares the giant result with another height estimate.
+75|world math example|PM|Relating a cosmic giant to a galaxy|A linear diameter per C1 is compared to another rule for a cosmic body's height. The equations address differently defined objects.
+76|world example math|AM|Earth and Mars as power profiles|Mars serves as an anchor for an Earth-like planet. Several rules and a calculator limit enter the resulting estimates.
+77|world math|EM|Bureaucracy of a cyborg collective|The square root of an assumed drone population gives a bureaucracy size. The passage projects social organisation onto a fictional collective.
+78|powers math physical|AM|A factorial convention for strength|A factorial involving C1 is proposed for strength and then for cosmic mass or movement. Non-integer factorial inputs and application choice need decisions.
+79|character core|PH|Karma, powers and health in proportion|The author proposes an ideal ratio and associates its aspects with mental and physical attributes and powers. No starting total or expenditure schedule follows.
+80|prejudice personal|NH|A polemic about gender|External polemical writings and authorial opinions are offered in support of assertions about women. They do not establish a usable game rule.
+81|world pseudo math|NH|A factorial as a claim about dimensions|The value of zero factorial is associated with a one-dimensional interpretation of quantum mechanics. No character action follows.
+82|powers math|AM|Competing strength functions|Several exponential and factorial relations convert a strength rating to pounds. The choice depends on assumptions that the source leaves open.
+83|powers character prejudice|AM|Appearance of a female clone|A conversion from C2 to appearance changes interpretation according to the creator's sex. The input switches between default and power ratings.
+84|powers math|AM|Shape-changing via difference and cloning|The author combines two earlier references to obtain a temporary form. The named cloning reference points to an entry on dice.
+85|powers world math|PM|Size changes between micro and macro worlds|A worked size change crosses the fictional world's scale boundary. The example depends on assigning the target a particular technology rating.
+86|prejudice math|PM|An appearance-based romantic probability|The author treats appearance difference and population as inputs to a supposed chance of success. No basis for the social model is given.
+87|world powers math|AM|Death and rebirth in another dimension|The default cost of an existence depends on the dimension. Reincarnation is modelled with a different interpretation of the comparisons between ratings.
+88|pseudo prejudice world|AM|Chromosomes as fictional character costs|The text assigns human characteristics and fictional powers through a chromosome analogy. Its racial and biological claims provide no empirical calibration.
+89|derived math example|PM|Grades from credits and a character rating|An illustrative student links course load, academic grade and assigned C3. Character height and demographic assumptions enter the initial estimate.
+90|powers example physical|AM|A time-travel case built around Pluto|A long round-trip example combines conventional distances with several incompatible fictional routes through time and space.
+91|powers math|PM|Years of time travel from C1|A power of ten turns C1 into years. The passage treats this as a development of two previous time-travel entries.
+92|world physical math|EH|A builder's rating and building height|A worker's C3 baseline gives the number of storeys, with height in feet set to ten times that number.
+93|physical math|EM|Horsepower and environment|Vehicle mass and a medium-specific multiplier give a horsepower rating. The multipliers belong to the author's fictional model.
+94|powers math|AM|Diameter or radius of a temporal portal|The same numerical output can label a radius or diameter and is given in feet or metres. Picking an interpretation changes the physical size.
+95|powers math|AM|Two formulas for interstellar range|The warp alternatives recur as distance formulas. Craft length and a certainty modifier also enter.
+96|derived math|AM|Time to write a book|Soul or clone comparisons are chosen on the basis of how the author judges the depth of the work. No general task-time rule follows.
+97|world physical math|PM|Dimensions of a cybernetic vessel|Fictional Borg vessels and Cybertron motivate a rule for craft size. Its applicability depends on the scale assigned to the vessel.
+98|physical math pseudo|AM|A speculative military application of vehicle ratings|The author combines several fictional technology and size models for a destructive effect. The analogy supplies no validated physical relationship.
+99|physical math|EM|Length from vehicle baseline|An exponential of C2 default psyche gives a vehicle length. The source allows alternative length units and points elsewhere for power ratings.
+100|prejudice math|PM|Counting partners by a man's rating|The author treats relationships as a count or frequency attached to a male character's rating.
+101|physical math|AM|Vessel length from power|A different divisor is used when predicting a large ship's length from power. Both metres and feet are offered.
+102|physical math|PM|Vehicle power and mass through a second horsepower rule|Horsepower is obtained from C2, then compared with the separate mass relation. The vehicle classification remains an input.
+103|character math prejudice example|PM|A seven-step COM and power profile|A group average assigned by the author is square-rooted and multiplied by ten. The result multiplies an individual's COM plus one to give a C2 rating, qualified as PL or DP. The group assignments are unsupported.
+104|character math prejudice|AM|A further conversion for a woman's COM|The text proposes a square-root conversion from appearance to default psyche alongside the earlier appearance formulas.
+105|prejudice math|PM|A second marriage calculation|The cloning analogy is recast with an appearance-dependent divisor. This measures the author's fictional convention.
+106|character math prejudice|EH|COM from a woman's power rating|For this stated case a base-ten logarithm converts C3 PL directly into COM.
+107|external design character|AL|A tentative d20 adaptation|The author considers translating total points and related character values to d20 but explicitly expresses uncertainty about the borrowed system.
+108|physical world math|EM|Mass of a large or dense body|A C2 default rating is turned into a mass in tons. Planets and asteroids illustrate the scale.
+109|powers math|AM|Two more ways to shrink|Alongside the clone method the text offers alternative shrinking functions. The printed heading omits the hash sign used by its neighbours.
+110|physical math pseudo|AM|An alleged relationship for a blast footprint|The author assigns geometric interpretations to a rating with alternative units or meanings for the output. It is a fictional extrapolation.
+111|character math|AM|A monster's longest dimension|A squared C2 sets the numerical length of a monster. Using power in place of the baseline changes how to interpret the estimate.
+112|world powers math|PM|Cosmic hunger over a lifetime|A factorial inside an exponent estimates a lifetime matter requirement. The scale and factorial domain constrain the calculation.
+113|character physical math|PM|An animal shape factor|A divisor linking C3, C2 and size is applied to a dinosaur. The example assumes a relationship between life-span and power.
+114|character powers example|PM|Reconstructing a television cyborg from cost|The purchase-price premise of a television series is converted logarithmically into a C2 rating. Links to special capabilities depend on the fiction.
+115|world physical math|AM|Planetary diameter and speed from a piecewise rating|A modifier switches at C2 equal to 400. The text assigns the resulting number to both a size and a speed and considers competing solar values.
+116|world example powers|AM|Comparing an incomplete and a completed Death Star|Two assumed power profiles support speculative estimates of scale and vulnerability. The assumptions come from interpreting the story.
+117|powers example|PM|A ring with a recharge limitation|Green Lantern illustrates encoding a fixed recharge interval with different ratings for the wearer and the power source.
+118|combat math|AM|Damage class and competing pools|Dividing C2 power by its logarithm gives a damage class. The rule also offers both the square root of C3 power in dice and one die fewer. It leaves the applicable branch open.
+119|world math|EM|Presidential tenure as a rating|Squaring a rescaled C2 baseline gives a term length in years. The rule treats political tenure as a fictional character statistic.
+120|character world|PM|A fictional asexual humanoid|A creature template combines human-like characteristics with different reproductive assumptions. Several ratings have to be assigned.
+121|powers math example|PM|Accessible dimensions and time travel|A dimension count sets C1 psyche. Time in days is assigned a different rating, illustrated by a television character.
+122|external character math|AM|HERO points and IQ|The author identifies a character's HERO point total with IQ, contrasting different interpretations of published characters and editions.
+123|character example pop|PM|Ninja Scroll character ratings|A minimum default psyche and an AMBS interpretation are used to compare fictional characters. Individual rankings depend on a reading of the film.
+124|character math prejudice|AM|Appearance as a share of C3|A pi-based divisor converts male C3 to COM in a restricted case. The author compares this with other physique and appearance assumptions.
+125|external character math|EM|Average psyche in Marvel SAGA|Subtracting ten from a HYBRID CA baseline supplies a proposed equivalent external rating. Comic characters illustrate the crosswalk.
+126|character math|EH|Inverting the male COM convention|For the given subcase multiplying appearance by a constant recovers C3, and division recovers appearance.
+127|world math example|EH|Length of a fictional reign|A ruler's C3 default psyche divided by ten gives a maximum time in years. A vampire king illustrates the conversion.
+128|powers math example|PM|An exponential clone count|Differences between two C1 baselines give a proposed clone count for Lobo. A fractional result requires an interpretation.
+129|powers world example|PM|Simulating time travel through clones|A second cloning formula supplies doubles that can make events appear to span time. The scenario relies on its narrative setup.
+130|powers math example|EM|Warp range at a chosen warp number|A captain's C1 and a specified warp number determine an example distance in light-years. Voyager supplies the initial assumptions.
+131|powers example pop|PM|Monster numbers for a Jurassic Park story|A clone-based calculation sizes a fictional monster population. The relative ratings of the creatures are inputs.
+132|powers math physical|EM|Engine power relative to hull size|A powered velocity expression distinguishes the craft's size from the engine rating. Its worked space-opera use assumes a chosen increment.
+133|powers math world|PM|Travel over many generations|The author modifies the maximum-distance expression for a voyage involving an arbitrarily large number of generations.
+134|powers math|PM|Molecular control and target size|A power user's number maps to a target size or volume at a different magnitude. The target convention needs to be specified.
+135|powers physical math|AM|Distance and years as interchangeable travel scales|The rule hypothesizes a shared numerical budget for years in time and light-years in space, with modifiers and several story-specific uses.
+136|world pseudo powers|PM|A fictional threshold for ordinary physics|A C1 threshold marks a supposed loss of relativistic constraints. The source gives no broadly applicable account of performance beyond it.
+137|world pop example math|EM|Dating the Godzilla storyline|The film's release year minus 1900 gives the monster's C2 baseline. Multiplying this by five and adding 2000 dates the fictional story. The examples make this convention calculable.
+138|core character math|PM|Fractional advantages and disadvantages|Signed fractions adjust character ratings. The text distinguishes directions of adjustment and the treatment of limits on life-span or power.
+139|combat external math|PM|Damage dice, defence and body|A worked superhero profile converts power to a dice pool and from it to average DEF and BOD. The scale and the interpretation of the object matter.
+140|character powers example|AM|Rating a kaiju's body and powers|Monster size and its special effect are rated together. The author offers incompatible bonus values for extra capabilities.
+141|character powers math|PM|A minimum advantage for a superhuman|The source estimates a minimum advantage relative to COM, then assigns additional advantages and trades life-span against power in a worked television character.
+142|physical math example|AM|Height-to-mass conversion and an inconsistent table|The rule cubes height in feet and gives a run of metric examples. The first listed mass does not follow from the listed height.
+143|character world example|AM|Building a kaiju on an astronomical scale|The author adapts a planet, star or galaxy procedure to a monster. The assumed starting analogy matters.
+144|external character math|EM|Nobilis and Marvel psyche crosswalk|One external average-psyche rating is obtained by subtracting ten from CA. Other comparisons involve hypothetical planetary engineering.
+145|physical math|AH|Incompatible technology conversions|Two square-based C2 and technology-level relations assign different outputs to the same input. The source itself acknowledges disagreement.
+146|combat external math|PM|Another damage-pool convention|Divide C2 default psyche by ten and square the result to obtain a die count, compared with Mutants & Masterminds power level. Injury is not specified.
+147|character design|PH|Repeated advantages across changes of scale|The author generally holds advantages and limitations constant across changes of body or size. Characters can take the same adjustment more than once.
+148|external character pop|AM|Re-rating StarCraft's Zerg|The author adjusts a published creature rating and compares it to conventions attributed to d20 and GURPS. Several adjustments are proposed.
+149|external physical|PM|Scale of a vehicle body|A HYBRID vehicle uses a C2 power scale for body or size. A different scale is proposed for Synnibarr.
+150|derived physical|PM|Magnitude assigned to speed|Both a human and a spacecraft may take a C2 power rating for speed. The assignment alone gives no speed in conventional units.
+151|powers math|PM|Magnitude of magic|Magic is placed at CA or C1 power, with an example of conversion.
+151@88|external pop design|AM|Reinterpreting Marvel magic ratings|The author disputes the numbers assigned to comic characters and changes life-span to support a preferred power level. The text continues into the following paragraph.
+152|powers math|EM|Mapping a controller's rating to an affected object|A C2 power rating for molecular control applies to objects at the same numeral on C3. Two superheroes illustrate the effect.
+153|powers pop example|PM|Material vulnerability and weakening|Klaw and Vibranium illustrate a weakness defined by the relative power of a character and a substance.
+154|prejudice character example|AM|Estimating literary characters from bodies and ages|The passage assigns ratings to characters in Tom Sawyer using physical and racial assumptions, then extends the comparisons to other examples.
+155|powers physical math|AM|Flight velocity with a COM deduction|A cube-root exponent uses the difference between C2 power and COM. A spacecraft's size can stand in for COM. Both miles and kilometres are offered.
+156|physical math|EM|A spaceship's body near light speed|An offset subtracted from C2 power is treated as body. Another adjustment gives a proposed threshold.
+157|external physical math|PM|Reading a light-speed threshold from Marvel|A rating taken from a Marvel flight example is reconciled with the previous body convention by subtraction.
+158|powers physical math|AM|Reusing the flight function on higher scales|The flight expression is restated and extended to other scales and fictional vehicles. Numerical velocity still has competing unit choices.
+159|design physical math|PM|An uncertainty allowance for faster-than-light craft|A difference between two benchmark values becomes an allowance in the proposed rating for a kilometre-long craft.
+160|physical math|EH|Celestial diameter in metres to C2|A logarithm of diameter is squared and scaled to give an object's baseline. The source supplies a solar example.
+161|external math|EM|Synnibarr Life Points as a fourth magnitude|The author advances C3 through another scale conversion and reads C4 as Life Points in comparisons with Synnibarr.
+162|physical math|EM|Technological length as C3 power|A C3 rating is read as a length in feet. Larger craft examples convert the result into conventional distances.
+163|design personal|NH|History of the game's premises|The author recounts early development and explains how comparisons with other games entered the project.
+164|derived math|AM|Two routes from psyche to grades|One procedure divides C2 by ten, another divides C3 power by credits. A subjective character classification governs which applies.
+165|physical design math|AM|A meteorite and the limit of the damage analogy|The author estimates a celestial body's size and contrasts two readings of what happens to power when life-span falls to zero.
+166|character powers pop|PM|Constructing a Transformer|A robot is first treated as a mutant. Size, damage, flight, intelligence, growth and gender are considered, with subsequent modifications to its ratings.
+167|character world math|PM|Maximum genius by calendar year|The author assigns a changing ceiling to an engineer or scientist's default psyche and distinguishes it from technological power.
+168|character pop example|PM|Mad Thinker and Mr. Fantastic|A prior historical genius rating is applied to two Marvel characters with similar numerals appearing at different magnitudes.
+169|world pseudo pop|AM|A genetic analogy for a living machine|Several vessel, character and speculative genetics rules are combined to reinterpret a space station as a sentient planet.
+170|powers math|PM|Astral time travel|An astral projection and a technological mind link provide a fictional premise for calculating a temporal range.
+171|powers example pop|PM|Applying astral travel to Yamato|The second time-travel relation is adapted to the closing episodes of a space opera, with assumed universal proportions.
+172|powers math|PM|Apparent power and accessible dimensions|A modifier based on apparent C2 accompanies actual CA in an estimate of dimensional access.
+173|powers physical math|AM|Size of a temporal traveller|A C1 exponential assigns a size to a two-dimensional object moving through time, then leads to further character applications.
+174|powers example pop|PM|A fictional group teleportation device|A G.I. Joe plot provides the starting assumptions for a comparison of how many people a device can transport.
+175|character world pop|PM|Comparing Q-like beings and captains|The author assigns equal baselines to characters across fictional universes, then qualifies what their powers imply.
+176|powers character pop|PM|Giving the Dot a power rating|An ability is assigned a rating by analogy with Spider-Man. The analogy supplies the initial number.
+177|design personal|NH|Preferred equations|The author identifies a series of favourite rules and explains an interest in the velocity model.
+178|powers math|EM|Velocity from two power scales|A logarithm on each of two magnitudes enters the exponent for speed. The author compares the result with earlier fictional examples.
+179|powers physical|PM|Removing COM from flight velocity|The author proposes combining two earlier equations to eliminate an appearance or size term. The new expression is left implicit.
+180|physical math pseudo|AM|An alternative fictional destructive-effect scale|The text proposes another temperature analogy while alternating between default psyche and power as the governing input.
+181|character powers pop|AM|Sentinel models and free will|A collection of Sentinel robot profiles distinguishes power from default psyche and varies body size, mobility and agency across models.
+182|external character example|PM|Ordinary and heroic point benchmarks|Values quoted from GURPS are assigned a C3 baseline in HYBRID. The text goes on to treat wealth differently at low and high ratings.
+183|external design character|AM|Minimum cost across incompatible games|Examples from HERO are mapped to point assignments in HYBRID. The author treats similarity as evidence for a shared structure.
+184|derived math personal|AM|Power, wages and working time|A rating is converted into supposed earnings. The unit shifts between a day and an hour depending on behavioural assumptions.
+185|world pop example|NH|Chronology for Star Trek|An analogy with the dating of Arthurian stories is applied to a fictional technological future.
+186|powers physical math|AM|Distance for a starship|A squared scaled C1 becomes the exponent for distance. The author gives miles or kilometres and extends the model to fictional empires.
+187|character prejudice pseudo|AM|Appearance, gender and sexual orientation|The source ties height and COM to discriminatory and unsupported numerical claims about sexuality. The proposed modifier has no scientific standing.
+188|action combat external|AM|Combat modifiers and two external tables|The author translates HERO and d20 Modern modifiers to a HYBRID baseline. Sign, baseline and choice of dice procedure complicate use.
+189|combat external math|AM|Three alternatives for defensive combat value|Competing velocity-based DCV calculations are associated with an external HERO table.
+190|powers physical pop|PM|A shared scale for kaiju and robots|The author applies a revised model to cinematic monsters and Transformers, using an interpretation of their size and powers.
+191|world pseudo powers|AM|Negative energy and time travel|Two earlier rule families are combined to propose a fictional route through time. Analogies to real science supply no empirical support.
+192|powers math|AM|Minimum cost of passing the light-speed barrier|Warp and light-speed thresholds depend on a chosen value and magnitude for a fictional barrier.
+193|prejudice personal|NH|A judgement about consensual sexuality|The passage states a personal moral judgement. It provides no character statistic or resolution procedure.
+194|character physical math|PM|Strength from body measurements|The scale transform is applied to dimensions of the body in a proposed strength model for a particular human character class.
+195|admin personal|NH|Age notice before rule 196|The author flags the next entry as adult material and describes it as important to the project.
+196|character pseudo prejudice|AM|An adult physiological model|The passage applies a squared character rating to a sexual characteristic and compares it with a fictional life-form calculation. Its claims about people are unsupported.
+197|character math|AM|A revised male COM function|The author offers a new expression for appearance and illustrates a value different from an earlier estimate.
+198|world pseudo|PM|Political comparisons through technology ratings|Countries' weapons programmes are assigned comparative C2 ratings without a documented calibration.
+199|character prejudice math|PM|Height through a race-specific divisor|The passage assigns a racial divisor to turn a woman's appearance statistic into height. The demographic premise is unsupported.
+200|math unresolved|AL|An unusual use of infinity and alphabetic magnitude|The expression identifies an infinite exponent with a finite power of ten and also treats infinity as variable. Its numerical convention is unresolved.
+201|powers pop math|PM|Dark Phoenix and a mass exponent|A power of ten in a mass estimate supplies a local exponent for assigning psyche. The same symbol elsewhere counts environments.
+202|derived math|AM|Salary probabilities and further earnings formulas|Several expressions for obtaining a salary depend on a range of psyche and a salary logarithm. Their equivalence and grouping are unclear.
+203|derived math world|PM|Credits and years of college|A character's C3 and average credit value are used to estimate a duration of study.
+203@259|world pseudo|XL|An extrapolation to geopolitical history|The author applies an educational analogy and political assumptions to a technology forecast. The text gives no independently established transition from one subject to the other.
+11@1252|character core|PH|The GM selects a starting magnitude|Players begin with DP. The GM determines C3, C2, C1 or CA to suit the campaign. The author gives variable rather than fixed human benchmarks.
+11@1690|derived external prejudice|AM|Wealth advantage, luck and yearly income|The text moves from a GURPS comparison to an earnings formula, changing the governing stat with the economic or fictional setting and introducing unsupported social modifiers.
+23@662|character powers|EH|Reclassifying a human as a super-mutant|For this adaptation the numeral stays fixed while a human C3 baseline is relabelled C1. This changes magnitude rather than expressing an equivalent quantity.
+26@1322|world phil|NH|A cosmological analogy|The author imagines repeated universes inside a larger structure and discusses how the observed cosmos might fit.
+26@1874|powers example|PM|Range and longevity of cosmic entities|The galaxy-count relation is reapplied to comic characters and to an astronomical life-span.
+45@395|powers character|PH|Making an effect permanent|Reclassify the creator's C2 DP as C3 DP at the same numeral. Restoration of the former status is permitted when the effect wears off naturally, with no general timing rule.
+55@666|example math|EH|Evaluating the letter codes|The worked values distinguish alphabet position from the chosen multiplier, giving X, Y and Z different characteristic ratings.
+69@535|character example pop|PM|Cyborg hierarchy and its opponent|Population comparisons become individual ratings for a queen, drones and an opponent, and a soul comparison is applied.
+85@764|world example powers|PM|Remaking Yamato for interstellar travel|The existing ship's model provides a starting point for transformations of its range and life-span.
+87@384|world powers math|EH|Wait before reincarnation|For the stated ordinary case the wait in years is the square of the C3 rating. The author expressly leaves other cases more complicated.
+87@744|pop world example|AM|Buck Rogers and passage between eras|Different assumptions about human development and editions of the story suggest different magnitude relabellings.
+88@2185|pop world pseudo|AM|Suspended animation as a variant of rebirth|The author interprets a science-fiction plot through a reincarnation analogy and speculates about whether a suspended character evolves.
+90@4923|external math|AM|Active Points and travel costs|HERO terminology is mapped to different magnitudes. Equal numerals at different magnitudes are distinguished in the example.
+90@6340|powers example|PM|Returning to a temporal journey|The author resumes the travel example before referring to a different way of rescaling a giant.
+96@237|derived math example|EH|Writing time from a reference author|Multiply elapsed reference time by reference C3 divided by the new author's C3. The example scales five years to 25. The source acknowledges conflict with its soul comparison.
+107@393|character action math|EH|An optional random starting baseline|In the proposed d20 variant the rolled numeral becomes C1 DP. Pool size depends on the desired character's power and is not prescribed for every campaign.
+107@1816|character example|PM|Returning to superhero strength|The author uses a C2 strength calculation to rank familiar mutants, with selected rather than rolled baselines.
+114@719|pop example powers|AM|Applying the cyborg model to Death's Head|Fictional manufacturing cost, time travel and teleportation introduce extra assumptions in a second character comparison.
+123@996|character powers math|EH|A low-powered mutant built in four increments|Beginning at 9 C2 DP, successive fractional advantages multiply the running rating to 18, 27, 36 and 45. The text names example capabilities at each step.
+128@803|powers math|AH|An inequivalent C3 branch and temporary clones|A square-root C3 ratio gives a different count from the C1 expression. Temporary copies substitute power for default psyche.
+128@1246|powers example math|EM|A C2 branch for Superman|Another clone count divides two C2 ratings and subtracts one. The passage chooses this branch for a particular story.
+140@1777|pop personal|NH|A judgement about fictional motives|The passage moves from monster statistics to the author's opinion of the Night-Stalkers' behaviour.
+163@419|design character math|PH|The IQ rule across three proposed revisions|The author's retrospective chronology runs from ten times C3 through ten times C2 to ten times C1. The first two expressions are presented as superseded.
+163@849|external physical math|PM|Material strengths and Life Points|Four materials receive C0 values. C4 power is proposed for comparison with Synnibarr Life Points.
+181@1364|pop world|NH|Speculation on Nimrod's identity|The author proposes possible relationships between characters and timelines and acknowledges alternative readings of the comics.
+181@3315|character pop example|AM|Agency and combat ratings in the examples|The text returns to differences between PL and DP in robots and compares characters through remembered story encounters.
+181@6131|personal pseudo|NH|A speculative historical aside|A closing digression shifts from comic characters to an alleged historical experiment.
+182@423|external derived math|AM|Wealth and luck in GURPS|The wealth comparison changes scale and governing statistic with the power range.
+183@2337|external combat math|PM|DEF, BOD and material strength|A second HERO comparison relates object statistics to C2 power. The examples do not supply a sequence for updating an injured character.
+184@3005|design example pop|AM|From the central transform to martial artists|The discussion shifts from earnings to comparisons of action stars and their fictional versions, with an admitted margin of uncertainty.
+186@534|pop personal|NH|A reading of Voyager's captain|The author uses the previous range estimate to speculate about a fictional commander's motives.
+186@2044|pop example powers|PM|A second fleet and its range|Star Blazers and Marvel characters provide further anchors for the distance calculation.
+187@1312|prejudice pseudo|NH|Unsupported claims about sexual orientation|The author attempts to infer orientation from appearance and height across demographic examples. This provides neither scientific evidence nor a test of player actions.
+188@1350|action combat math|PH|A roll-under target for a stated ambition|The desired increment gives the maximum successful roll. A second example converts 35 C3 to roughly 17.7 C2, subtracts ten and rounds the target to eight. The die distribution remains unspecified here.
+194@282|physical character math|AM|Reusing body proportions for animals and monsters|The author changes the divisor for a creature and discusses inconsistent sizes inferred from cinematic dinosaurs.
+196@3127|character powers math|PM|A separate growth and shrinking exception|An aside returns to stature at default life-span and distinguishes DP from PL when modelling a mutant who changes size.

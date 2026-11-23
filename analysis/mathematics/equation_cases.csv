@@ -1,0 +1,102 @@
+equation,expression,inputs,result,expected
+cubic-mass,(m*3.28)**3,"{""m"": 1}",35.287552,35.287552
+cubic-mass,(m*3.28)**3,"{""m"": 2}",282.300416,282.300416
+cubic-mass,(m*3.28)**3,"{""m"": 4}",2258.403328,2258.403328
+cubic-mass,(m*3.28)**3,"{""m"": 9}",25724.625408,25724.625408
+cubic-mass,(m*3.28)**3,"{""m"": 16}",144537.812992,144537.812992
+clone-alternatives,10**((a-b)/10)-1,"{""a"": 20, ""b"": 10}",9,9
+clone-alternatives,sqrt(a/b)-1,"{""a"": 733.0985575968451, ""b"": 10}",7.56211748107,7.56211748107
+clone-alternatives,a/b-1,"{""a"": 49.28094754756, ""b"": 10}",3.92809475476,3.92809475476
+factorial-strength,d/log10(d),"{""d"": 4}",6.64385618977,6.64385618977
+factorial-strength,4*3*2*1,{},24,24
+engine-hull,sqrt(b)**(e/b-1),"{""b"": 4, ""e"": 12}",4,4
+mixed-base-flight,10**(ln(p2)*log10(p1)),"{""p1"": 10, ""p2"": 10}",200.717432491,200.717432491
+mixed-base-flight,10**(ln(p2)*log10(p1)),"{""p1"": 20, ""p2"": 49.28094754756}",117709.972356,117709.972356
+version-dating,(y-2000)/10,"{""y"": 2002}",0.2,0.2
+version-dating,(y-2000)/10,"{""y"": 1999}",-0.1,-0.1
+creation-total,a+b+c,"{""a"": 6, ""b"": 6, ""c"": 6}",18,18
+creation-total,face,"{""face"": 20}",20,20
+successive-advantages,d*(1+1/j),"{""d"": 9, ""j"": 1}",18,18
+successive-advantages,d*(1+1/j),"{""d"": 18, ""j"": 2}",27,27
+successive-advantages,d*(1+1/j),"{""d"": 27, ""j"": 3}",36,36
+successive-advantages,d*(1+1/j),"{""d"": 36, ""j"": 4}",45,45
+ordered-multiplier,2*(x**log10(x)),"{""x"": 20}",98.5618950951,98.5618950951
+ordered-multiplier,(2*x)**log10(2*x),"{""x"": 20}",368.634702018,368.634702018
+fictional-defense,p/2,"{""p"": 40}",20,20
+astral-time,10**((1+(d-30)/10)**2),"{""d"": 20}",1,1
+astral-time,10**((1+(d-30)/10)**2),"{""d"": 40}",10000,10000
+warp-range,sqrt(d/10)**w,"{""d"": 90, ""w"": 10}",59049,59049
+size-proportion,h*b/a,"{""a"": 30, ""b"": 45, ""h"": 2}",3,3
+cyborg-calibration,(log10(s)-1)**2,"{""s"": 1000000}",25,25
+cyborg-calibration,(log10(s)-1)**2,"{""s"": 6000000}",33.3870318723,33.3870318723
+warp-fuel,10**((p-b)**(1/3)),"{""b"": 10, ""p"": 18}",100,100
+workshop-size,sqrt(n),"{""n"": 1000000}",1000,1000
+workshop-size,10**(p/2),"{""p"": 6}",1000,1000
+class-step,x ** log10(x),"{""x"": 20}",49.2809475476,49.2809475476
+class-step,x ** log10(x),"{""x"": 40}",368.634702018,368.634702018
+class-step,x ** log10(x),"{""x"": 1000}",1000000000,1000000000
+class-inverse,10 ** sqrt(log10(y)),"{""y"": 35}",17.4825727996,17.4825727996
+class-inverse,10 ** (-sqrt(log10(y))),"{""y"": 10}",0.1,0.1
+iterated-scale,u ** (2 ** n),"{""n"": 4, ""u"": 2}",65536,65536
+opposite-operations,p + (s - end),"{""end"": 20, ""p"": 40, ""s"": 40}",60,60
+opposite-operations,p * (s / end),"{""end"": 20, ""p"": 40, ""s"": 40}",80,80
+lifespan-years,(22-s) * s ** log10(s),"{""s"": 19}",129.518565793,129.518565793
+lifespan-years,2 * s ** log10(s),"{""s"": 20}",98.5618950951,98.5618950951
+ambs,sqrt(d),"{""d"": 16}",4,4
+ambs,sqrt(d),"{""d"": 64}",8,8
+tcp-linear,10*d,"{""d"": 100}",1000,1000
+tcp-log,100*log10(d),"{""d"": 10000000000000000}",1600,1600
+c0-psyche,d/log10(d),"{""d"": 100}",50,50
+c0-psyche,d/log10(d),"{""d"": 83.8}",43.5722140239,43.5722140239
+c0-psyche,d/2,"{""d"": 100}",50,50
+c0-psyche,d/3,"{""d"": 300}",100,100
+brute-strength,d*sqrt(d/10),"{""d"": 40}",80,80
+brute-strength,(10*q**2)**(1/3),"{""q"": 80}",40,40
+martial-grade,1-1/sqrt(d),"{""d"": 16}",0.75,0.75
+pool-size,r/6,"{""r"": 18}",3,3
+pool-size,r/6,"{""r"": 24}",4,4
+roll-high,ceil(.66*M),"{""M"": 18}",12,12
+roll-low,floor(d-10+0.5),"{""d"": 17.7}",8,8
+roll-low,floor(d-10+0.5),"{""d"": 17.482572799648}",7,7
+recast-rating,r,"{""r"": 75}",75,75
+letters,i*k,"{""i"": 24, ""k"": 5}",120,120
+letters,i*k,"{""i"": 26, ""k"": 20}",520,520
+letters,i*k,"{""i"": 17, ""k"": 10}",170,170
+c0-immortality,5*d,"{""d"": 49.28094754756}",246.404737738,246.404737738
+c0-immortality,d**2/10,"{""d"": 20}",40,40
+clone-ratio,a/b-1,"{""a"": 100, ""b"": 50}",1,1
+soul-comparison,10**(sqrt(h-l)-x),"{""h"": 25, ""l"": 16, ""x"": 1}",100,100
+soul-comparison,10**(sqrt(h-l)-x),"{""h"": 16, ""l"": 16, ""x"": 1}",0.1,0.1
+running-speed,10*(1+log10(v)),"{""v"": 1000}",40,40
+running-speed,10**(d/10-1),"{""d"": 20}",10,10
+mutant-movement,d,"{""d"": 49.28094754756}",49.2809475476,49.2809475476
+phasing,(r/b)*(r/b+1)/2,"{""b"": 10, ""r"": 100}",55,55
+phasing,(r/b)*(r/b+1)/2,"{""b"": 10, ""r"": 150}",120,120
+ghost-reading,d/10,"{""d"": 50}",5,5
+ghost-reading,k**2,"{""k"": 5}",25,25
+teleport-distance,10**(d**(1/j)/j**2),"{""d"": 16, ""j"": 2}",10,10
+fictional-warp,2**z-1,"{""z"": 2}",3,3
+fictional-warp,2**(z-1),"{""z"": 2}",2,2
+time-travel-rating,r+10,"{""r"": 10}",20,20
+mutant-damage,(d/10)**2,"{""d"": 30}",9,9
+one-use-damage,sqrt(p)-1,"{""p"": 49}",6,6
+one-use-damage,sqrt(p),"{""p"": 49}",7,7
+ideal-allocation,24*(4/24),{},4,4
+ideal-allocation,24*(8/24),{},8,8
+ideal-allocation,24*(12/24),{},12,12
+minimum-advantage,10/c,"{""c"": 90}",0.111111111111,0.111111111111
+minimum-advantage,d*(1+a),"{""a"": 0.1111111111111111, ""d"": 90}",100,100
+work-time,t*a/b,"{""a"": 50, ""b"": 10, ""t"": 5}",25,25
+fictional-return,d**2,"{""d"": 5}",25,25
+grade-load,p/l,"{""l"": 8, ""p"": 24}",3,3
+grade-load,p/l,"{""l"": 12, ""p"": 48}",4,4
+fictional-salary,10**(3*(d-10)/10),"{""d"": 30}",1000000,1000000
+fictional-salary,10**(3*(d-10)/10),"{""d"": 40}",1000000000,1000000000
+technology-level,p/3,"{""p"": 18}",6,6
+technology-level,t**2,"{""t"": 6}",36,36
+technology-level,4*t**2,"{""t"": 6}",144,144
+appearance,d/(pi+1),"{""d"": 49.28094754756}",11.8990329734,11.8990329734
+appearance,(d/10+1)**2,"{""d"": 20}",9,9
+planet-calibration,159*log10(D),"{""D"": 10000}",636,636
+infinity-notation,10**(x+1),"{""x"": 1}",100,100
+infinity-notation,2**n,"{""n"": 10}",1024,1024

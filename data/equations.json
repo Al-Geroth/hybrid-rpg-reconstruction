@@ -1,0 +1,1904 @@
+[
+  {
+    "id": "cubic-mass",
+    "title": "Testing the height-to-mass table",
+    "notation": "M = h³",
+    "variables": "h is numerical height in feet. M is the proposed mass in pounds. The source uses 3.28 feet per meter and 2.2 pounds per kilogram.",
+    "domain": "Positive height in the units chosen by the author.",
+    "test": "One meter computes to 35.29 pounds, two to 282.30 and four to 2,258.40. This checks the table’s arithmetic, not a claim about human physiology.",
+    "interpretation": "Cubing the given height reproduces the later rows of the source table to its printed precision, but misses the first by a factor of approximately eight.",
+    "dimensions": "To map a length cubed to mass requires a density and shape factor. Entering feet and reporting pounds implicitly fixes a coefficient of 1 lb/ft³ in this convention.",
+    "dependencies": [],
+    "issue": "At one meter the text prints 282.30 pounds. The stated conversion and formula give 35.287552 pounds. The printed value would fit two meters. Relabeling the row is conjectural.",
+    "references": [
+      "4",
+      "142"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(m*3.28)**3",
+        "inputs": {
+          "m": 1
+        },
+        "expected": 35.28755199999999
+      },
+      {
+        "expression": "(m*3.28)**3",
+        "inputs": {
+          "m": 2
+        },
+        "expected": 282.3004159999999
+      },
+      {
+        "expression": "(m*3.28)**3",
+        "inputs": {
+          "m": 4
+        },
+        "expected": 2258.4033279999994
+      },
+      {
+        "expression": "(m*3.28)**3",
+        "inputs": {
+          "m": 9
+        },
+        "expected": 25724.625408
+      },
+      {
+        "expression": "(m*3.28)**3",
+        "inputs": {
+          "m": 16
+        },
+        "expected": 144537.81299199996
+      }
+    ]
+  },
+  {
+    "id": "clone-alternatives",
+    "title": "Three inequivalent counts for fictional copies",
+    "notation": "n₁ = 10^((a₁ − b₁)/10) − 1, n₂ = √(a₃/b₃) − 1, n₃ = a₂/b₂ − 1",
+    "variables": "a and b are the originator’s and copy’s ratings on the subscripted class. n counts additional fictional copies.",
+    "domain": "Positive baselines. Ordinary bodies are counted in whole numbers, but the expressions can give fractions.",
+    "test": "The printed 43 versus 19 C1 example gives 250.19 before any integer convention. The three-branch example uses 20 and 10 to expose the inequivalence.",
+    "interpretation": "#128 proposes a difference in C1, a square root of a C3 ratio, and a C2 ratio as successive readings. It acknowledges that a proposed restatement produces a different number. It also switches from DP to PL for temporary copies.",
+    "dimensions": "Ratios of like scales have no dimensions. A fractional game count requires further interpretation.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Giving the source and copy 20 and 10 C1 produces 9, about 7.56, and about 3.93 respectively after actual class conversion. Choosing a branch changes the fiction.",
+    "references": [
+      "18",
+      "45",
+      "128"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**((a-b)/10)-1",
+        "inputs": {
+          "a": 20,
+          "b": 10
+        },
+        "expected": 9
+      },
+      {
+        "expression": "sqrt(a/b)-1",
+        "inputs": {
+          "a": 733.0985575968451,
+          "b": 10
+        },
+        "expected": 7.562117481072338
+      },
+      {
+        "expression": "a/b-1",
+        "inputs": {
+          "a": 49.28094754756,
+          "b": 10
+        },
+        "expected": 3.928094754756
+      }
+    ]
+  },
+  {
+    "id": "factorial-strength",
+    "title": "A factorial proposed for strength",
+    "notation": "W = (d/log₁₀ d)!",
+    "variables": "d is C1 DP. W is a number described as pounds.",
+    "domain": "The ordinary factorial needs a nonnegative integer argument. The quotient needs d > 0 and d ≠ 1.",
+    "test": "The equality 4! = 24 is correct. Substituting 4 C1 into the printed composite formula does not reproduce that example.",
+    "interpretation": "Rule 78 combines a logarithmic quotient with a factorial, then illustrates four factorial. At a given d these are two distinct operations.",
+    "dimensions": "Using factorial on a rating gives a number. Pounds enter by the fictional calibration.",
+    "dependencies": [],
+    "issue": "With d = 4 the inner quotient is about 6.644, not four and not an integer. A gamma extension or a rounding rule would be an editorial addition.",
+    "references": [
+      "40",
+      "78",
+      "82"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d/log10(d)",
+        "inputs": {
+          "d": 4
+        },
+        "expected": 6.643856189774724
+      },
+      {
+        "expression": "4*3*2*1",
+        "inputs": {},
+        "expected": 24
+      }
+    ]
+  },
+  {
+    "id": "engine-hull",
+    "title": "Speed from a ship’s engine and hull ratings",
+    "notation": "v = (√B)^(E/B − 1)",
+    "variables": "B is the hull-size increment and E the engine rating, both in C2 PL. The text sets its two hull variables equal.",
+    "domain": "B > 0 for a positive base and nonzero denominator.",
+    "test": "With an editorial hull rating of 4 and engine rating of 12, the number is 2² = 4 mph.",
+    "interpretation": "A ratio sets an exponent, and the square root of the hull rating sets its base. This yields a calculation with both ship measurements fixed.",
+    "dimensions": "The result is assigned mph by convention. Treating physical size or engine output as raw inputs would require independent calibration.",
+    "dependencies": [],
+    "issue": "The author in #177 calls #132 a favorite. The alternatives in #155 and #178 use different inputs and transforms.",
+    "references": [
+      "132",
+      "177"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "sqrt(b)**(e/b-1)",
+        "inputs": {
+          "b": 4,
+          "e": 12
+        },
+        "expected": 4
+      }
+    ]
+  },
+  {
+    "id": "mixed-base-flight",
+    "title": "A speed from linked C1 and C2 values",
+    "notation": "v = 10^(ln(p₂) log₁₀(p₁))",
+    "variables": "p₁ and p₂ are C1 and C2 PL, represented as corresponding ratings in the examples. v is the velocity numeral.",
+    "domain": "Both class ratings must be positive.",
+    "test": "10 C1 and 10 C2 give about 200.72 mph. The numerical agreement with a printed approximation does not select this law over the other speed rules.",
+    "interpretation": "A model using both natural and common logs is different from the body-subtraction model of #155. At equal class magnitude p₁ = p₂ = 10, the exponent reduces to ln 10.",
+    "dimensions": "The result is assigned mph. There is no derivation of its unit from the rating scales.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "At 20 C1 and the unrounded equivalent C2, the exponent is about 5.07. The printed hundred-thousand estimate uses a rounded exponent.",
+    "references": [
+      "45",
+      "175",
+      "178"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**(ln(p2)*log10(p1))",
+        "inputs": {
+          "p2": 10,
+          "p1": 10
+        },
+        "expected": 200.71743249053017
+      },
+      {
+        "expression": "10**(ln(p2)*log10(p1))",
+        "inputs": {
+          "p2": 49.28094754756,
+          "p1": 20
+        },
+        "expected": 117709.9723555216
+      }
+    ]
+  },
+  {
+    "id": "version-dating",
+    "title": "The calendar as a version number",
+    "notation": "V = (Y − 2000)/10,  P = 100V",
+    "variables": "Y is the calendar year, V the web-version label, P the stated percentage of completeness.",
+    "domain": "Applies to the dated convention given in #0, including its stated extension to a year before 2000.",
+    "test": "2002 gives version 0.2 and the stated 20% completion. There is no component-level denominator behind it.",
+    "interpretation": "The formula yields the labels in the opening example. It offers no counting procedure for all parts needed to complete a game.",
+    "dimensions": "A calendar-year difference is converted into a label and then a percentage. Neither is a measure of actual development effort.",
+    "dependencies": [],
+    "issue": "The masthead’s declared proportion is an editorial fact about the source's self-description. Earlier versions also changed labels, limiting the use of this dating formula.",
+    "references": [
+      "0"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(y-2000)/10",
+        "inputs": {
+          "y": 2002
+        },
+        "expected": 0.2
+      },
+      {
+        "expression": "(y-2000)/10",
+        "inputs": {
+          "y": 1999
+        },
+        "expected": -0.1
+      }
+    ]
+  },
+  {
+    "id": "creation-total",
+    "title": "Rolling a starting magnitude",
+    "notation": "d₁ = Σᵢ rollᵢ",
+    "variables": "d₁ is starting C1 DP. Each roll is a face on one of the selected dice.",
+    "domain": "One or more ordinary dice of specified size. The case is introduced as a tentative d20 version.",
+    "test": "Three sixes produce 18 C1 DP. A d20 can instead reach 20, with a very different probability of any given total.",
+    "interpretation": "In the named examples the die total gives the numerical baseline, while the choice of dice sets a ceiling and a distribution.",
+    "dimensions": "C1 DP points per pip on the chosen build route.",
+    "dependencies": [],
+    "issue": "Rolling an actual baseline is possible. The initial choice of a pool, available abilities and their costs still affect the rest of the character.",
+    "references": [
+      "107"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "a+b+c",
+        "inputs": {
+          "a": 6,
+          "b": 6,
+          "c": 6
+        },
+        "expected": 18
+      },
+      {
+        "expression": "face",
+        "inputs": {
+          "face": 20
+        },
+        "expected": 20
+      }
+    ]
+  },
+  {
+    "id": "successive-advantages",
+    "title": "Building a low-powered mutant by successive choices",
+    "notation": "dⱼ = dⱼ₋₁(1 + 1/j)",
+    "variables": "dⱼ is C2 DP after the jth advantage. j is its positive index in this construction.",
+    "domain": "Positive integer j in this specific build sequence.",
+    "test": "From 9 C2 the illustrated stages reach 18, 27, 36 and optionally 45. The distinct abilities purchased must be read from this example.",
+    "interpretation": "#123 lists a rule of thumb for successively increasing denominators and offers a choice of effects at each stage. The resulting product telescopes to (j + 1) times the starting rating.",
+    "dimensions": "Dimensionless multipliers applied to a C2 baseline.",
+    "dependencies": [],
+    "issue": "This worked sequence is more specific than the general permission to repeat modifiers. No session-to-session award trigger is given.",
+    "references": [
+      "123",
+      "147"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d*(1+1/j)",
+        "inputs": {
+          "d": 9,
+          "j": 1
+        },
+        "expected": 18
+      },
+      {
+        "expression": "d*(1+1/j)",
+        "inputs": {
+          "d": 18,
+          "j": 2
+        },
+        "expected": 27
+      },
+      {
+        "expression": "d*(1+1/j)",
+        "inputs": {
+          "d": 27,
+          "j": 3
+        },
+        "expected": 36
+      },
+      {
+        "expression": "d*(1+1/j)",
+        "inputs": {
+          "d": 36,
+          "j": 4
+        },
+        "expected": 45
+      }
+    ]
+  },
+  {
+    "id": "ordered-multiplier",
+    "title": "Doubling before or after class conversion",
+    "notation": "2f(x) ≠ f(2x) in general",
+    "variables": "x is a C2 input in the worked case. f is the adjacent-class transform.",
+    "domain": "Positive x.",
+    "test": "Doubling 49.28 after class conversion gives roughly 98.56. First doubling 20 and then converting gives roughly 368.63.",
+    "interpretation": "#46 uses separate placements of a factor of two in its notation. Their order materially changes the result.",
+    "dimensions": "The outputs compare scaled C3 ratings under two conventions.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Two expressions may both include the same multiplier and class names while producing different values.",
+    "references": [
+      "45",
+      "46"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "2*(x**log10(x))",
+        "inputs": {
+          "x": 20
+        },
+        "expected": 98.5618950951205
+      },
+      {
+        "expression": "(2*x)**log10(2*x)",
+        "inputs": {
+          "x": 20
+        },
+        "expected": 368.63470201779234
+      }
+    ]
+  },
+  {
+    "id": "fictional-defense",
+    "title": "A proposed Defense and Body calibration",
+    "notation": "DEF = BOD = p₂/2",
+    "variables": "p₂ is a C2 PL rating in #183’s HERO comparison. DEF and BOD are proposed external statistics.",
+    "domain": "Positive rating and an applicable external comparison.",
+    "test": "If 40 C2 PL is supplied, this branch assigns 20 each to DEF and BOD.",
+    "interpretation": "Rule 183 offers two half-rated attributes, also allowing an alternative interpretation of their sum in terms of strength.",
+    "dimensions": "Game-point equivalents in a HERO comparison.",
+    "dependencies": [],
+    "issue": "The author gives no rule here that subtracts rolled damage, recovers points over time, or treats BOD as a universal HYBRID pool.",
+    "references": [
+      "139",
+      "183"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "p/2",
+        "inputs": {
+          "p": 40
+        },
+        "expected": 20
+      }
+    ]
+  },
+  {
+    "id": "astral-time",
+    "title": "Time reach in the astral-form proposal",
+    "notation": "Y = 10^((1 + (d₁ − 30)/10)²)",
+    "variables": "d₁ is C1 DP. Y is the stated reach in years.",
+    "domain": "d₁ ≥ 20 in #170.",
+    "test": "20 C1 DP gives one year. At 40 C1 DP the result has already reached 10,000 years.",
+    "interpretation": "An affine change of rating followed by a square and a power of ten interpolates a short list of travel ranges.",
+    "dimensions": "Calibration in fictional years. Its numerical constants have no independent empirical derivation here.",
+    "dependencies": [],
+    "issue": "Its squared exponent resembles the foundational transform, but the input is shifted and scaled directly rather than replaced by its logarithm.",
+    "references": [
+      "170",
+      "171"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**((1+(d-30)/10)**2)",
+        "inputs": {
+          "d": 20
+        },
+        "expected": 1
+      },
+      {
+        "expression": "10**((1+(d-30)/10)**2)",
+        "inputs": {
+          "d": 40
+        },
+        "expected": 10000
+      }
+    ]
+  },
+  {
+    "id": "warp-range",
+    "title": "Fictional range at a supplied warp number",
+    "notation": "R = (√(d₁/10))ᵂ",
+    "variables": "d₁ is C1 DP and W the warp number. R is range.",
+    "domain": "d₁ ≥ 0, positive W in the worked case.",
+    "test": "At warp 10 and 90 C1 DP, the stated range is 59,049 light-years.",
+    "interpretation": "One of several local travel calibrations expresses distance as a power of the rating. Both warp index and baseline must already be known.",
+    "dimensions": "In light-years. This is distance and not speed unless a time interval is added.",
+    "dependencies": [],
+    "issue": "The source distinguishes maximum from optimal performance. It does not establish a general relation to #30’s speed choices.",
+    "references": [
+      "130"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "sqrt(d/10)**w",
+        "inputs": {
+          "d": 90,
+          "w": 10
+        },
+        "expected": 59049
+      }
+    ]
+  },
+  {
+    "id": "size-proportion",
+    "title": "Proportional rescaling",
+    "notation": "h₂ = h₁d₂/d₁",
+    "variables": "h₁ and d₁ are a reference height and C3 rating, and h₂ and d₂ the corresponding desired pair.",
+    "domain": "Nonzero reference d₁ and common units for paired inputs.",
+    "test": "For an editorial reference height of 2 units at 30 C3, 45 C3 predicts 3 of the same units.",
+    "interpretation": "Knowing a reference character and a new rating gives a predicted height under a constant-ratio assumption.",
+    "dimensions": "The C3 ratio is dimensionless and the result carries the reference length unit.",
+    "dependencies": [],
+    "issue": "The equation does not supply a universal choice of reference, and other height equations can give different predictions.",
+    "references": [
+      "37"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "h*b/a",
+        "inputs": {
+          "h": 2,
+          "a": 30,
+          "b": 45
+        },
+        "expected": 3
+      }
+    ]
+  },
+  {
+    "id": "cyborg-calibration",
+    "title": "Pricing a fictional cyborg",
+    "notation": "d₂ = (log₁₀ S − 1)²",
+    "variables": "S is a fictional creation cost in dollars and d₂ the resulting C2 DP.",
+    "domain": "S > 0.",
+    "test": "At one million dollars the rating is 25 C2. At six million it is about 33.39.",
+    "interpretation": "A construct’s quoted cost is transformed into a rating. The calibration fits a familiar science-fiction title.",
+    "dimensions": "The logarithm takes the numeric price in dollars. A change of currency needs recalibration.",
+    "dependencies": [],
+    "issue": "The appearance of a squared logarithm here does not mean that the equation equals the adjacent-class transform.",
+    "references": [
+      "114"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(log10(s)-1)**2",
+        "inputs": {
+          "s": 1000000
+        },
+        "expected": 25
+      },
+      {
+        "expression": "(log10(s)-1)**2",
+        "inputs": {
+          "s": 6000000
+        },
+        "expected": 33.38703187231007
+      }
+    ]
+  },
+  {
+    "id": "warp-fuel",
+    "title": "Class rating consumed by a spaceship’s body",
+    "notation": "v = 10^((p₂ − B)^(1/3))",
+    "variables": "p₂ is total C2 PL. B is COM in the ship-body or size sense, also expressed in C2 PL.",
+    "domain": "The worked interpretation uses p₂ ≥ B.",
+    "test": "For an editorial net rating of eight points the formula returns the speed numeral 100.",
+    "interpretation": "Subtract body cost before converting the remaining capability to a speed. This is a concrete use of COM away from appearance.",
+    "dimensions": "The text alternates kilometers and miles per hour without changing the numerical calculation.",
+    "dependencies": [],
+    "issue": "Rules 155 and 158 discuss fuel and propose other calibrations. A common ship rating alone does not assign a unique speed in physical units.",
+    "references": [
+      "155",
+      "158"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**((p-b)**(1/3))",
+        "inputs": {
+          "p": 18,
+          "b": 10
+        },
+        "expected": 100
+      }
+    ]
+  },
+  {
+    "id": "workshop-size",
+    "title": "A fictional bureaucracy by square root",
+    "notation": "B = √N = 10^(p/2)",
+    "variables": "N is the population of the cyborg collectivity, p = log₁₀ N, and B the bureaucratic subpopulation.",
+    "domain": "N > 0 when represented by its logarithm.",
+    "test": "One million drones implies a bureaucracy of one thousand under this fictional rule.",
+    "interpretation": "The two displayed forms are genuinely equivalent. A square root of an existing population is mathematical scaling quite apart from class conversion.",
+    "dimensions": "The output is a number of fictional beings. A non-square N requires a rounding policy for a discrete count.",
+    "dependencies": [],
+    "issue": "The author supplies a square population example and no evidence for applying the law to real societies.",
+    "references": [
+      "77"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "sqrt(n)",
+        "inputs": {
+          "n": 1000000
+        },
+        "expected": 1000
+      },
+      {
+        "expression": "10**(p/2)",
+        "inputs": {
+          "p": 6
+        },
+        "expected": 1000
+      }
+    ]
+  },
+  {
+    "id": "class-step",
+    "title": "One step along the class scale",
+    "notation": "y = x^(log₁₀ x)",
+    "variables": "x is the numerical value on one class scale. y is the equivalent value on the next.",
+    "domain": "Real arithmetic requires x > 0. Rule examples generally use x ≥ 1.",
+    "test": "20 C2 → 49.28095 C3. The value 20 C1 → 49.28095 C2 uses the same arithmetic on a different pair of classes.",
+    "interpretation": "Carries LS, PL or DP from CA to C1, C1 to C2, or C2 to C3. The same calculation appears for C3 to C4. It supplies a magnitude once an input exists.",
+    "dimensions": "Dimensionless point ratings on specified classes. Taking a logarithm of a physical length would require a reference unit.",
+    "dependencies": [],
+    "issue": "The preface associates the expression with allocation. It supplies neither a starting budget nor a price list. C0 is handled separately.",
+    "references": [
+      "preface",
+      "3",
+      "45",
+      "46",
+      "161"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "x ** log10(x)",
+        "inputs": {
+          "x": 20
+        },
+        "expected": 49.28094754756025
+      },
+      {
+        "expression": "x ** log10(x)",
+        "inputs": {
+          "x": 40
+        },
+        "expected": 368.63470201779234
+      },
+      {
+        "expression": "x ** log10(x)",
+        "inputs": {
+          "x": 1000
+        },
+        "expected": 1000000000
+      }
+    ]
+  },
+  {
+    "id": "class-inverse",
+    "title": "Reading a scale backwards",
+    "notation": "x = 10^(±√(log₁₀ y))",
+    "variables": "y is a value on the destination scale. x is a possible original rating.",
+    "domain": "y ≥ 1. At y = 1 both branches give 1. No real solution for 0 < y < 1.",
+    "test": "35 C3 yields about 17.483 C2 on the increasing branch. For y = 10 the two possible inputs are 10 and 0.1.",
+    "interpretation": "Writing x as 10ᵘ turns the forward transform into 10^(u²). Taking logs loses the sign of u. Rule 188 calls for a backwards conversion. Its example uses a rating above one.",
+    "dimensions": "Dimensionless numerical class coordinates.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "The plus branch recovers x ≥ 1. Treating this as the sole inverse everywhere discards the reciprocal solution.",
+    "references": [
+      "45",
+      "188"
+    ],
+    "confidence": "High",
+    "layer": "B",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10 ** sqrt(log10(y))",
+        "inputs": {
+          "y": 35
+        },
+        "expected": 17.48257279964877
+      },
+      {
+        "expression": "10 ** (-sqrt(log10(y)))",
+        "inputs": {
+          "y": 10
+        },
+        "expected": 0.1
+      }
+    ]
+  },
+  {
+    "id": "iterated-scale",
+    "title": "Repeated changes of class",
+    "notation": "fⁿ(10ᵘ) = 10^(u^(2ⁿ))",
+    "variables": "n counts class steps. u = log₁₀ x.",
+    "domain": "x > 0, n a nonnegative integer.",
+    "test": "At 100 CA the successive exponents of ten are 2, 4, 16, 256 and 65,536 through C4. Working on logarithms avoids overflow.",
+    "interpretation": "Each step squares the exponent of ten. This is a derivation of the repeated conversion, and explains the extraordinary values in #200.",
+    "dimensions": "Dimensionless class ratings.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Here fⁿ means applying f repeatedly. It does not mean taking a power of f(x). The values 1 and 10 are fixed on the positive real domain.",
+    "references": [
+      "45",
+      "161",
+      "200"
+    ],
+    "confidence": "High",
+    "layer": "B",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "u ** (2 ** n)",
+        "inputs": {
+          "u": 2,
+          "n": 4
+        },
+        "expected": 65536
+      }
+    ]
+  },
+  {
+    "id": "opposite-operations",
+    "title": "Exchanging lifespan and power",
+    "notation": "(s + a, p − a) or (s / k, kp)",
+    "variables": "s and p are current LS and PL on one scale. a is an offset and k a multiplier.",
+    "domain": "Multiplicative trade requires k ≠ 0. Positive ratings and k > 0 suit the examples.",
+    "test": "Starting at LS = PL = 40 C2, #183 chooses halving LS and doubling PL. Addition would produce a different power rating.",
+    "interpretation": "The additive pair preserves the sum. The multiplicative pair preserves the product. Rule 3 also pairs a square root with squaring and a natural logarithm with its inverse.",
+    "dimensions": "s and p must be comparable game ratings. The author keeps DP as a baseline.",
+    "dependencies": [],
+    "issue": "Decreasing LS from 40 to 20 under the two displayed operations gives PL 60 or 80. No single trade rate follows from the instruction to use opposite operations.",
+    "references": [
+      "3",
+      "6",
+      "183"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "p + (s - end)",
+        "inputs": {
+          "s": 40,
+          "p": 40,
+          "end": 20
+        },
+        "expected": 60
+      },
+      {
+        "expression": "p * (s / end)",
+        "inputs": {
+          "s": 40,
+          "p": 40,
+          "end": 20
+        },
+        "expected": 80
+      }
+    ]
+  },
+  {
+    "id": "lifespan-years",
+    "title": "Converting lifespan to years",
+    "notation": "Y = f(s)·m, with m = 22 − s below 20, otherwise 2",
+    "variables": "s is C2 LS. f(s) is C3 LS. m is the multiplier and Y is lifespan in years.",
+    "domain": "Written branches meet at s = 20. Uses positive s when the class conversion is applied.",
+    "test": "19 C2 LS gives about 129.52 years. At 20 the result falls to about 98.56 years.",
+    "interpretation": "Rule 6 gives the C3 multiplier and a C2 boundary. Reading the alternative statement for m as the below-20 branch matches its example at 19 and preserves its explicit above-20 instruction.",
+    "dimensions": "Years per C3 point is a fictional calibration.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "The formula for m appears unqualified immediately after the threshold. On this reading a higher s can reduce Y below 20. This is total lifespan, with no rule here for ageing one round.",
+    "references": [
+      "3",
+      "6",
+      "31"
+    ],
+    "confidence": "Medium",
+    "layer": "B",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(22-s) * s ** log10(s)",
+        "inputs": {
+          "s": 19
+        },
+        "expected": 129.5185657933071
+      },
+      {
+        "expression": "2 * s ** log10(s)",
+        "inputs": {
+          "s": 20
+        },
+        "expected": 98.5618950951205
+      }
+    ]
+  },
+  {
+    "id": "ambs",
+    "title": "From baseline to average attribute",
+    "notation": "A = √d",
+    "variables": "d is C2 DP. A is average Mind, Body and Soul.",
+    "domain": "d ≥ 0 for the square root.",
+    "test": "16 C2 DP gives 4 AMBS. Doubling AMBS requires multiplying the C2 input by four.",
+    "interpretation": "A supplies an aggregate character rating. Squaring A reverses the calculation.",
+    "dimensions": "A is in AMBS units. It is distinct from the C2 rating.",
+    "dependencies": [],
+    "issue": "An average leaves multiple individual Mind, Body and Soul assignments possible.",
+    "references": [
+      "8",
+      "49",
+      "123"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "sqrt(d)",
+        "inputs": {
+          "d": 16
+        },
+        "expected": 4
+      },
+      {
+        "expression": "sqrt(d)",
+        "inputs": {
+          "d": 64
+        },
+        "expected": 8
+      }
+    ]
+  },
+  {
+    "id": "tcp-linear",
+    "title": "A HERO point-total estimate",
+    "notation": "T₁ = 10d₁",
+    "variables": "d₁ is C1 DP and T₁ a proposed HERO total character point rating.",
+    "domain": "Numerical game ratings.",
+    "test": "A character at 100 C1 DP is assigned 1,000 points by this estimate.",
+    "interpretation": "One reading of IQ also uses ten times C1 with PL at default. Rule 122 spells out DP as the input for the point translation.",
+    "dimensions": "The factor of ten maps one game’s rating into another game’s points.",
+    "dependencies": [],
+    "issue": "Using an analogous score for intelligence and points is a design choice. These examples do not validate an intelligence measure.",
+    "references": [
+      "8",
+      "122"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10*d",
+        "inputs": {
+          "d": 100
+        },
+        "expected": 1000
+      }
+    ]
+  },
+  {
+    "id": "tcp-log",
+    "title": "An alternative HERO point total",
+    "notation": "T₂ = 100 log₁₀ d₃",
+    "variables": "d₃ is C3 DP. T₂ is the alternative total.",
+    "domain": "d₃ > 0.",
+    "test": "100 C1 → 10,000 C2 → 10¹⁶ C3. This method gives 1,600 points against 1,000 from the linear estimate.",
+    "interpretation": "Rule 122 treats the difference between this estimate and the linear estimate as uncertainty. At large magnitudes the disagreement can be hundreds of points.",
+    "dimensions": "Numerical point scales. A difference between formulas supplies no statistical error interval.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Both totals concern the same character. Rule 122 leaves the reader with a range rather than a method for choosing a purchase budget.",
+    "references": [
+      "8",
+      "122"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "100*log10(d)",
+        "inputs": {
+          "d": 10000000000000000
+        },
+        "expected": 1600
+      }
+    ]
+  },
+  {
+    "id": "c0-psyche",
+    "title": "Contextual conversions to C0 Psyche",
+    "notation": "P₀ ∈ {d₁/log₁₀ d₁, d₁, d₂/2, d₃/3}",
+    "variables": "P₀ is C0 Psyche. The subscript on each d indicates the class carrying DP.",
+    "domain": "The logarithmic quotient requires d₁ > 0 and d₁ ≠ 1.",
+    "test": "100 C1 gives 50 under the logarithmic quotient, and 100 if directly carried across.",
+    "interpretation": "Rule 5 associates different character examples with each map. C0 can name the scale chosen for an external statistic or for a particular kind of being.",
+    "dimensions": "All four outputs are called C0 Psyche. Their input classes differ.",
+    "dependencies": [],
+    "issue": "The alternatives form a set of proposals, not interchangeable identities. No selector for arbitrary new characters is supplied here.",
+    "references": [
+      "preface",
+      "5"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d/log10(d)",
+        "inputs": {
+          "d": 100
+        },
+        "expected": 50
+      },
+      {
+        "expression": "d/log10(d)",
+        "inputs": {
+          "d": 83.8
+        },
+        "expected": 43.572214023929156
+      },
+      {
+        "expression": "d/2",
+        "inputs": {
+          "d": 100
+        },
+        "expected": 50
+      },
+      {
+        "expression": "d/3",
+        "inputs": {
+          "d": 300
+        },
+        "expected": 100
+      }
+    ]
+  },
+  {
+    "id": "brute-strength",
+    "title": "A low-level superhuman strength rating",
+    "notation": "q = d√(d/10),  d = (10q²)^(1/3)",
+    "variables": "d is C2 DP. q is C0 strength for the specified fictional character type.",
+    "domain": "d ≥ 0 and q ≥ 0.",
+    "test": "40 C2 DP maps to 80 C0 strength and the inverse returns 40.",
+    "interpretation": "The inverse follows by squaring the equation and taking a cube root. This is a local relation with a genuine algebraic inverse.",
+    "dimensions": "Game rating to game rating. Conversion to pounds is a separate and disputed operation.",
+    "dependencies": [],
+    "issue": "The source changes the relationship for more powerful characters. The local success does not make it a universal map to C0.",
+    "references": [
+      "5",
+      "40",
+      "66",
+      "107"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d*sqrt(d/10)",
+        "inputs": {
+          "d": 40
+        },
+        "expected": 80
+      },
+      {
+        "expression": "(10*q**2)**(1/3)",
+        "inputs": {
+          "q": 80
+        },
+        "expected": 40
+      }
+    ]
+  },
+  {
+    "id": "martial-grade",
+    "title": "Martial Arts Grade as a success fraction",
+    "notation": "m = 1 − 1/√d",
+    "variables": "d is C2 DP. m is the combat success value termed MAG.",
+    "domain": "d > 0. For d ≥ 1 the output is in [0,1). At smaller positive d it is negative.",
+    "test": "16 C2 DP gives 0.75, or 75% on the fractional interpretation.",
+    "interpretation": "The source describes a percentage, although the expression returns a fraction. Expressing the output as a percentage requires multiplying by 100.",
+    "dimensions": "Dimensionless fraction.",
+    "dependencies": [],
+    "issue": "A grade by itself does not assign an opponent, combine grades, or choose a die rule.",
+    "references": [
+      "2"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "1-1/sqrt(d)",
+        "inputs": {
+          "d": 16
+        },
+        "expected": 0.75
+      }
+    ]
+  },
+  {
+    "id": "pool-size",
+    "title": "Optional pool of six-sided dice",
+    "notation": "n = r/6",
+    "variables": "r is the numerical rating on the selected class, and n the number of six-sided dice.",
+    "domain": "Requires integral n to use ordinary dice as written.",
+    "test": "18 C1 uses 3d6. A 24 C2 rating uses 4d6.",
+    "interpretation": "Fixing a magnitude fixes the example pool. Two ratings of 18 on different classes both yield three dice despite representing different fictional power.",
+    "dimensions": "Numerical class points per die. A six-sided die is a discrete object.",
+    "dependencies": [],
+    "issue": "No rounding method for a fractional number of dice is given in #17. Its examples establish the pool, not a single success convention.",
+    "references": [
+      "17",
+      "35"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "r/6",
+        "inputs": {
+          "r": 18
+        },
+        "expected": 3
+      },
+      {
+        "expression": "r/6",
+        "inputs": {
+          "r": 24
+        },
+        "expected": 4
+      }
+    ]
+  },
+  {
+    "id": "roll-high",
+    "title": "A high-roll condition at a chosen class",
+    "notation": "roll ≥ 0.66M",
+    "variables": "M is the pool maximum on the reading that the stated percentage applies to that maximum. roll is a total.",
+    "domain": "Die totals are integers. Rule 35 uses 66%, while the preface describes two thirds.",
+    "test": "3d6 must total at least 12 on this reading. Fair dice yield 81 successful outcomes out of 216, a success probability of 37.5%.",
+    "interpretation": "The examples supply the dice and a high threshold. Interpreting percent as a share of the maximum lets a reader run one test.",
+    "dimensions": "Fraction of a possible dice total is not the probability of passing the test.",
+    "dependencies": [
+      "pool-size"
+    ],
+    "issue": "The denominator is hypothetical. On a 25d6 stress test, 66% of 150 is 99 and two thirds is 100. Both yield 12 on 3d6. #188 instead uses low rolls in its examples.",
+    "references": [
+      "preface",
+      "17",
+      "35"
+    ],
+    "confidence": "Medium",
+    "layer": "C",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "ceil(.66*M)",
+        "inputs": {
+          "M": 18
+        },
+        "expected": 12
+      }
+    ]
+  },
+  {
+    "id": "roll-low",
+    "title": "A roll-under target from a proposed rating",
+    "notation": "t = round(d₂ − b), with b = 10 in the worked case",
+    "variables": "d₂ is the desired C2 rating for the source’s C3 example. The starting baseline b is ten in this example and can vary. t is an inclusive upper bound on the roll.",
+    "domain": "The final example rounds to an integer after subtracting the local 10-point baseline.",
+    "test": "The printed worked threshold and the recomputed threshold differ by one whole die point.",
+    "interpretation": "A desire for a rating becomes a roll-under target. Other examples in the same rule work directly from desired bonuses. The roll procedure is partly adapted from other games.",
+    "dimensions": "Threshold in die-total units. The rule’s target and a probability are different quantities.",
+    "dependencies": [
+      "class-inverse"
+    ],
+    "issue": "The printed 35 C3 → 17.7 C2 → 8 or less conflicts with the #45 inverse: about 17.483 gives 7 or less under the same rounding.",
+    "references": [
+      "17",
+      "188"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "floor(d-10+0.5)",
+        "inputs": {
+          "d": 17.7
+        },
+        "expected": 8
+      },
+      {
+        "expression": "floor(d-10+0.5)",
+        "inputs": {
+          "d": 17.482572799648
+        },
+        "expected": 7
+      }
+    ]
+  },
+  {
+    "id": "recast-rating",
+    "title": "Trading a creator’s scale for permanence",
+    "notation": "(r, C2 DP) → (r, C3 DP)",
+    "variables": "r is the retained numeral, while its class label changes.",
+    "domain": "A specific fictional effect and creator are assumed.",
+    "test": "75 C2 becomes 75 C3 on this instruction. Equating magnitudes instead would yield a much larger C3 numeral.",
+    "interpretation": "To make an effect permanent, the example demotes the creator’s own magnitude while retaining the written numeral. The former power status may return when the effect expires naturally.",
+    "dimensions": "Changing the label with a fixed numeral usually changes the represented magnitude.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Distinct from representing one unchanged magnitude in two classes. Trigger, duration and broader eligibility remain unclear.",
+    "references": [
+      "45"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "r",
+        "inputs": {
+          "r": 75
+        },
+        "expected": 75
+      }
+    ]
+  },
+  {
+    "id": "letters",
+    "title": "Letter-coded power ratings",
+    "notation": "rating = k·i",
+    "variables": "i is a letter’s 1-based alphabet position. k is a multiplier selected under the letter rule.",
+    "domain": "i from 1 through 26. Competing branch conditions need precedence.",
+    "test": "X, the 24th letter, gives 120 in #55. Q is 170 under #58’s ten-times rule.",
+    "interpretation": "#55 gives multipliers 5, 10 or 20 from tests on i + 1. #58 uses a direct ten times position for particular entity ratings.",
+    "dimensions": "Letter labels are shorthand for numbers, which still need a C scale.",
+    "dependencies": [],
+    "issue": "For i = 5 the increment is both even and divisible by three. The examples do not state a precedence rule for all letters.",
+    "references": [
+      "55",
+      "58"
+    ],
+    "confidence": "Medium",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "i*k",
+        "inputs": {
+          "i": 24,
+          "k": 5
+        },
+        "expected": 120
+      },
+      {
+        "expression": "i*k",
+        "inputs": {
+          "i": 26,
+          "k": 20
+        },
+        "expected": 520
+      },
+      {
+        "expression": "i*k",
+        "inputs": {
+          "i": 17,
+          "k": 10
+        },
+        "expected": 170
+      }
+    ]
+  },
+  {
+    "id": "c0-immortality",
+    "title": "Two readings of an immortality rating",
+    "notation": "i = 5d₂  or  i = d₁²/10",
+    "variables": "i is C0 immortality, d₂ is C2 at default lifespan, and d₁ is C1 DP.",
+    "domain": "Nonnegative game ratings. Source offers a class of beings as a qualification for the second form.",
+    "test": "At 100 C2 the first expression gives 500 C0 immortality.",
+    "interpretation": "Rule 31 explicitly acknowledges the discrepancy and distinguishes demi-gods from lesser figures in assessing the second relation.",
+    "dimensions": "A C0 score is distinct from a lifespan in years.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Testing 20 C1 at its equivalent 49.28 C2 gives about 246.40 by the first and 40 by the second. Choosing a context matters.",
+    "references": [
+      "6",
+      "31"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "5*d",
+        "inputs": {
+          "d": 49.28094754756
+        },
+        "expected": 246.4047377378
+      },
+      {
+        "expression": "d**2/10",
+        "inputs": {
+          "d": 20
+        },
+        "expected": 40
+      }
+    ]
+  },
+  {
+    "id": "clone-ratio",
+    "title": "Fictional duplicate count",
+    "notation": "n = dₐ/dᵦ − 1",
+    "variables": "dₐ and dᵦ are the creator’s and duplicate’s C3 DP. n is the count of additional fictional bodies.",
+    "domain": "dᵦ > 0. Ordinary counts require a nonnegative integer result.",
+    "test": "100 C3 divided between a 50-point original and a 50-point duplicate gives one new body.",
+    "interpretation": "Equal division into an original and one duplicate corresponds to a two-to-one ratio. The source calls this a fuzzy-logic case.",
+    "dimensions": "Ratio of two ratings on the same scale.",
+    "dependencies": [],
+    "issue": "A general policy for fractional bodies or a weaker creator is absent. This fictional ontology has no biological interpretation.",
+    "references": [
+      "18",
+      "28",
+      "96"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "a/b-1",
+        "inputs": {
+          "a": 100,
+          "b": 50
+        },
+        "expected": 1
+      }
+    ]
+  },
+  {
+    "id": "soul-comparison",
+    "title": "A difference-based comparison",
+    "notation": "q = 10^(√(dₕ − dₗ) − X)",
+    "variables": "dₕ and dₗ are higher and lower C2 DP. X is the modifier, set to 1 in the rule’s first case.",
+    "domain": "dₕ ≥ dₗ in the written ordering.",
+    "test": "For a nine-point difference and X = 1 the comparison yields 100. A nine-point difference does not have this interpretation outside the chosen model.",
+    "interpretation": "The resulting quantity is presented as the number of lesser souls within a greater one. The source also compares this rule with its fictional-duplicate formula.",
+    "dimensions": "Dimensionless game ratings calibrated as a count or relative magnitude.",
+    "dependencies": [],
+    "issue": "For identical ratings and X = 1 this gives 0.1. The answer is neither an identity ratio nor an integer count. No rule here translates it into a contest winner.",
+    "references": [
+      "28",
+      "34",
+      "96"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**(sqrt(h-l)-x)",
+        "inputs": {
+          "h": 25,
+          "l": 16,
+          "x": 1
+        },
+        "expected": 100
+      },
+      {
+        "expression": "10**(sqrt(h-l)-x)",
+        "inputs": {
+          "h": 16,
+          "l": 16,
+          "x": 1
+        },
+        "expected": 0.1
+      }
+    ]
+  },
+  {
+    "id": "running-speed",
+    "title": "Speed on the logarithmic movement rule",
+    "notation": "d = 10(1 + log₁₀ v), v = 10^(d/10 − 1)",
+    "variables": "d is C2 DP or PL for #39. v is numerical speed in miles per hour. #63 uses a technology rating for sublight flight.",
+    "domain": "v > 0. The inverse works for any real d.",
+    "test": "A speed of 1,000 mph corresponds to 40 C2. At 20 C2 the inverse gives 10 mph.",
+    "interpretation": "With the character’s rating given, this yields a running speed. It has a linear rule in log speed, without the squared logarithm of the class transform.",
+    "dimensions": "The logarithm uses the numeral in mph, equivalent to dividing the speed by 1 mph.",
+    "dependencies": [],
+    "issue": "#64 supplies a different rule for a mutant’s movement. No timed race or test against an obstacle is specified.",
+    "references": [
+      "39",
+      "63"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10*(1+log10(v))",
+        "inputs": {
+          "v": 1000
+        },
+        "expected": 40
+      },
+      {
+        "expression": "10**(d/10-1)",
+        "inputs": {
+          "d": 20
+        },
+        "expected": 10
+      }
+    ]
+  },
+  {
+    "id": "mutant-movement",
+    "title": "Direct movement rating",
+    "notation": "v = d₃",
+    "variables": "d₃ is a mutant or meta-human’s C3 rating. v is the numerical speed.",
+    "domain": "Positive game rating.",
+    "test": "A mutant given 20 C2 DP has 49.28 C3 DP. #64 then gives 49.28 mph versus 10 mph under #39.",
+    "interpretation": "The numeral for speed simply repeats the numeral for the C3 rating. The rule gives a very high-powered example.",
+    "dimensions": "One mph per C3 point is a declared fictional calibration.",
+    "dependencies": [],
+    "issue": "At overlapping ratings it conflicts with the running formula if the character’s movement is running. A mode-specific reconciliation would require an extra assumption.",
+    "references": [
+      "64"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d",
+        "inputs": {
+          "d": 49.28094754756
+        },
+        "expected": 49.28094754756
+      }
+    ]
+  },
+  {
+    "id": "phasing",
+    "title": "Phasing or cloaking percentage",
+    "notation": "X = r/b,  H = X(X + 1)/2",
+    "variables": "r is total rating, b the base (usually 10 C2), and H the percentage of phasing or cloaking.",
+    "domain": "b > 0. For X > (√801 − 1)/2, H exceeds 100.",
+    "test": "100 C2 with base 10 gives 55%. 150 on the same base gives 120%.",
+    "interpretation": "A triangular-number expression measures the extent of a fictional power. #68 refers the reader back to this rule for invisibility.",
+    "dimensions": "The output is in percentage points, not a probability in [0,1].",
+    "dependencies": [],
+    "issue": "The text does not supply a cap, an obstacle difficulty, or a test converting percent phasing into success against a particular wall.",
+    "references": [
+      "53",
+      "68"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(r/b)*(r/b+1)/2",
+        "inputs": {
+          "r": 100,
+          "b": 10
+        },
+        "expected": 55
+      },
+      {
+        "expression": "(r/b)*(r/b+1)/2",
+        "inputs": {
+          "r": 150,
+          "b": 10
+        },
+        "expected": 120
+      }
+    ]
+  },
+  {
+    "id": "ghost-reading",
+    "title": "Ghost reading and ghost percentage",
+    "notation": "k = d/10,  G = k²",
+    "variables": "d is C2 DP on the normal campaign scale, k is the PK reading, and G a ghost percentage.",
+    "domain": "Nonnegative game ratings. Another campaign base can use C1.",
+    "test": "50 C2 DP → 5 PK → 25% ghost.",
+    "interpretation": "Two distinct rules link a ghost’s baseline to a meter-like reading and that reading to a percentage.",
+    "dimensions": "The squared reading yields percentage points on the author’s scale.",
+    "dependencies": [],
+    "issue": "At readings above ten it exceeds 100. The text gives no general interpretation for that result.",
+    "references": [
+      "27",
+      "72"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d/10",
+        "inputs": {
+          "d": 50
+        },
+        "expected": 5
+      },
+      {
+        "expression": "k**2",
+        "inputs": {
+          "k": 5
+        },
+        "expected": 25
+      }
+    ]
+  },
+  {
+    "id": "teleport-distance",
+    "title": "A fictional teleport distance",
+    "notation": "R = 10^(d₂^(1/j)/j²)",
+    "variables": "d₂ is identified first as C2 DP and later as PL. j distinguishes types of effect.",
+    "domain": "d₂ ≥ 0 and j = 1, 2 or 3 in the listed cases.",
+    "test": "On the spatial branch, a rating of 16 gives a range of 10 meters.",
+    "interpretation": "#23 uses j = 2 for a spatial teleport and changes j for other kinds of movement. This normalization closes the printed unmatched parenthesis at the end of the exponent.",
+    "dimensions": "The ordinary result uses meters. An exceptional narrative regime changes the unit to light-years.",
+    "dependencies": [],
+    "issue": "Changing the unit while retaining the numeric result changes the range. No general difficulty check or arrival rule accompanies it.",
+    "references": [
+      "23"
+    ],
+    "confidence": "Medium",
+    "layer": "B",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**(d**(1/j)/j**2)",
+        "inputs": {
+          "d": 16,
+          "j": 2
+        },
+        "expected": 10
+      }
+    ]
+  },
+  {
+    "id": "fictional-warp",
+    "title": "Two faster-than-light speed laws",
+    "notation": "v/c = 2ᶻ − 1  or  2^(z−1)",
+    "variables": "z is a warp number, with z = C2/Y. Y depends in part on ship length. c denotes light speed here.",
+    "domain": "Finite z, in the source’s fictional faster-than-light context.",
+    "test": "A warp number of 2 produces three or two times the speed of light.",
+    "interpretation": "Two alternatives for the same warp number produce different speeds. Choosing either is enough to evaluate a single example.",
+    "dimensions": "A multiple of light speed. No empirical claim follows from consistent arithmetic.",
+    "dependencies": [],
+    "issue": "At z = 2 the branches already disagree. Ship-size calibrations elsewhere also vary.",
+    "references": [
+      "10",
+      "30"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "2**z-1",
+        "inputs": {
+          "z": 2
+        },
+        "expected": 3
+      },
+      {
+        "expression": "2**(z-1)",
+        "inputs": {
+          "z": 2
+        },
+        "expected": 2
+      }
+    ]
+  },
+  {
+    "id": "time-travel-rating",
+    "title": "Mental-power promotion by relabeling",
+    "notation": "r′ = r + 10, one magnitude higher",
+    "variables": "r is the original rating. r′ is a numerical rating on a more powerful scale.",
+    "domain": "Positive fictional ratings. #62 supplies a C3-to-C2 example.",
+    "test": "A 10 C3 telekinetic stunt is assigned 20 C2 for its telepathic analogue.",
+    "interpretation": "The very same numeric addition appears in a time-travel proposal and in pricing telepathy relative to telekinesis. A move one magnitude higher is illustrated by a smaller class index.",
+    "dimensions": "Adding ten and then relabeling changes potency, unlike calculating the next class representation of the same potency.",
+    "dependencies": [],
+    "issue": "#62 gives a relative price for a matching stunt. It does not define a catalogue of base stunt costs.",
+    "references": [
+      "22",
+      "62"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "r+10",
+        "inputs": {
+          "r": 10
+        },
+        "expected": 20
+      }
+    ]
+  },
+  {
+    "id": "mutant-damage",
+    "title": "Game damage dice from baseline",
+    "notation": "n = (d/10)²",
+    "variables": "d is a mutant’s C2 DP. n is a count of six-sided game damage dice.",
+    "domain": "The supplied examples yield integer n. Other positive ratings can give fractions.",
+    "test": "30 C2 DP gives 9d6 under #146.",
+    "interpretation": "#146 reuses a cross-system mapping of C2 DP to Mutants & Masterminds PL and reads the result as a pool of damage dice.",
+    "dimensions": "Dice are game quantities. This relation has no interpretation as physical injury.",
+    "dependencies": [],
+    "issue": "#73 and #118 supply other pool conventions. Rolling the dice gives a number whose effect on a continuing character needs further rules.",
+    "references": [
+      "144",
+      "146"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "(d/10)**2",
+        "inputs": {
+          "d": 30
+        },
+        "expected": 9
+      }
+    ]
+  },
+  {
+    "id": "one-use-damage",
+    "title": "One-use game damage pool",
+    "notation": "n = √p₃ − 1",
+    "variables": "p₃ is the C3 PL of the effect. n is a count of six-sided game dice.",
+    "domain": "p₃ ≥ 1 for nonnegative n. Fractional n has no defined die convention here.",
+    "test": "49 C3 PL gives 6d6 with the subtraction, 7d6 without it.",
+    "interpretation": "The square-root version is identified with a one-use maximum. #118 also names a variant without the subtraction.",
+    "dimensions": "Dice are a game score. This is not a conversion from a game result to real harm.",
+    "dependencies": [],
+    "issue": "Neither branch explains how to resolve fractional pools, subtract a defense, or update a character’s state.",
+    "references": [
+      "14",
+      "73",
+      "118"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "sqrt(p)-1",
+        "inputs": {
+          "p": 49
+        },
+        "expected": 6
+      },
+      {
+        "expression": "sqrt(p)",
+        "inputs": {
+          "p": 49
+        },
+        "expected": 7
+      }
+    ]
+  },
+  {
+    "id": "ideal-allocation",
+    "title": "Ideal proportions of character aspects",
+    "notation": "K : P : H = 4 : 8 : 12",
+    "variables": "K is karma (mental attributes), P powers, H health (physical attributes).",
+    "domain": "Three proportional entries. The source does not prescribe a total.",
+    "test": "For an illustrative supplied total of 24, the corresponding allocation is 4, 8 and 12.",
+    "interpretation": "The ratio is presented as desirable for an ideal character or object. Normalizing to a supplied finite total is an editorial calculation.",
+    "dimensions": "Relative shares of a common numerical total if the normalization is chosen.",
+    "dependencies": [],
+    "issue": "The ratio neither grants a pool nor states that health is expended by hits. It cannot stand in for a damage track.",
+    "references": [
+      "79"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "24*(4/24)",
+        "inputs": {},
+        "expected": 4
+      },
+      {
+        "expression": "24*(8/24)",
+        "inputs": {},
+        "expected": 8
+      },
+      {
+        "expression": "24*(12/24)",
+        "inputs": {},
+        "expected": 12
+      }
+    ]
+  },
+  {
+    "id": "minimum-advantage",
+    "title": "A minimum advantage increment",
+    "notation": "a = 10/c,  d′ = d(1 + a)",
+    "variables": "c is a COM amount expressed on the C2 DP scale. d is the current baseline. a is the advantage fraction.",
+    "domain": "c > 0.",
+    "test": "At c = d = 90 the minimum advantage is 1/9 and the new baseline is 100.",
+    "interpretation": "The rule calculates a minimum modifier, then raises the baseline. Other figures receive special or stacked modifiers to match their powers.",
+    "dimensions": "The modifier is dimensionless. Input COM in this example is already expressed in C2 points.",
+    "dependencies": [],
+    "issue": "The example’s chosen larger modifier need not equal the computed minimum. #147 permits repetition but gives no universal acquisition schedule.",
+    "references": [
+      "123",
+      "141",
+      "147"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10/c",
+        "inputs": {
+          "c": 90
+        },
+        "expected": 0.1111111111111111
+      },
+      {
+        "expression": "d*(1+a)",
+        "inputs": {
+          "d": 90,
+          "a": 0.1111111111111111
+        },
+        "expected": 100
+      }
+    ]
+  },
+  {
+    "id": "work-time",
+    "title": "Writing-time comparison",
+    "notation": "T₂ = T₁d₁/d₂",
+    "variables": "T₁ is a reference work’s writing time. d₁ and d₂ are the reference and candidate writers’ C3 DP.",
+    "domain": "d₂ > 0. The proposed shortcut assumes comparable projects.",
+    "test": "Five years for a 50-point writer scales to 25 years for a 10-point writer doing comparable work.",
+    "interpretation": "The time estimate is conditional on equivalent scope and depth. #96 explicitly presents more than one possible comparison model.",
+    "dimensions": "A dimensionless rating ratio scales years to years.",
+    "dependencies": [],
+    "issue": "An outcome can be computed even though the source acknowledges disagreement with its soul model. This is not a tested model of writing.",
+    "references": [
+      "28",
+      "96"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "t*a/b",
+        "inputs": {
+          "t": 5,
+          "a": 50,
+          "b": 10
+        },
+        "expected": 25
+      }
+    ]
+  },
+  {
+    "id": "fictional-return",
+    "title": "A fictional waiting time after death",
+    "notation": "Y = d₃²",
+    "variables": "d₃ is the relevant C3 rating. Y is the wait for a new fictional body.",
+    "domain": "Nonnegative d₃, with limited applicability specified in #87.",
+    "test": "If a 5-point C3 rating is granted in a covered case, the wait is 25 years.",
+    "interpretation": "A rule can attach an interval to an already declared death. It supplies no procedure for declaring an ordinary character dead in the first place.",
+    "dimensions": "Years per squared game-rating unit.",
+    "dependencies": [],
+    "issue": "The source varies the treatment by type of being and status in fictional dimensions. Continuing the same character sheet is unspecified.",
+    "references": [
+      "87"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d**2",
+        "inputs": {
+          "d": 5
+        },
+        "expected": 25
+      }
+    ]
+  },
+  {
+    "id": "grade-load",
+    "title": "Fictional grade from course load",
+    "notation": "g = p₃/L",
+    "variables": "p₃ is C3 PL, L is a specified credit load, and g is grade average.",
+    "domain": "L > 0. A term and a year are alternative load periods in the text.",
+    "test": "24 C3 PL over eight credits gives a 3.0 average. This alone supplies no advancement award for the character.",
+    "interpretation": "A calibrated rating is divided by course load. #164 also gives a C2-based grade for a particular student category.",
+    "dimensions": "C3 points per course-credit unit are assigned the units of a grade average.",
+    "dependencies": [],
+    "issue": "Ordinary maximum grades are not enforced by the expression. #89 sometimes calls the input DP after identifying it as PL.",
+    "references": [
+      "89",
+      "164"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "p/l",
+        "inputs": {
+          "p": 24,
+          "l": 8
+        },
+        "expected": 3
+      },
+      {
+        "expression": "p/l",
+        "inputs": {
+          "p": 48,
+          "l": 12
+        },
+        "expected": 4
+      }
+    ]
+  },
+  {
+    "id": "fictional-salary",
+    "title": "Later annual income proposal",
+    "notation": "S = 10^[3(d − 10)/10]",
+    "variables": "d is C2 DP, S is a fictional annual dollar salary.",
+    "domain": "#202 expressly excludes d ≤ 10 for this reading.",
+    "test": "In #202, 30 C2 DP gives one million per year and 40 gives one billion.",
+    "interpretation": "Rule 202 provides a later annual-income mapping. Rule 184’s mapping instead varies the period of payment with narrative circumstances.",
+    "dimensions": "The output is numerically in dollars per year. Reusing the number in a different payment period changes the amount.",
+    "dependencies": [],
+    "issue": "No empirical basis is given for inferring real incomes or chance of employment from the game statistic.",
+    "references": [
+      "11",
+      "184",
+      "202"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**(3*(d-10)/10)",
+        "inputs": {
+          "d": 30
+        },
+        "expected": 1000000
+      },
+      {
+        "expression": "10**(3*(d-10)/10)",
+        "inputs": {
+          "d": 40
+        },
+        "expected": 1000000000
+      }
+    ]
+  },
+  {
+    "id": "technology-level",
+    "title": "Competing measures of technology",
+    "notation": "TL = p₁/3,  p₂ = TL²,  TL = √p₂/2",
+    "variables": "TL is technology level here. p₁ and p₂ are C1 and C2 PL.",
+    "domain": "Nonnegative game values. #145 describes a low technology range for its first alternative.",
+    "test": "Putting 36 C2 through the second #145 relation returns TL 3, although the first uses TL 6.",
+    "interpretation": "#8 gives a linear C1 relation. #145 presents two other equations and acknowledges their conflict. Solving the last gives p₂ = 4TL².",
+    "dimensions": "All are game scales, not measurements of technological progress.",
+    "dependencies": [],
+    "issue": "At TL = 6 the first #145 relation would give 36 C2, while the inverse of the second gives 144. The text’s suggested exception fails its own equations.",
+    "references": [
+      "8",
+      "63",
+      "145"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "p/3",
+        "inputs": {
+          "p": 18
+        },
+        "expected": 6
+      },
+      {
+        "expression": "t**2",
+        "inputs": {
+          "t": 6
+        },
+        "expected": 36
+      },
+      {
+        "expression": "4*t**2",
+        "inputs": {
+          "t": 6
+        },
+        "expected": 144
+      }
+    ]
+  },
+  {
+    "id": "appearance",
+    "title": "Alternative ratings for appearance",
+    "notation": "c = d₃/(π + 1) or c = (d₂/10 + 1)²",
+    "variables": "c is COM for the context selected by #197. d is on the indicated class scale.",
+    "domain": "Positive numerical ratings.",
+    "test": "At 20 C2, about 49.28 C3, the two estimates are about 11.90 and 9.",
+    "interpretation": "The later proposal explicitly compares its result with an earlier mapping. Both assign a fictional appearance rating, with other branches elsewhere.",
+    "dimensions": "Dimensionless game ratings. The source’s proposed links to social categories have no empirical foundation here.",
+    "dependencies": [
+      "class-step"
+    ],
+    "issue": "Different rules impose discriminatory classifications. These can be indexed and examined without presenting them as character requirements.",
+    "references": [
+      "124",
+      "126",
+      "197"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "d/(pi+1)",
+        "inputs": {
+          "d": 49.28094754756
+        },
+        "expected": 11.899032973425074
+      },
+      {
+        "expression": "(d/10+1)**2",
+        "inputs": {
+          "d": 20
+        },
+        "expected": 9
+      }
+    ]
+  },
+  {
+    "id": "planet-calibration",
+    "title": "A diameter-based rating for fictional worlds",
+    "notation": "d₂ = 159 log₁₀ D",
+    "variables": "D is a diameter stated as a numerical distance. d₂ is C2 DP.",
+    "domain": "D > 0. A common specified length unit is necessary.",
+    "test": "Entering a diameter numeral of 10,000 yields 636 C2 DP.",
+    "interpretation": "A logarithmic mapping allows a reader to assign or invert a celestial game rating.",
+    "dimensions": "The source permits a numeral in miles or kilometers. A fixed physical diameter has different numerals in those units, hence different ratings.",
+    "dependencies": [],
+    "issue": "The factor 159 is a stated calibration. Nothing in the class transform derives that factor or establishes an astronomical law.",
+    "references": [
+      "25"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "159*log10(D)",
+        "inputs": {
+          "D": 10000
+        },
+        "expected": 636
+      }
+    ]
+  },
+  {
+    "id": "infinity-notation",
+    "title": "A label that looks like an infinite power",
+    "notation": "(X + 1)^∞ ↔ 10^(X+1) at CX",
+    "variables": "X is the position of a letter. The infinity symbol is used as an assigned label.",
+    "domain": "For ordinary exponentiation with X + 1 > 1, the limit as the exponent grows is unbounded.",
+    "test": "The assigned figure is 100 at CA. In ordinary arithmetic, already 2¹⁰ is 1,024 and powers continue growing.",
+    "interpretation": "The source fits an assigned value to a fictional figure. Its following sequence of class exponents is independently calculable from #45.",
+    "dimensions": "A symbolic nickname and a real-valued limit have different mathematical types.",
+    "dependencies": [
+      "iterated-scale"
+    ],
+    "issue": "For X = 1, a base of two does not tend to 100 as its exponent increases. No mathematical correction is offered; the finite game assignment is recorded separately.",
+    "references": [
+      "200"
+    ],
+    "confidence": "High",
+    "layer": "A",
+    "edition": "v0.30",
+    "formulas": [
+      {
+        "expression": "10**(x+1)",
+        "inputs": {
+          "x": 1
+        },
+        "expected": 100
+      },
+      {
+        "expression": "2**n",
+        "inputs": {
+          "n": 10
+        },
+        "expected": 1024
+      }
+    ]
+  }
+]

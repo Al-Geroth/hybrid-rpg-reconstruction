@@ -1,0 +1,59 @@
+# fN begins at normalized block N. Adjacent opening headings and continuation markers stay with the passage they introduce or continue.
+f0|admin|NH|Title, authorship and edition links|The host identifies Matthew/C++ as author, labels the page v0.30 and links four older editions.
+f10|admin design|NH|Title and reader warnings|The author introduces the project and flags three numbered entries for sexual or discriminatory material.
+f12|admin design|NH|Free access, revisions and borrowed material|The disclaimer thanks the host, describes ongoing corrections and acknowledges third-party fictional material and the absence of permissions.
+f14@521|action design|PM|Two-thirds at a chosen magnitude|The author describes a mostly diceless design but invokes a two-thirds success threshold for character generation and conflict. The sampling procedure is unclear.
+f14@784|admin design|NH|Plans for a printed version|The author distinguishes the free web text from a possible printed edition and considers rights and demand.
+f15@600|core math|PM|The foundational transform and the role of X|The expression is described as a point and magnitude transform. X is expressly distinguished from an unrelated variable with the same name in rule 196.
+f17|design action|NH|The author's account of randomness|Two dice rules are acknowledged in a discussion of probability, design preference and reader interest.
+f19|admin design|NH|Print plans and the role of psyche|A proposed schedule for print editions is discussed alongside the aim of using one primary statistic.
+f20|external character pop|AM|Doom, Marvel and competing point totals|The author reads different published character values as HYBRID ratings and argues that similar distributions recur across roleplaying games.
+f22|world pop pseudo|AM|Fictional cosmology and the field analogy|Stories of antimatter and the Anti-Life Equation are compared to the author's field and magnitude models.
+f24|core character external|PH|Psyche expressed through life-span and power|The text describes a single-stat system, compares different conventions for intelligence and points, and applies its two manifestations in fictional examples.
+f27|admin|NH|Edition masthead and declared totals|The page claims 145 pages, 203 rules, 203 equations and 30 percent completion. It repeats an age warning and records typography.
+f36|admin math|NH|Version correction and calculator|The author retrospectively reidentifies an earlier version and requires access to a calculator with a common logarithm.
+f38|example world pseudo|PM|Example 1. Negative energy|A guide to the negative-energy proposal points to the field and intelligence entries.
+f39|example powers|PM|Example 2. Space travel|A reading list groups the travel equations and suggests different thresholds for reaching, observing or crossing dimensions.
+f40|design|NH|Example 3. A pointer to field effects|The author recommends a favoured field calculation.
+f41|combat design|AH|Example 4. Conflicting combat directions|The text favours the more specific combat entry for low-level campaigns and explicitly acknowledges disagreement between two rules.
+f42|example external math|PM|Example 5. Rating the Comet Empire|A pair of CA values is converted to C1 and compared to a Marvel SAGA average and interstellar travel.
+f43|world pseudo|PM|Example 6. Projecting political history|The author uses supposed technology levels for different nations and eras to make an unsupported forecast.
+f44|core math external|PH|A one-paragraph statement of the system|The transform is presented as the central relation. Claimed correspondences to other games depend on the author's interpretation of their point systems.
+f45|pop example character|AM|Television characters and inferred rankings|A long succession of superhero and television comparisons assigns ratings to characters from their appearances and plot feats.
+f45@12601|prejudice personal pop|NH|Social polemic within a television comparison|A discussion of characters turns to social generalizations and personal judgements about gender and relationships.
+f45@2070|world pop powers|PM|Astral projection and fictional chronology|Plots about projection, travel through time and distant worlds are reinterpreted as differences of psyche, power and life-span.
+f45@19709|external design math|AM|Are unlike point costs additive?|The author tests comparative HERO character ratings and objects to adding equal numerals that represent different magnitudes.
+f46|design external|NH|A qualification to the HERO comparison|The author labels the comparison of HERO editions a theory and acknowledges weak supporting evidence.
+f47|personal|NH|A recipe interrupts the text|An extended baking recipe occupies the space between the initial presentation and preface.
+f48@8949|core design external|PH|Return to the central equation|The transform and claimed similarities to other games are restated at the end of the recipe.
+f49|design external|NH|Preface. The design problem|The author traces the system to dissatisfaction with the meaning of ratings across superhero games and compares fictional benchmarks.
+f49@5168|character design math|PH|Origin of the CA to C3 classifications|The preface explains how successive scales came to stand for character groups and how the point conversion was selected. Some assignments rest on stereotypes.
+f49@7593|core pop design|PM|C0 as a provisional rating|C0 holds a number before the correct magnitude is identified. A succession of comic character comparisons illustrates the uncertainty of that selection.
+f50|world pop example|AM|Galactus and the scale of a universe|A universal rating and relative rankings for comic characters are proposed as benchmarks.
+f51|example character math|PM|Introduction through academic grades|Credits and a presumed default rating are used to estimate a grade. The starting numbers and their relation to a student's physical characteristics are assumptions.
+f52|admin character pop|NH|Character glossary. A reading guide|Sixteen labelled hints route readers to numbered rules on creatures, cyborgs, power names, character adaptations and other topics. The section acts as an index to examples.
+f66|character math|PH|Hint on signed fractions|The guide distinguishes directions for advantage and disadvantage adjustments and sends readers to the detailed rule.
+f67|admin character pop|NH|Character hints for Transformers and Phoenix|Two final pointers suggest source entries for robots and Marvel characters.
+f69|external pop|NH|Game reviews. Yu-Gi-Oh!|The author interprets the cards and settings of a fictional duel as character powers and compares that framework with other games.
+f71|external character|PM|Dungeons & Dragons hit points|The text identifies hit points with a C3 baseline and compares them to several games' totals.
+f72|external pop character|AM|Conflicting StarCraft creature scores|A creature roster is reinterpreted with adjustments to purported starting baselines.
+f73|external math|AM|Synnibarr Life Points vary by use|The author assigns different HYBRID magnitudes to Life Points in different published examples.
+f74|pop character world|PM|Pokémon as projected monsters|The text supposes psychic children and attempts to reconcile the fictional creatures with its own scale.
+f75|pop world|NH|A setting comparison for Digimon|The author distinguishes Digimon from Pokémon by interpreting its universe as microscopic.
+f76|external action|PM|d20 Modern modifiers|The author singles out a table of modifiers as a potential conversion to HYBRID.
+f77|external character math|AM|Reading GURPS attributes as HYBRID ratings|The text compares a selection of character statistics and proposes links between combinations of attributes and cost.
+f78|external math|PM|Nobilis point comparisons|Average psyche and the point scales in Nobilis and Marvel SAGA are compared.
+f79|external math|EM|A Marvel SAGA conversion|The author distinguishes the homebrew CA notation from SAGA's terminology and gives a numerical conversion.
+f80|external character design|PM|Intelligence in the 1986 Marvel game|The author treats similarities in rating and intelligence as implicit in Marvel's rules.
+f81|external math|EM|Aberrant dots|A square-root expression is proposed for an equivalent dot rating. The passage also comments on the game's treatment of physics.
+f82|external design|NH|Mage and scientific magic|The review describes a shared interest in changing physical laws through a fictional scientific idiom.
+f83|external powers|PM|Rifts and magic|The author relates the mixture of magic and technology in Rifts to a higher magnitude in HYBRID.
+f84|external design|NH|Big Eyes, Small Mouth|The author discusses simplicity and contrasts its handling of physical phenomena with Aberrant.
+f85|external design math|AM|HERO costs assigned incompatible magnitudes|The author interprets character and power costs through different C units and questions whether sums of Active Points have a common dimension.
+f85@3700|character math external|PM|Advantages and limitations in HERO|Signed fractions for purchasing or limiting abilities are compared with HERO and connected to a proposed physical analogy.
+f85@5485|external example|AM|HERO character point totals across editions|Example character builds and edition changes are used to argue for competing readings of character points.
+f86|external math|EM|Two meanings of PL in Mutants & Masterminds|The author explicitly differentiates that game's power level from HYBRID PL and proposes converting from C2 DP instead.
+f87|pop world prejudice|NH|Film reviews. The Matrix|A speculative interpretation of the film ties race and characters' identities to a preferred reading of its story.
+f89|pop example character|PM|Blade sequel as a change in AMBS|A higher composite rating is assigned to the sequel and then converted back to C2. The choice to increase it comes from reading the film.
+f90|pop character math|PM|Godzilla and release year|The release date and a further modifier are proposed as clues to a monster's C2 baseline.
+f91|admin|NH|Beginning of the numbered text|A heading announces the core rules after the preface, indexes and reviews.

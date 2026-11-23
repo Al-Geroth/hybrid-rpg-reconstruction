@@ -1,0 +1,90 @@
+{
+  "id": "critical",
+  "title": "Critical assessment",
+  "sections": [
+    {
+      "title": "What survives the editorial cut",
+      "text": "HYBRID works best when the question already has a shape. Given a runner's pace, it returns a rating. Given a creator's rating and the desired strength of a copy, it can return a count. Given three listed choices, it can produce a mutant with named powers. Those are genuine contributions to play. Faced with two players pursuing incompatible goals, the referee also needs to know which rule has authority and what the world looks like afterward. That layer is much thinner.",
+      "refs": [
+        "18",
+        "35",
+        "39",
+        "123",
+        "188"
+      ],
+      "layer": "B"
+    },
+    {
+      "title": "A common scale has real explanatory power",
+      "text": "Rules 45 and 46 explain a recurring reading error. Doubling 20 C2 before conversion gives roughly 368.63 C3. Converting 20 C2 first and doubling gives roughly 98.56 C3. A difference that appears arbitrary on first reading can therefore have a specific cause. The scale map connects several character and power examples. It cannot derive the modifier for a particular body type, the acceptable target for a skill roll or a victory condition.",
+      "refs": [
+        "4",
+        "35",
+        "45",
+        "46",
+        "49"
+      ],
+      "layer": "B"
+    },
+    {
+      "title": "The author often starts at the other end",
+      "text": "Ordinary game design usually lets the player choose a character and see what happens. Much of HYBRID starts with something that has already happened in a comic or film and seeks a rating that could account for it. Rule 123 works from a cast of existing characters. Rule 166 gives a special adjustment for a robot leader. This is a productive approach to adapting a favourite story. When an unknown character appears in play, the next adjustment is no longer supplied by the known story.",
+      "refs": [
+        "123",
+        "141",
+        "166",
+        "176"
+      ],
+      "layer": "B"
+    },
+    {
+      "title": "Credit and originality",
+      "text": "The author names other games and distinguishes HYBRID's CA DP from Marvel SAGA's own terms in Rule 125. Rule 182 adapts particular GURPS starting totals, while Rule 189 considers several analogues of a HERO statistic. These references establish the author's comparative project. They provide no basis for claiming that the cited games themselves secretly implement this scale. The distinctive contribution observable here is the repeated attempt to translate disparate fictional magnitudes into one personal rating vocabulary.",
+      "refs": [
+        "45",
+        "125",
+        "182",
+        "189"
+      ],
+      "layer": ""
+    },
+    {
+      "title": "Three different failures of agreement",
+      "text": "Some alternatives change the rule's subject, as when a C2 value describes a baseline in one passage and an active power in another. Some give incompatible results even after fixing the subject, as in the overlap between two readings of mutant movement. A third kind is numerical. Rule 188 rounds the converted 35 C3 target to 8 or less, while the Rule 45 conversion yields 7 or less. Each calls for a different editorial treatment.",
+      "refs": [
+        "39",
+        "45",
+        "64",
+        "183",
+        "188"
+      ],
+      "layer": "B"
+    },
+    {
+      "title": "What removing the digressions costs",
+      "text": "Omitting prejudice from worked examples makes the book usable, but would falsify the evidence if it concealed where prejudice shapes inputs. Rules 4 and 199 attach coefficients to demographic categories. These are authorial assumptions and lack a demonstrated empirical basis. Conversely, removing all off-topic material before reading it would lose mechanics. Rule 163 embeds a revision history, and some game reviews and introductory passages explain otherwise obscure scale choices.",
+      "refs": [
+        "4",
+        "8",
+        "163",
+        "182",
+        "199"
+      ],
+      "layer": ""
+    },
+    {
+      "title": "The game that remains",
+      "text": "The result is a set of superhero character-building templates, scale conversions and local tests suited to a referee exploring what a particular fictional character can do. It supports a small, repeatable exchange about a rated capability. The tested path from opposing intentions through injury, recovery and advancement still needs decisions created at the table. A group could make those decisions and play a campaign. Its house rules would be part of the explanation of how that campaign works.",
+      "refs": [
+        "3",
+        "39",
+        "45",
+        "123",
+        "146",
+        "188",
+        "189"
+      ],
+      "layer": "B"
+    }
+  ]
+}

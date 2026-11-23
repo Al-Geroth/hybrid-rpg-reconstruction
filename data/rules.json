@@ -1,0 +1,2696 @@
+[
+  {
+    "id": "rule-0",
+    "original_id": "0",
+    "original_heading": "RULE # 0",
+    "edition": "0.30",
+    "order": 1,
+    "start_block": 92,
+    "end_block": 92,
+    "title": "Dating the web edition",
+    "segments": [
+      "rule-0-a"
+    ]
+  },
+  {
+    "id": "rule-1",
+    "original_id": "1",
+    "original_heading": "RULE # 1",
+    "edition": "0.30",
+    "order": 2,
+    "start_block": 93,
+    "end_block": 93,
+    "title": "Order, chaos and two families of equations",
+    "segments": [
+      "rule-1-a"
+    ]
+  },
+  {
+    "id": "rule-2",
+    "original_id": "2",
+    "original_heading": "RULE # 2",
+    "edition": "0.30",
+    "order": 3,
+    "start_block": 94,
+    "end_block": 94,
+    "title": "Martial arts grade",
+    "segments": [
+      "rule-2-a",
+      "rule-2-b"
+    ]
+  },
+  {
+    "id": "rule-3",
+    "original_id": "3",
+    "original_heading": "RULE # 3",
+    "edition": "0.30",
+    "order": 4,
+    "start_block": 95,
+    "end_block": 95,
+    "title": "Trading power for life-span",
+    "segments": [
+      "rule-3-a"
+    ]
+  },
+  {
+    "id": "rule-4",
+    "original_id": "4",
+    "original_heading": "RULE # 4",
+    "edition": "0.30",
+    "order": 5,
+    "start_block": 96,
+    "end_block": 96,
+    "title": "Height and choice of baseline",
+    "segments": [
+      "rule-4-a",
+      "rule-4-b"
+    ]
+  },
+  {
+    "id": "rule-5",
+    "original_id": "5",
+    "original_heading": "RULE # 5",
+    "edition": "0.30",
+    "order": 6,
+    "start_block": 97,
+    "end_block": 97,
+    "title": "C0 depends on the class of being",
+    "segments": [
+      "rule-5-a",
+      "rule-5-b"
+    ]
+  },
+  {
+    "id": "rule-6",
+    "original_id": "6",
+    "original_heading": "RULE # 6",
+    "edition": "0.30",
+    "order": 7,
+    "start_block": 98,
+    "end_block": 98,
+    "title": "Converting a life-span rating to years",
+    "segments": [
+      "rule-6-a"
+    ]
+  },
+  {
+    "id": "rule-7",
+    "original_id": "7",
+    "original_heading": "RULE # 7",
+    "edition": "0.30",
+    "order": 8,
+    "start_block": 99,
+    "end_block": 99,
+    "title": "Artificial and natural fields",
+    "segments": [
+      "rule-7-a"
+    ]
+  },
+  {
+    "id": "rule-8",
+    "original_id": "8",
+    "original_heading": "RULE # 8",
+    "edition": "0.30",
+    "order": 9,
+    "start_block": 100,
+    "end_block": 100,
+    "title": "Intelligence, technology and default power",
+    "segments": [
+      "rule-8-a"
+    ]
+  },
+  {
+    "id": "rule-9",
+    "original_id": "9",
+    "original_heading": "RULE # 9",
+    "edition": "0.30",
+    "order": 10,
+    "start_block": 101,
+    "end_block": 101,
+    "title": "A speed expressed as a fraction of light speed",
+    "segments": [
+      "rule-9-a"
+    ]
+  },
+  {
+    "id": "rule-10",
+    "original_id": "10",
+    "original_heading": "RULE # 10",
+    "edition": "0.30",
+    "order": 11,
+    "start_block": 102,
+    "end_block": 102,
+    "title": "Ship size and warp number",
+    "segments": [
+      "rule-10-a"
+    ]
+  },
+  {
+    "id": "rule-11",
+    "original_id": "11",
+    "original_heading": "RULE # 11",
+    "edition": "0.30",
+    "order": 12,
+    "start_block": 103,
+    "end_block": 103,
+    "title": "Earnings as a character rating",
+    "segments": [
+      "rule-11-a",
+      "rule-11-b",
+      "rule-11-c"
+    ]
+  },
+  {
+    "id": "rule-12",
+    "original_id": "12",
+    "original_heading": "RULE # 12",
+    "edition": "0.30",
+    "order": 13,
+    "start_block": 104,
+    "end_block": 104,
+    "title": "Rating a freezing effect",
+    "segments": [
+      "rule-12-a"
+    ]
+  },
+  {
+    "id": "rule-13",
+    "original_id": "13",
+    "original_heading": "RULE # 13",
+    "edition": "0.30",
+    "order": 14,
+    "start_block": 105,
+    "end_block": 105,
+    "title": "Rating a heating effect",
+    "segments": [
+      "rule-13-a"
+    ]
+  },
+  {
+    "id": "rule-14",
+    "original_id": "14",
+    "original_heading": "RULE # 14",
+    "edition": "0.30",
+    "order": 15,
+    "start_block": 106,
+    "end_block": 106,
+    "title": "Animal size and environments",
+    "segments": [
+      "rule-14-a"
+    ]
+  },
+  {
+    "id": "rule-15",
+    "original_id": "15",
+    "original_heading": "RULE # 15",
+    "edition": "0.30",
+    "order": 16,
+    "start_block": 107,
+    "end_block": 107,
+    "title": "Height of a mutant from a damage parameter",
+    "segments": [
+      "rule-15-a"
+    ]
+  },
+  {
+    "id": "rule-16",
+    "original_id": "16",
+    "original_heading": "RULE # 16",
+    "edition": "0.30",
+    "order": 17,
+    "start_block": 108,
+    "end_block": 108,
+    "title": "Cost of flight by dimensions",
+    "segments": [
+      "rule-16-a"
+    ]
+  },
+  {
+    "id": "rule-17",
+    "original_id": "17",
+    "original_heading": "RULE # 17",
+    "edition": "0.30",
+    "order": 18,
+    "start_block": 109,
+    "end_block": 109,
+    "title": "Optional dice pool by magnitude",
+    "segments": [
+      "rule-17-a"
+    ]
+  },
+  {
+    "id": "rule-18",
+    "original_id": "18",
+    "original_heading": "RULE # 18",
+    "edition": "0.30",
+    "order": 19,
+    "start_block": 110,
+    "end_block": 110,
+    "title": "Clones from a C3 ratio",
+    "segments": [
+      "rule-18-a"
+    ]
+  },
+  {
+    "id": "rule-19",
+    "original_id": "19",
+    "original_heading": "RULE # 19",
+    "edition": "0.30",
+    "order": 20,
+    "start_block": 111,
+    "end_block": 111,
+    "title": "Shrinking by clone ratios or power",
+    "segments": [
+      "rule-19-a"
+    ]
+  },
+  {
+    "id": "rule-20",
+    "original_id": "20",
+    "original_heading": "RULE # 20",
+    "edition": "0.30",
+    "order": 21,
+    "start_block": 112,
+    "end_block": 112,
+    "title": "Building a giant monster from size",
+    "segments": [
+      "rule-20-a"
+    ]
+  },
+  {
+    "id": "rule-21",
+    "original_id": "21",
+    "original_heading": "RULE # 21",
+    "edition": "0.30",
+    "order": 22,
+    "start_block": 113,
+    "end_block": 113,
+    "title": "Muscle strength and material strength",
+    "segments": [
+      "rule-21-a"
+    ]
+  },
+  {
+    "id": "rule-22",
+    "original_id": "22",
+    "original_heading": "RULE # 22",
+    "edition": "0.30",
+    "order": 23,
+    "start_block": 114,
+    "end_block": 114,
+    "title": "Moving a rating for time travel",
+    "segments": [
+      "rule-22-a"
+    ]
+  },
+  {
+    "id": "rule-23",
+    "original_id": "23",
+    "original_heading": "RULE # 23",
+    "edition": "0.30",
+    "order": 24,
+    "start_block": 115,
+    "end_block": 115,
+    "title": "Teleportation distance by dimensions",
+    "segments": [
+      "rule-23-a",
+      "rule-23-b"
+    ]
+  },
+  {
+    "id": "rule-24",
+    "original_id": "24",
+    "original_heading": "RULE # 24",
+    "edition": "0.30",
+    "order": 25,
+    "start_block": 116,
+    "end_block": 116,
+    "title": "Galaxies as characters",
+    "segments": [
+      "rule-24-a"
+    ]
+  },
+  {
+    "id": "rule-25",
+    "original_id": "25",
+    "original_heading": "RULE # 25",
+    "edition": "0.30",
+    "order": 26,
+    "start_block": 117,
+    "end_block": 117,
+    "title": "Diameter to celestial psyche",
+    "segments": [
+      "rule-25-a"
+    ]
+  },
+  {
+    "id": "rule-26",
+    "original_id": "26",
+    "original_heading": "RULE # 26",
+    "edition": "0.30",
+    "order": 27,
+    "start_block": 118,
+    "end_block": 118,
+    "title": "Counting galaxies by rating",
+    "segments": [
+      "rule-26-a",
+      "rule-26-b",
+      "rule-26-c"
+    ]
+  },
+  {
+    "id": "rule-27",
+    "original_id": "27",
+    "original_heading": "RULE # 27",
+    "edition": "0.30",
+    "order": 28,
+    "start_block": 119,
+    "end_block": 119,
+    "title": "Ghost readings",
+    "segments": [
+      "rule-27-a"
+    ]
+  },
+  {
+    "id": "rule-28",
+    "original_id": "28",
+    "original_heading": "RULE # 28",
+    "edition": "0.30",
+    "order": 29,
+    "start_block": 120,
+    "end_block": 120,
+    "title": "Allowance for discrepancies",
+    "segments": [
+      "rule-28-a"
+    ]
+  },
+  {
+    "id": "rule-29",
+    "original_id": "29",
+    "original_heading": "RULE # 29",
+    "edition": "0.30",
+    "order": 30,
+    "start_block": 121,
+    "end_block": 121,
+    "title": "Tachyons as a fictional substance",
+    "segments": [
+      "rule-29-a"
+    ]
+  },
+  {
+    "id": "rule-30",
+    "original_id": "30",
+    "original_heading": "RULE # 30",
+    "edition": "0.30",
+    "order": 31,
+    "start_block": 122,
+    "end_block": 122,
+    "title": "Two warp-speed exponentials",
+    "segments": [
+      "rule-30-a"
+    ]
+  },
+  {
+    "id": "rule-31",
+    "original_id": "31",
+    "original_heading": "RULE # 31",
+    "edition": "0.30",
+    "order": 32,
+    "start_block": 123,
+    "end_block": 123,
+    "title": "Immortality rating",
+    "segments": [
+      "rule-31-a"
+    ]
+  },
+  {
+    "id": "rule-32",
+    "original_id": "32",
+    "original_heading": "RULE # 32",
+    "edition": "0.30",
+    "order": 33,
+    "start_block": 124,
+    "end_block": 124,
+    "title": "Appearance as a logarithm of power",
+    "segments": [
+      "rule-32-a"
+    ]
+  },
+  {
+    "id": "rule-33",
+    "original_id": "33",
+    "original_heading": "RULE # 33",
+    "edition": "0.30",
+    "order": 34,
+    "start_block": 125,
+    "end_block": 125,
+    "title": "Different COM functions for different characters",
+    "segments": [
+      "rule-33-a"
+    ]
+  },
+  {
+    "id": "rule-34",
+    "original_id": "34",
+    "original_heading": "RULE # 34",
+    "edition": "0.30",
+    "order": 35,
+    "start_block": 126,
+    "end_block": 126,
+    "title": "Difference between two psyche ratings",
+    "segments": [
+      "rule-34-a",
+      "rule-34-b"
+    ]
+  },
+  {
+    "id": "rule-35",
+    "original_id": "35",
+    "original_heading": "RULE # 35",
+    "edition": "0.30",
+    "order": 36,
+    "start_block": 127,
+    "end_block": 127,
+    "title": "Success threshold for combat and skills",
+    "segments": [
+      "rule-35-a"
+    ]
+  },
+  {
+    "id": "rule-36",
+    "original_id": "36",
+    "original_heading": "RULE # 36",
+    "edition": "0.30",
+    "order": 37,
+    "start_block": 128,
+    "end_block": 128,
+    "title": "Two estimates of collective effort",
+    "segments": [
+      "rule-36-a"
+    ]
+  },
+  {
+    "id": "rule-37",
+    "original_id": "37",
+    "original_heading": "RULE # 37",
+    "edition": "0.30",
+    "order": 38,
+    "start_block": 129,
+    "end_block": 129,
+    "title": "Changing one proportion in a height calculation",
+    "segments": [
+      "rule-37-a"
+    ]
+  },
+  {
+    "id": "rule-38",
+    "original_id": "38",
+    "original_heading": "RULE # 38",
+    "edition": "0.30",
+    "order": 39,
+    "start_block": 130,
+    "end_block": 130,
+    "title": "Shape-changing by a new baseline",
+    "segments": [
+      "rule-38-a"
+    ]
+  },
+  {
+    "id": "rule-39",
+    "original_id": "39",
+    "original_heading": "RULE # 39",
+    "edition": "0.30",
+    "order": 40,
+    "start_block": 131,
+    "end_block": 131,
+    "title": "Running speed to required rating",
+    "segments": [
+      "rule-39-a"
+    ]
+  },
+  {
+    "id": "rule-40",
+    "original_id": "40",
+    "original_heading": "RULE # 40",
+    "edition": "0.30",
+    "order": 41,
+    "start_block": 132,
+    "end_block": 132,
+    "title": "Strength ratings for different power classes",
+    "segments": [
+      "rule-40-a"
+    ]
+  },
+  {
+    "id": "rule-41",
+    "original_id": "41",
+    "original_heading": "RULE # 41",
+    "edition": "0.30",
+    "order": 42,
+    "start_block": 133,
+    "end_block": 133,
+    "title": "Percentage for motion through time",
+    "segments": [
+      "rule-41-a"
+    ]
+  },
+  {
+    "id": "rule-42",
+    "original_id": "42",
+    "original_heading": "RULE # 42",
+    "edition": "0.30",
+    "order": 43,
+    "start_block": 134,
+    "end_block": 134,
+    "title": "Technology from date of manufacture",
+    "segments": [
+      "rule-42-a"
+    ]
+  },
+  {
+    "id": "rule-43",
+    "original_id": "43",
+    "original_heading": "RULE # 43",
+    "edition": "0.30",
+    "order": 44,
+    "start_block": 135,
+    "end_block": 135,
+    "title": "Superhuman body density",
+    "segments": [
+      "rule-43-a"
+    ]
+  },
+  {
+    "id": "rule-44",
+    "original_id": "44",
+    "original_heading": "RULE # 44",
+    "edition": "0.30",
+    "order": 45,
+    "start_block": 136,
+    "end_block": 136,
+    "title": "Mass from height and a density exponent",
+    "segments": [
+      "rule-44-a"
+    ]
+  },
+  {
+    "id": "rule-45",
+    "original_id": "45",
+    "original_heading": "RULE # 45",
+    "edition": "0.30",
+    "order": 46,
+    "start_block": 137,
+    "end_block": 137,
+    "title": "Converting between successive scales",
+    "segments": [
+      "rule-45-a",
+      "rule-45-b"
+    ]
+  },
+  {
+    "id": "rule-46",
+    "original_id": "46",
+    "original_heading": "RULE # 46",
+    "edition": "0.30",
+    "order": 47,
+    "start_block": 138,
+    "end_block": 138,
+    "title": "Multiplying before or after conversion",
+    "segments": [
+      "rule-46-a"
+    ]
+  },
+  {
+    "id": "rule-47",
+    "original_id": "47",
+    "original_heading": "RULE # 47",
+    "edition": "0.30",
+    "order": 48,
+    "start_block": 139,
+    "end_block": 139,
+    "title": "A notation for humanoid profiles",
+    "segments": [
+      "rule-47-a"
+    ]
+  },
+  {
+    "id": "rule-48",
+    "original_id": "48",
+    "original_heading": "RULE # 48",
+    "edition": "0.30",
+    "order": 49,
+    "start_block": 140,
+    "end_block": 140,
+    "title": "An ideal mass for a technological object",
+    "segments": [
+      "rule-48-a"
+    ]
+  },
+  {
+    "id": "rule-49",
+    "original_id": "49",
+    "original_heading": "RULE # 49",
+    "edition": "0.30",
+    "order": 50,
+    "start_block": 141,
+    "end_block": 141,
+    "title": "Average Mind, Body and Soul",
+    "segments": [
+      "rule-49-a"
+    ]
+  },
+  {
+    "id": "rule-50",
+    "original_id": "50",
+    "original_heading": "RULE # 50",
+    "edition": "0.30",
+    "order": 51,
+    "start_block": 142,
+    "end_block": 142,
+    "title": "A rating for pursuit",
+    "segments": [
+      "rule-50-a"
+    ]
+  },
+  {
+    "id": "rule-51",
+    "original_id": "51",
+    "original_heading": "RULE # 51",
+    "edition": "0.30",
+    "order": 52,
+    "start_block": 143,
+    "end_block": 143,
+    "title": "Degree of cinematic vampirism",
+    "segments": [
+      "rule-51-a"
+    ]
+  },
+  {
+    "id": "rule-52",
+    "original_id": "52",
+    "original_heading": "RULE # 52",
+    "edition": "0.30",
+    "order": 53,
+    "start_block": 144,
+    "end_block": 144,
+    "title": "Time travel and future crimes",
+    "segments": [
+      "rule-52-a"
+    ]
+  },
+  {
+    "id": "rule-53",
+    "original_id": "53",
+    "original_heading": "RULE # 53",
+    "edition": "0.30",
+    "order": 54,
+    "start_block": 145,
+    "end_block": 145,
+    "title": "Phasing and cloaking as percentages",
+    "segments": [
+      "rule-53-a"
+    ]
+  },
+  {
+    "id": "rule-54",
+    "original_id": "54",
+    "original_heading": "RULE # 54",
+    "edition": "0.30",
+    "order": 55,
+    "start_block": 146,
+    "end_block": 146,
+    "title": "Power stunts as resonance",
+    "segments": [
+      "rule-54-a"
+    ]
+  },
+  {
+    "id": "rule-55",
+    "original_id": "55",
+    "original_heading": "RULE # 55",
+    "edition": "0.30",
+    "order": 56,
+    "start_block": 147,
+    "end_block": 147,
+    "title": "Encoding numerical ratings in letters",
+    "segments": [
+      "rule-55-a",
+      "rule-55-b"
+    ]
+  },
+  {
+    "id": "rule-56",
+    "original_id": "56",
+    "original_heading": "RULE # 56",
+    "edition": "0.30",
+    "order": 57,
+    "start_block": 148,
+    "end_block": 148,
+    "title": "Applying fields to stars and small objects",
+    "segments": [
+      "rule-56-a"
+    ]
+  },
+  {
+    "id": "rule-57",
+    "original_id": "57",
+    "original_heading": "RULE # 57",
+    "edition": "0.30",
+    "order": 58,
+    "start_block": 149,
+    "end_block": 149,
+    "title": "Three proposed personality types",
+    "segments": [
+      "rule-57-a"
+    ]
+  },
+  {
+    "id": "rule-58",
+    "original_id": "58",
+    "original_heading": "RULE # 58",
+    "edition": "0.30",
+    "order": 59,
+    "start_block": 150,
+    "end_block": 150,
+    "title": "A letter name as a power rating",
+    "segments": [
+      "rule-58-a"
+    ]
+  },
+  {
+    "id": "rule-59",
+    "original_id": "59",
+    "original_heading": "RULE # 59",
+    "edition": "0.30",
+    "order": 60,
+    "start_block": 151,
+    "end_block": 151,
+    "title": "Appearance and height through a ratio",
+    "segments": [
+      "rule-59-a"
+    ]
+  },
+  {
+    "id": "rule-60",
+    "original_id": "60",
+    "original_heading": "RULE # 60",
+    "edition": "0.30",
+    "order": 61,
+    "start_block": 152,
+    "end_block": 152,
+    "title": "Height and psyche as inverse expressions",
+    "segments": [
+      "rule-60-a"
+    ]
+  },
+  {
+    "id": "rule-61",
+    "original_id": "61",
+    "original_heading": "RULE # 61",
+    "edition": "0.30",
+    "order": 62,
+    "start_block": 153,
+    "end_block": 153,
+    "title": "Appearance treated as a partner budget",
+    "segments": [
+      "rule-61-a"
+    ]
+  },
+  {
+    "id": "rule-62",
+    "original_id": "62",
+    "original_heading": "RULE # 62",
+    "edition": "0.30",
+    "order": 63,
+    "start_block": 154,
+    "end_block": 154,
+    "title": "Telepathy relative to telekinesis",
+    "segments": [
+      "rule-62-a"
+    ]
+  },
+  {
+    "id": "rule-63",
+    "original_id": "63",
+    "original_heading": "RULE # 63",
+    "edition": "0.30",
+    "order": 64,
+    "start_block": 155,
+    "end_block": 155,
+    "title": "Sublight speed and technology level",
+    "segments": [
+      "rule-63-a"
+    ]
+  },
+  {
+    "id": "rule-64",
+    "original_id": "64",
+    "original_heading": "RULE # 64",
+    "edition": "0.30",
+    "order": 65,
+    "start_block": 156,
+    "end_block": 156,
+    "title": "Matching speed to C3",
+    "segments": [
+      "rule-64-a"
+    ]
+  },
+  {
+    "id": "rule-65",
+    "original_id": "65",
+    "original_heading": "RULE # 65",
+    "edition": "0.30",
+    "order": 66,
+    "start_block": 157,
+    "end_block": 157,
+    "title": "Astronomical range and a discretionary modifier",
+    "segments": [
+      "rule-65-a"
+    ]
+  },
+  {
+    "id": "rule-66",
+    "original_id": "66",
+    "original_heading": "RULE # 66",
+    "edition": "0.30",
+    "order": 67,
+    "start_block": 158,
+    "end_block": 158,
+    "title": "A strength conversion worked at a high rating",
+    "segments": [
+      "rule-66-a"
+    ]
+  },
+  {
+    "id": "rule-67",
+    "original_id": "67",
+    "original_heading": "RULE # 67",
+    "edition": "0.30",
+    "order": 68,
+    "start_block": 159,
+    "end_block": 159,
+    "title": "Dimensional reach of a cosmic mutant",
+    "segments": [
+      "rule-67-a"
+    ]
+  },
+  {
+    "id": "rule-68",
+    "original_id": "68",
+    "original_heading": "RULE # 68",
+    "edition": "0.30",
+    "order": 69,
+    "start_block": 160,
+    "end_block": 160,
+    "title": "Where to find invisibility",
+    "segments": [
+      "rule-68-a"
+    ]
+  },
+  {
+    "id": "rule-69",
+    "original_id": "69",
+    "original_heading": "RULE # 69",
+    "edition": "0.30",
+    "order": 70,
+    "start_block": 161,
+    "end_block": 161,
+    "title": "A population sequence for elite characters",
+    "segments": [
+      "rule-69-a",
+      "rule-69-b"
+    ]
+  },
+  {
+    "id": "rule-70",
+    "original_id": "70",
+    "original_heading": "RULE # 70",
+    "edition": "0.30",
+    "order": 71,
+    "start_block": 162,
+    "end_block": 162,
+    "title": "SAT scores at the upper end",
+    "segments": [
+      "rule-70-a"
+    ]
+  },
+  {
+    "id": "rule-71",
+    "original_id": "71",
+    "original_heading": "RULE # 71",
+    "edition": "0.30",
+    "order": 72,
+    "start_block": 163,
+    "end_block": 163,
+    "title": "Applying the clone analogy to marriage",
+    "segments": [
+      "rule-71-a"
+    ]
+  },
+  {
+    "id": "rule-72",
+    "original_id": "72",
+    "original_heading": "RULE # 72",
+    "edition": "0.30",
+    "order": 73,
+    "start_block": 164,
+    "end_block": 164,
+    "title": "A percentage rating for ghosts",
+    "segments": [
+      "rule-72-a"
+    ]
+  },
+  {
+    "id": "rule-73",
+    "original_id": "73",
+    "original_heading": "RULE # 73",
+    "edition": "0.30",
+    "order": 74,
+    "start_block": 165,
+    "end_block": 165,
+    "title": "Maximum damage as a dice pool",
+    "segments": [
+      "rule-73-a"
+    ]
+  },
+  {
+    "id": "rule-74",
+    "original_id": "74",
+    "original_heading": "RULE # 74",
+    "edition": "0.30",
+    "order": 75,
+    "start_block": 166,
+    "end_block": 166,
+    "title": "A second monster-length convention",
+    "segments": [
+      "rule-74-a"
+    ]
+  },
+  {
+    "id": "rule-75",
+    "original_id": "75",
+    "original_heading": "RULE # 75",
+    "edition": "0.30",
+    "order": 76,
+    "start_block": 167,
+    "end_block": 167,
+    "title": "Relating a cosmic giant to a galaxy",
+    "segments": [
+      "rule-75-a"
+    ]
+  },
+  {
+    "id": "rule-76",
+    "original_id": "76",
+    "original_heading": "RULE # 76",
+    "edition": "0.30",
+    "order": 77,
+    "start_block": 168,
+    "end_block": 168,
+    "title": "Earth and Mars as power profiles",
+    "segments": [
+      "rule-76-a"
+    ]
+  },
+  {
+    "id": "rule-77",
+    "original_id": "77",
+    "original_heading": "RULE # 77",
+    "edition": "0.30",
+    "order": 78,
+    "start_block": 169,
+    "end_block": 169,
+    "title": "Bureaucracy of a cyborg collective",
+    "segments": [
+      "rule-77-a"
+    ]
+  },
+  {
+    "id": "rule-78",
+    "original_id": "78",
+    "original_heading": "RULE # 78",
+    "edition": "0.30",
+    "order": 79,
+    "start_block": 170,
+    "end_block": 170,
+    "title": "A factorial convention for strength",
+    "segments": [
+      "rule-78-a"
+    ]
+  },
+  {
+    "id": "rule-79",
+    "original_id": "79",
+    "original_heading": "RULE # 79",
+    "edition": "0.30",
+    "order": 80,
+    "start_block": 171,
+    "end_block": 171,
+    "title": "Karma, powers and health in proportion",
+    "segments": [
+      "rule-79-a"
+    ]
+  },
+  {
+    "id": "rule-80",
+    "original_id": "80",
+    "original_heading": "RULE # 80",
+    "edition": "0.30",
+    "order": 81,
+    "start_block": 172,
+    "end_block": 172,
+    "title": "A polemic about gender",
+    "segments": [
+      "rule-80-a"
+    ]
+  },
+  {
+    "id": "rule-81",
+    "original_id": "81",
+    "original_heading": "RULE # 81",
+    "edition": "0.30",
+    "order": 82,
+    "start_block": 173,
+    "end_block": 173,
+    "title": "A factorial as a claim about dimensions",
+    "segments": [
+      "rule-81-a"
+    ]
+  },
+  {
+    "id": "rule-82",
+    "original_id": "82",
+    "original_heading": "RULE # 82",
+    "edition": "0.30",
+    "order": 83,
+    "start_block": 174,
+    "end_block": 174,
+    "title": "Competing strength functions",
+    "segments": [
+      "rule-82-a"
+    ]
+  },
+  {
+    "id": "rule-83",
+    "original_id": "83",
+    "original_heading": "RULE # 83",
+    "edition": "0.30",
+    "order": 84,
+    "start_block": 175,
+    "end_block": 175,
+    "title": "Appearance of a female clone",
+    "segments": [
+      "rule-83-a"
+    ]
+  },
+  {
+    "id": "rule-84",
+    "original_id": "84",
+    "original_heading": "RULE # 84",
+    "edition": "0.30",
+    "order": 85,
+    "start_block": 176,
+    "end_block": 176,
+    "title": "Shape-changing via difference and cloning",
+    "segments": [
+      "rule-84-a"
+    ]
+  },
+  {
+    "id": "rule-85",
+    "original_id": "85",
+    "original_heading": "RULE # 85",
+    "edition": "0.30",
+    "order": 86,
+    "start_block": 177,
+    "end_block": 177,
+    "title": "Size changes between micro and macro worlds",
+    "segments": [
+      "rule-85-a",
+      "rule-85-b"
+    ]
+  },
+  {
+    "id": "rule-86",
+    "original_id": "86",
+    "original_heading": "RULE # 86",
+    "edition": "0.30",
+    "order": 87,
+    "start_block": 178,
+    "end_block": 178,
+    "title": "An appearance-based romantic probability",
+    "segments": [
+      "rule-86-a"
+    ]
+  },
+  {
+    "id": "rule-87",
+    "original_id": "87",
+    "original_heading": "RULE # 87",
+    "edition": "0.30",
+    "order": 88,
+    "start_block": 179,
+    "end_block": 179,
+    "title": "Death and rebirth in another dimension",
+    "segments": [
+      "rule-87-a",
+      "rule-87-b",
+      "rule-87-c"
+    ]
+  },
+  {
+    "id": "rule-88",
+    "original_id": "88",
+    "original_heading": "RULE # 88",
+    "edition": "0.30",
+    "order": 89,
+    "start_block": 180,
+    "end_block": 180,
+    "title": "Chromosomes as fictional character costs",
+    "segments": [
+      "rule-88-a",
+      "rule-88-b"
+    ]
+  },
+  {
+    "id": "rule-89",
+    "original_id": "89",
+    "original_heading": "RULE # 89",
+    "edition": "0.30",
+    "order": 90,
+    "start_block": 181,
+    "end_block": 181,
+    "title": "Grades from credits and a character rating",
+    "segments": [
+      "rule-89-a"
+    ]
+  },
+  {
+    "id": "rule-90",
+    "original_id": "90",
+    "original_heading": "RULE # 90",
+    "edition": "0.30",
+    "order": 91,
+    "start_block": 182,
+    "end_block": 182,
+    "title": "A time-travel case built around Pluto",
+    "segments": [
+      "rule-90-a",
+      "rule-90-b",
+      "rule-90-c"
+    ]
+  },
+  {
+    "id": "rule-91",
+    "original_id": "91",
+    "original_heading": "RULE # 91",
+    "edition": "0.30",
+    "order": 92,
+    "start_block": 183,
+    "end_block": 183,
+    "title": "Years of time travel from C1",
+    "segments": [
+      "rule-91-a"
+    ]
+  },
+  {
+    "id": "rule-92",
+    "original_id": "92",
+    "original_heading": "RULE # 92",
+    "edition": "0.30",
+    "order": 93,
+    "start_block": 184,
+    "end_block": 184,
+    "title": "A builder's rating and building height",
+    "segments": [
+      "rule-92-a"
+    ]
+  },
+  {
+    "id": "rule-93",
+    "original_id": "93",
+    "original_heading": "RULE # 93",
+    "edition": "0.30",
+    "order": 94,
+    "start_block": 185,
+    "end_block": 185,
+    "title": "Horsepower and environment",
+    "segments": [
+      "rule-93-a"
+    ]
+  },
+  {
+    "id": "rule-94",
+    "original_id": "94",
+    "original_heading": "RULE # 94",
+    "edition": "0.30",
+    "order": 95,
+    "start_block": 186,
+    "end_block": 186,
+    "title": "Diameter or radius of a temporal portal",
+    "segments": [
+      "rule-94-a"
+    ]
+  },
+  {
+    "id": "rule-95",
+    "original_id": "95",
+    "original_heading": "RULE # 95",
+    "edition": "0.30",
+    "order": 96,
+    "start_block": 187,
+    "end_block": 187,
+    "title": "Two formulas for interstellar range",
+    "segments": [
+      "rule-95-a"
+    ]
+  },
+  {
+    "id": "rule-96",
+    "original_id": "96",
+    "original_heading": "RULE # 96",
+    "edition": "0.30",
+    "order": 97,
+    "start_block": 188,
+    "end_block": 188,
+    "title": "Time to write a book",
+    "segments": [
+      "rule-96-a",
+      "rule-96-b"
+    ]
+  },
+  {
+    "id": "rule-97",
+    "original_id": "97",
+    "original_heading": "RULE # 97",
+    "edition": "0.30",
+    "order": 98,
+    "start_block": 189,
+    "end_block": 189,
+    "title": "Dimensions of a cybernetic vessel",
+    "segments": [
+      "rule-97-a"
+    ]
+  },
+  {
+    "id": "rule-98",
+    "original_id": "98",
+    "original_heading": "RULE # 98",
+    "edition": "0.30",
+    "order": 99,
+    "start_block": 190,
+    "end_block": 190,
+    "title": "A speculative military application of vehicle ratings",
+    "segments": [
+      "rule-98-a"
+    ]
+  },
+  {
+    "id": "rule-99",
+    "original_id": "99",
+    "original_heading": "RULE # 99",
+    "edition": "0.30",
+    "order": 100,
+    "start_block": 191,
+    "end_block": 191,
+    "title": "Length from vehicle baseline",
+    "segments": [
+      "rule-99-a"
+    ]
+  },
+  {
+    "id": "rule-100",
+    "original_id": "100",
+    "original_heading": "RULE # 100",
+    "edition": "0.30",
+    "order": 101,
+    "start_block": 192,
+    "end_block": 192,
+    "title": "Counting partners by a man's rating",
+    "segments": [
+      "rule-100-a"
+    ]
+  },
+  {
+    "id": "rule-101",
+    "original_id": "101",
+    "original_heading": "RULE # 101",
+    "edition": "0.30",
+    "order": 102,
+    "start_block": 193,
+    "end_block": 193,
+    "title": "Vessel length from power",
+    "segments": [
+      "rule-101-a"
+    ]
+  },
+  {
+    "id": "rule-102",
+    "original_id": "102",
+    "original_heading": "RULE # 102",
+    "edition": "0.30",
+    "order": 103,
+    "start_block": 194,
+    "end_block": 194,
+    "title": "Vehicle power and mass through a second horsepower rule",
+    "segments": [
+      "rule-102-a"
+    ]
+  },
+  {
+    "id": "rule-103",
+    "original_id": "103",
+    "original_heading": "RULE # 103",
+    "edition": "0.30",
+    "order": 104,
+    "start_block": 195,
+    "end_block": 195,
+    "title": "A seven-step COM and power profile",
+    "segments": [
+      "rule-103-a"
+    ]
+  },
+  {
+    "id": "rule-104",
+    "original_id": "104",
+    "original_heading": "RULE # 104",
+    "edition": "0.30",
+    "order": 105,
+    "start_block": 196,
+    "end_block": 196,
+    "title": "A further conversion for a woman's COM",
+    "segments": [
+      "rule-104-a"
+    ]
+  },
+  {
+    "id": "rule-105",
+    "original_id": "105",
+    "original_heading": "RULE # 105",
+    "edition": "0.30",
+    "order": 106,
+    "start_block": 197,
+    "end_block": 197,
+    "title": "A second marriage calculation",
+    "segments": [
+      "rule-105-a"
+    ]
+  },
+  {
+    "id": "rule-106",
+    "original_id": "106",
+    "original_heading": "RULE # 106",
+    "edition": "0.30",
+    "order": 107,
+    "start_block": 198,
+    "end_block": 198,
+    "title": "COM from a woman's power rating",
+    "segments": [
+      "rule-106-a"
+    ]
+  },
+  {
+    "id": "rule-107",
+    "original_id": "107",
+    "original_heading": "RULE # 107",
+    "edition": "0.30",
+    "order": 108,
+    "start_block": 199,
+    "end_block": 199,
+    "title": "A tentative d20 adaptation",
+    "segments": [
+      "rule-107-a",
+      "rule-107-b",
+      "rule-107-c"
+    ]
+  },
+  {
+    "id": "rule-108",
+    "original_id": "108",
+    "original_heading": "RULE # 108",
+    "edition": "0.30",
+    "order": 109,
+    "start_block": 200,
+    "end_block": 200,
+    "title": "Mass of a large or dense body",
+    "segments": [
+      "rule-108-a"
+    ]
+  },
+  {
+    "id": "rule-109",
+    "original_id": "109",
+    "original_heading": "RULE 109",
+    "edition": "0.30",
+    "order": 110,
+    "start_block": 201,
+    "end_block": 201,
+    "title": "Two more ways to shrink",
+    "segments": [
+      "rule-109-a"
+    ]
+  },
+  {
+    "id": "rule-110",
+    "original_id": "110",
+    "original_heading": "RULE # 110",
+    "edition": "0.30",
+    "order": 111,
+    "start_block": 202,
+    "end_block": 202,
+    "title": "An alleged relationship for a blast footprint",
+    "segments": [
+      "rule-110-a"
+    ]
+  },
+  {
+    "id": "rule-111",
+    "original_id": "111",
+    "original_heading": "RULE # 111",
+    "edition": "0.30",
+    "order": 112,
+    "start_block": 203,
+    "end_block": 203,
+    "title": "A monster's longest dimension",
+    "segments": [
+      "rule-111-a"
+    ]
+  },
+  {
+    "id": "rule-112",
+    "original_id": "112",
+    "original_heading": "RULE # 112",
+    "edition": "0.30",
+    "order": 113,
+    "start_block": 204,
+    "end_block": 204,
+    "title": "Cosmic hunger over a lifetime",
+    "segments": [
+      "rule-112-a"
+    ]
+  },
+  {
+    "id": "rule-113",
+    "original_id": "113",
+    "original_heading": "RULE # 113",
+    "edition": "0.30",
+    "order": 114,
+    "start_block": 205,
+    "end_block": 205,
+    "title": "An animal shape factor",
+    "segments": [
+      "rule-113-a"
+    ]
+  },
+  {
+    "id": "rule-114",
+    "original_id": "114",
+    "original_heading": "RULE # 114",
+    "edition": "0.30",
+    "order": 115,
+    "start_block": 206,
+    "end_block": 206,
+    "title": "Reconstructing a television cyborg from cost",
+    "segments": [
+      "rule-114-a",
+      "rule-114-b"
+    ]
+  },
+  {
+    "id": "rule-115",
+    "original_id": "115",
+    "original_heading": "RULE # 115",
+    "edition": "0.30",
+    "order": 116,
+    "start_block": 207,
+    "end_block": 207,
+    "title": "Planetary diameter and speed from a piecewise rating",
+    "segments": [
+      "rule-115-a"
+    ]
+  },
+  {
+    "id": "rule-116",
+    "original_id": "116",
+    "original_heading": "RULE # 116",
+    "edition": "0.30",
+    "order": 117,
+    "start_block": 208,
+    "end_block": 208,
+    "title": "Comparing an incomplete and a completed Death Star",
+    "segments": [
+      "rule-116-a"
+    ]
+  },
+  {
+    "id": "rule-117",
+    "original_id": "117",
+    "original_heading": "RULE # 117",
+    "edition": "0.30",
+    "order": 118,
+    "start_block": 209,
+    "end_block": 209,
+    "title": "A ring with a recharge limitation",
+    "segments": [
+      "rule-117-a"
+    ]
+  },
+  {
+    "id": "rule-118",
+    "original_id": "118",
+    "original_heading": "RULE # 118",
+    "edition": "0.30",
+    "order": 119,
+    "start_block": 210,
+    "end_block": 210,
+    "title": "Damage class and competing pools",
+    "segments": [
+      "rule-118-a"
+    ]
+  },
+  {
+    "id": "rule-119",
+    "original_id": "119",
+    "original_heading": "RULE # 119",
+    "edition": "0.30",
+    "order": 120,
+    "start_block": 211,
+    "end_block": 211,
+    "title": "Presidential tenure as a rating",
+    "segments": [
+      "rule-119-a"
+    ]
+  },
+  {
+    "id": "rule-120",
+    "original_id": "120",
+    "original_heading": "RULE # 120",
+    "edition": "0.30",
+    "order": 121,
+    "start_block": 212,
+    "end_block": 212,
+    "title": "A fictional asexual humanoid",
+    "segments": [
+      "rule-120-a"
+    ]
+  },
+  {
+    "id": "rule-121",
+    "original_id": "121",
+    "original_heading": "RULE # 121",
+    "edition": "0.30",
+    "order": 122,
+    "start_block": 213,
+    "end_block": 213,
+    "title": "Accessible dimensions and time travel",
+    "segments": [
+      "rule-121-a"
+    ]
+  },
+  {
+    "id": "rule-122",
+    "original_id": "122",
+    "original_heading": "RULE # 122",
+    "edition": "0.30",
+    "order": 123,
+    "start_block": 214,
+    "end_block": 214,
+    "title": "HERO points and IQ",
+    "segments": [
+      "rule-122-a"
+    ]
+  },
+  {
+    "id": "rule-123",
+    "original_id": "123",
+    "original_heading": "RULE # 123",
+    "edition": "0.30",
+    "order": 124,
+    "start_block": 215,
+    "end_block": 215,
+    "title": "Ninja Scroll character ratings",
+    "segments": [
+      "rule-123-a",
+      "rule-123-b"
+    ]
+  },
+  {
+    "id": "rule-124",
+    "original_id": "124",
+    "original_heading": "RULE # 124",
+    "edition": "0.30",
+    "order": 125,
+    "start_block": 216,
+    "end_block": 216,
+    "title": "Appearance as a share of C3",
+    "segments": [
+      "rule-124-a"
+    ]
+  },
+  {
+    "id": "rule-125",
+    "original_id": "125",
+    "original_heading": "RULE # 125",
+    "edition": "0.30",
+    "order": 126,
+    "start_block": 217,
+    "end_block": 217,
+    "title": "Average psyche in Marvel SAGA",
+    "segments": [
+      "rule-125-a"
+    ]
+  },
+  {
+    "id": "rule-126",
+    "original_id": "126",
+    "original_heading": "RULE # 126",
+    "edition": "0.30",
+    "order": 127,
+    "start_block": 218,
+    "end_block": 218,
+    "title": "Inverting the male COM convention",
+    "segments": [
+      "rule-126-a"
+    ]
+  },
+  {
+    "id": "rule-127",
+    "original_id": "127",
+    "original_heading": "RULE # 127",
+    "edition": "0.30",
+    "order": 128,
+    "start_block": 219,
+    "end_block": 219,
+    "title": "Length of a fictional reign",
+    "segments": [
+      "rule-127-a"
+    ]
+  },
+  {
+    "id": "rule-128",
+    "original_id": "128",
+    "original_heading": "RULE # 128",
+    "edition": "0.30",
+    "order": 129,
+    "start_block": 220,
+    "end_block": 220,
+    "title": "An exponential clone count",
+    "segments": [
+      "rule-128-a",
+      "rule-128-b",
+      "rule-128-c"
+    ]
+  },
+  {
+    "id": "rule-129",
+    "original_id": "129",
+    "original_heading": "RULE # 129",
+    "edition": "0.30",
+    "order": 130,
+    "start_block": 221,
+    "end_block": 221,
+    "title": "Simulating time travel through clones",
+    "segments": [
+      "rule-129-a"
+    ]
+  },
+  {
+    "id": "rule-130",
+    "original_id": "130",
+    "original_heading": "RULE # 130",
+    "edition": "0.30",
+    "order": 131,
+    "start_block": 222,
+    "end_block": 222,
+    "title": "Warp range at a chosen warp number",
+    "segments": [
+      "rule-130-a"
+    ]
+  },
+  {
+    "id": "rule-131",
+    "original_id": "131",
+    "original_heading": "RULE # 131",
+    "edition": "0.30",
+    "order": 132,
+    "start_block": 223,
+    "end_block": 223,
+    "title": "Monster numbers for a Jurassic Park story",
+    "segments": [
+      "rule-131-a"
+    ]
+  },
+  {
+    "id": "rule-132",
+    "original_id": "132",
+    "original_heading": "RULE # 132",
+    "edition": "0.30",
+    "order": 133,
+    "start_block": 224,
+    "end_block": 224,
+    "title": "Engine power relative to hull size",
+    "segments": [
+      "rule-132-a"
+    ]
+  },
+  {
+    "id": "rule-133",
+    "original_id": "133",
+    "original_heading": "RULE # 133",
+    "edition": "0.30",
+    "order": 134,
+    "start_block": 225,
+    "end_block": 225,
+    "title": "Travel over many generations",
+    "segments": [
+      "rule-133-a"
+    ]
+  },
+  {
+    "id": "rule-134",
+    "original_id": "134",
+    "original_heading": "RULE # 134",
+    "edition": "0.30",
+    "order": 135,
+    "start_block": 226,
+    "end_block": 226,
+    "title": "Molecular control and target size",
+    "segments": [
+      "rule-134-a"
+    ]
+  },
+  {
+    "id": "rule-135",
+    "original_id": "135",
+    "original_heading": "RULE # 135",
+    "edition": "0.30",
+    "order": 136,
+    "start_block": 227,
+    "end_block": 227,
+    "title": "Distance and years as interchangeable travel scales",
+    "segments": [
+      "rule-135-a"
+    ]
+  },
+  {
+    "id": "rule-136",
+    "original_id": "136",
+    "original_heading": "RULE # 136",
+    "edition": "0.30",
+    "order": 137,
+    "start_block": 228,
+    "end_block": 228,
+    "title": "A fictional threshold for ordinary physics",
+    "segments": [
+      "rule-136-a"
+    ]
+  },
+  {
+    "id": "rule-137",
+    "original_id": "137",
+    "original_heading": "RULE # 137",
+    "edition": "0.30",
+    "order": 138,
+    "start_block": 229,
+    "end_block": 229,
+    "title": "Dating the Godzilla storyline",
+    "segments": [
+      "rule-137-a"
+    ]
+  },
+  {
+    "id": "rule-138",
+    "original_id": "138",
+    "original_heading": "RULE # 138",
+    "edition": "0.30",
+    "order": 139,
+    "start_block": 230,
+    "end_block": 230,
+    "title": "Fractional advantages and disadvantages",
+    "segments": [
+      "rule-138-a"
+    ]
+  },
+  {
+    "id": "rule-139",
+    "original_id": "139",
+    "original_heading": "RULE # 139",
+    "edition": "0.30",
+    "order": 140,
+    "start_block": 231,
+    "end_block": 231,
+    "title": "Damage dice, defence and body",
+    "segments": [
+      "rule-139-a"
+    ]
+  },
+  {
+    "id": "rule-140",
+    "original_id": "140",
+    "original_heading": "RULE # 140",
+    "edition": "0.30",
+    "order": 141,
+    "start_block": 232,
+    "end_block": 232,
+    "title": "Rating a kaiju's body and powers",
+    "segments": [
+      "rule-140-a",
+      "rule-140-b"
+    ]
+  },
+  {
+    "id": "rule-141",
+    "original_id": "141",
+    "original_heading": "RULE # 141",
+    "edition": "0.30",
+    "order": 142,
+    "start_block": 233,
+    "end_block": 233,
+    "title": "A minimum advantage for a superhuman",
+    "segments": [
+      "rule-141-a"
+    ]
+  },
+  {
+    "id": "rule-142",
+    "original_id": "142",
+    "original_heading": "RULE # 142",
+    "edition": "0.30",
+    "order": 143,
+    "start_block": 234,
+    "end_block": 234,
+    "title": "Height-to-mass conversion and an inconsistent table",
+    "segments": [
+      "rule-142-a"
+    ]
+  },
+  {
+    "id": "rule-143",
+    "original_id": "143",
+    "original_heading": "RULE # 143",
+    "edition": "0.30",
+    "order": 144,
+    "start_block": 235,
+    "end_block": 235,
+    "title": "Building a kaiju on an astronomical scale",
+    "segments": [
+      "rule-143-a"
+    ]
+  },
+  {
+    "id": "rule-144",
+    "original_id": "144",
+    "original_heading": "RULE # 144",
+    "edition": "0.30",
+    "order": 145,
+    "start_block": 236,
+    "end_block": 236,
+    "title": "Nobilis and Marvel psyche crosswalk",
+    "segments": [
+      "rule-144-a"
+    ]
+  },
+  {
+    "id": "rule-145",
+    "original_id": "145",
+    "original_heading": "RULE # 145",
+    "edition": "0.30",
+    "order": 146,
+    "start_block": 237,
+    "end_block": 237,
+    "title": "Incompatible technology conversions",
+    "segments": [
+      "rule-145-a"
+    ]
+  },
+  {
+    "id": "rule-146",
+    "original_id": "146",
+    "original_heading": "RULE # 146",
+    "edition": "0.30",
+    "order": 147,
+    "start_block": 238,
+    "end_block": 238,
+    "title": "Another damage-pool convention",
+    "segments": [
+      "rule-146-a"
+    ]
+  },
+  {
+    "id": "rule-147",
+    "original_id": "147",
+    "original_heading": "RULE # 147",
+    "edition": "0.30",
+    "order": 148,
+    "start_block": 239,
+    "end_block": 239,
+    "title": "Repeated advantages across changes of scale",
+    "segments": [
+      "rule-147-a"
+    ]
+  },
+  {
+    "id": "rule-148",
+    "original_id": "148",
+    "original_heading": "RULE # 148",
+    "edition": "0.30",
+    "order": 149,
+    "start_block": 240,
+    "end_block": 240,
+    "title": "Re-rating StarCraft's Zerg",
+    "segments": [
+      "rule-148-a"
+    ]
+  },
+  {
+    "id": "rule-149",
+    "original_id": "149",
+    "original_heading": "RULE # 149",
+    "edition": "0.30",
+    "order": 150,
+    "start_block": 241,
+    "end_block": 241,
+    "title": "Scale of a vehicle body",
+    "segments": [
+      "rule-149-a"
+    ]
+  },
+  {
+    "id": "rule-150",
+    "original_id": "150",
+    "original_heading": "RULE # 150",
+    "edition": "0.30",
+    "order": 151,
+    "start_block": 242,
+    "end_block": 242,
+    "title": "Magnitude assigned to speed",
+    "segments": [
+      "rule-150-a"
+    ]
+  },
+  {
+    "id": "rule-151",
+    "original_id": "151",
+    "original_heading": "RULE # 151",
+    "edition": "0.30",
+    "order": 152,
+    "start_block": 243,
+    "end_block": 244,
+    "title": "Magnitude of magic",
+    "segments": [
+      "rule-151-a",
+      "rule-151-b"
+    ]
+  },
+  {
+    "id": "rule-152",
+    "original_id": "152",
+    "original_heading": "RULE # 152",
+    "edition": "0.30",
+    "order": 153,
+    "start_block": 245,
+    "end_block": 245,
+    "title": "Mapping a controller's rating to an affected object",
+    "segments": [
+      "rule-152-a"
+    ]
+  },
+  {
+    "id": "rule-153",
+    "original_id": "153",
+    "original_heading": "RULE # 153",
+    "edition": "0.30",
+    "order": 154,
+    "start_block": 246,
+    "end_block": 246,
+    "title": "Material vulnerability and weakening",
+    "segments": [
+      "rule-153-a"
+    ]
+  },
+  {
+    "id": "rule-154",
+    "original_id": "154",
+    "original_heading": "RULE # 154",
+    "edition": "0.30",
+    "order": 155,
+    "start_block": 247,
+    "end_block": 247,
+    "title": "Estimating literary characters from bodies and ages",
+    "segments": [
+      "rule-154-a"
+    ]
+  },
+  {
+    "id": "rule-155",
+    "original_id": "155",
+    "original_heading": "RULE # 155",
+    "edition": "0.30",
+    "order": 156,
+    "start_block": 248,
+    "end_block": 248,
+    "title": "Flight velocity with a COM deduction",
+    "segments": [
+      "rule-155-a"
+    ]
+  },
+  {
+    "id": "rule-156",
+    "original_id": "156",
+    "original_heading": "RULE # 156",
+    "edition": "0.30",
+    "order": 157,
+    "start_block": 249,
+    "end_block": 249,
+    "title": "A spaceship's body near light speed",
+    "segments": [
+      "rule-156-a"
+    ]
+  },
+  {
+    "id": "rule-157",
+    "original_id": "157",
+    "original_heading": "RULE # 157",
+    "edition": "0.30",
+    "order": 158,
+    "start_block": 250,
+    "end_block": 250,
+    "title": "Reading a light-speed threshold from Marvel",
+    "segments": [
+      "rule-157-a"
+    ]
+  },
+  {
+    "id": "rule-158",
+    "original_id": "158",
+    "original_heading": "RULE # 158",
+    "edition": "0.30",
+    "order": 159,
+    "start_block": 251,
+    "end_block": 251,
+    "title": "Reusing the flight function on higher scales",
+    "segments": [
+      "rule-158-a"
+    ]
+  },
+  {
+    "id": "rule-159",
+    "original_id": "159",
+    "original_heading": "RULE # 159",
+    "edition": "0.30",
+    "order": 160,
+    "start_block": 252,
+    "end_block": 252,
+    "title": "An uncertainty allowance for faster-than-light craft",
+    "segments": [
+      "rule-159-a"
+    ]
+  },
+  {
+    "id": "rule-160",
+    "original_id": "160",
+    "original_heading": "RULE # 160",
+    "edition": "0.30",
+    "order": 161,
+    "start_block": 253,
+    "end_block": 253,
+    "title": "Celestial diameter in metres to C2",
+    "segments": [
+      "rule-160-a"
+    ]
+  },
+  {
+    "id": "rule-161",
+    "original_id": "161",
+    "original_heading": "RULE # 161",
+    "edition": "0.30",
+    "order": 162,
+    "start_block": 254,
+    "end_block": 254,
+    "title": "Synnibarr Life Points as a fourth magnitude",
+    "segments": [
+      "rule-161-a"
+    ]
+  },
+  {
+    "id": "rule-162",
+    "original_id": "162",
+    "original_heading": "RULE # 162",
+    "edition": "0.30",
+    "order": 163,
+    "start_block": 255,
+    "end_block": 255,
+    "title": "Technological length as C3 power",
+    "segments": [
+      "rule-162-a"
+    ]
+  },
+  {
+    "id": "rule-163",
+    "original_id": "163",
+    "original_heading": "RULE # 163",
+    "edition": "0.30",
+    "order": 164,
+    "start_block": 256,
+    "end_block": 256,
+    "title": "History of the game's premises",
+    "segments": [
+      "rule-163-a",
+      "rule-163-b",
+      "rule-163-c"
+    ]
+  },
+  {
+    "id": "rule-164",
+    "original_id": "164",
+    "original_heading": "RULE # 164",
+    "edition": "0.30",
+    "order": 165,
+    "start_block": 257,
+    "end_block": 257,
+    "title": "Two routes from psyche to grades",
+    "segments": [
+      "rule-164-a"
+    ]
+  },
+  {
+    "id": "rule-165",
+    "original_id": "165",
+    "original_heading": "RULE # 165",
+    "edition": "0.30",
+    "order": 166,
+    "start_block": 258,
+    "end_block": 258,
+    "title": "A meteorite and the limit of the damage analogy",
+    "segments": [
+      "rule-165-a"
+    ]
+  },
+  {
+    "id": "rule-166",
+    "original_id": "166",
+    "original_heading": "RULE # 166",
+    "edition": "0.30",
+    "order": 167,
+    "start_block": 259,
+    "end_block": 259,
+    "title": "Constructing a Transformer",
+    "segments": [
+      "rule-166-a"
+    ]
+  },
+  {
+    "id": "rule-167",
+    "original_id": "167",
+    "original_heading": "RULE # 167",
+    "edition": "0.30",
+    "order": 168,
+    "start_block": 260,
+    "end_block": 260,
+    "title": "Maximum genius by calendar year",
+    "segments": [
+      "rule-167-a"
+    ]
+  },
+  {
+    "id": "rule-168",
+    "original_id": "168",
+    "original_heading": "RULE # 168",
+    "edition": "0.30",
+    "order": 169,
+    "start_block": 261,
+    "end_block": 261,
+    "title": "Mad Thinker and Mr. Fantastic",
+    "segments": [
+      "rule-168-a"
+    ]
+  },
+  {
+    "id": "rule-169",
+    "original_id": "169",
+    "original_heading": "RULE # 169",
+    "edition": "0.30",
+    "order": 170,
+    "start_block": 262,
+    "end_block": 262,
+    "title": "A genetic analogy for a living machine",
+    "segments": [
+      "rule-169-a"
+    ]
+  },
+  {
+    "id": "rule-170",
+    "original_id": "170",
+    "original_heading": "RULE # 170",
+    "edition": "0.30",
+    "order": 171,
+    "start_block": 263,
+    "end_block": 263,
+    "title": "Astral time travel",
+    "segments": [
+      "rule-170-a"
+    ]
+  },
+  {
+    "id": "rule-171",
+    "original_id": "171",
+    "original_heading": "RULE # 171",
+    "edition": "0.30",
+    "order": 172,
+    "start_block": 264,
+    "end_block": 264,
+    "title": "Applying astral travel to Yamato",
+    "segments": [
+      "rule-171-a"
+    ]
+  },
+  {
+    "id": "rule-172",
+    "original_id": "172",
+    "original_heading": "RULE # 172",
+    "edition": "0.30",
+    "order": 173,
+    "start_block": 265,
+    "end_block": 265,
+    "title": "Apparent power and accessible dimensions",
+    "segments": [
+      "rule-172-a"
+    ]
+  },
+  {
+    "id": "rule-173",
+    "original_id": "173",
+    "original_heading": "RULE # 173",
+    "edition": "0.30",
+    "order": 174,
+    "start_block": 266,
+    "end_block": 266,
+    "title": "Size of a temporal traveller",
+    "segments": [
+      "rule-173-a"
+    ]
+  },
+  {
+    "id": "rule-174",
+    "original_id": "174",
+    "original_heading": "RULE # 174",
+    "edition": "0.30",
+    "order": 175,
+    "start_block": 267,
+    "end_block": 267,
+    "title": "A fictional group teleportation device",
+    "segments": [
+      "rule-174-a"
+    ]
+  },
+  {
+    "id": "rule-175",
+    "original_id": "175",
+    "original_heading": "RULE # 175",
+    "edition": "0.30",
+    "order": 176,
+    "start_block": 268,
+    "end_block": 268,
+    "title": "Comparing Q-like beings and captains",
+    "segments": [
+      "rule-175-a"
+    ]
+  },
+  {
+    "id": "rule-176",
+    "original_id": "176",
+    "original_heading": "RULE # 176",
+    "edition": "0.30",
+    "order": 177,
+    "start_block": 269,
+    "end_block": 269,
+    "title": "Giving the Dot a power rating",
+    "segments": [
+      "rule-176-a"
+    ]
+  },
+  {
+    "id": "rule-177",
+    "original_id": "177",
+    "original_heading": "RULE # 177",
+    "edition": "0.30",
+    "order": 178,
+    "start_block": 270,
+    "end_block": 270,
+    "title": "Preferred equations",
+    "segments": [
+      "rule-177-a"
+    ]
+  },
+  {
+    "id": "rule-178",
+    "original_id": "178",
+    "original_heading": "RULE # 178",
+    "edition": "0.30",
+    "order": 179,
+    "start_block": 271,
+    "end_block": 271,
+    "title": "Velocity from two power scales",
+    "segments": [
+      "rule-178-a"
+    ]
+  },
+  {
+    "id": "rule-179",
+    "original_id": "179",
+    "original_heading": "RULE # 179",
+    "edition": "0.30",
+    "order": 180,
+    "start_block": 272,
+    "end_block": 272,
+    "title": "Removing COM from flight velocity",
+    "segments": [
+      "rule-179-a"
+    ]
+  },
+  {
+    "id": "rule-180",
+    "original_id": "180",
+    "original_heading": "RULE # 180",
+    "edition": "0.30",
+    "order": 181,
+    "start_block": 273,
+    "end_block": 273,
+    "title": "An alternative fictional destructive-effect scale",
+    "segments": [
+      "rule-180-a"
+    ]
+  },
+  {
+    "id": "rule-181",
+    "original_id": "181",
+    "original_heading": "RULE # 181",
+    "edition": "0.30",
+    "order": 182,
+    "start_block": 274,
+    "end_block": 274,
+    "title": "Sentinel models and free will",
+    "segments": [
+      "rule-181-a",
+      "rule-181-b",
+      "rule-181-c",
+      "rule-181-d"
+    ]
+  },
+  {
+    "id": "rule-182",
+    "original_id": "182",
+    "original_heading": "RULE # 182",
+    "edition": "0.30",
+    "order": 183,
+    "start_block": 275,
+    "end_block": 275,
+    "title": "Ordinary and heroic point benchmarks",
+    "segments": [
+      "rule-182-a",
+      "rule-182-b"
+    ]
+  },
+  {
+    "id": "rule-183",
+    "original_id": "183",
+    "original_heading": "RULE # 183",
+    "edition": "0.30",
+    "order": 184,
+    "start_block": 276,
+    "end_block": 276,
+    "title": "Minimum cost across incompatible games",
+    "segments": [
+      "rule-183-a",
+      "rule-183-b"
+    ]
+  },
+  {
+    "id": "rule-184",
+    "original_id": "184",
+    "original_heading": "RULE # 184",
+    "edition": "0.30",
+    "order": 185,
+    "start_block": 277,
+    "end_block": 277,
+    "title": "Power, wages and working time",
+    "segments": [
+      "rule-184-a",
+      "rule-184-b"
+    ]
+  },
+  {
+    "id": "rule-185",
+    "original_id": "185",
+    "original_heading": "RULE # 185",
+    "edition": "0.30",
+    "order": 186,
+    "start_block": 278,
+    "end_block": 278,
+    "title": "Chronology for Star Trek",
+    "segments": [
+      "rule-185-a"
+    ]
+  },
+  {
+    "id": "rule-186",
+    "original_id": "186",
+    "original_heading": "RULE # 186",
+    "edition": "0.30",
+    "order": 187,
+    "start_block": 279,
+    "end_block": 279,
+    "title": "Distance for a starship",
+    "segments": [
+      "rule-186-a",
+      "rule-186-b",
+      "rule-186-c"
+    ]
+  },
+  {
+    "id": "rule-187",
+    "original_id": "187",
+    "original_heading": "RULE # 187",
+    "edition": "0.30",
+    "order": 188,
+    "start_block": 280,
+    "end_block": 280,
+    "title": "Appearance, gender and sexual orientation",
+    "segments": [
+      "rule-187-a",
+      "rule-187-b"
+    ]
+  },
+  {
+    "id": "rule-188",
+    "original_id": "188",
+    "original_heading": "RULE # 188",
+    "edition": "0.30",
+    "order": 189,
+    "start_block": 281,
+    "end_block": 281,
+    "title": "Combat modifiers and two external tables",
+    "segments": [
+      "rule-188-a",
+      "rule-188-b"
+    ]
+  },
+  {
+    "id": "rule-189",
+    "original_id": "189",
+    "original_heading": "RULE # 189",
+    "edition": "0.30",
+    "order": 190,
+    "start_block": 282,
+    "end_block": 282,
+    "title": "Three alternatives for defensive combat value",
+    "segments": [
+      "rule-189-a"
+    ]
+  },
+  {
+    "id": "rule-190",
+    "original_id": "190",
+    "original_heading": "RULE # 190",
+    "edition": "0.30",
+    "order": 191,
+    "start_block": 283,
+    "end_block": 283,
+    "title": "A shared scale for kaiju and robots",
+    "segments": [
+      "rule-190-a"
+    ]
+  },
+  {
+    "id": "rule-191",
+    "original_id": "191",
+    "original_heading": "RULE # 191",
+    "edition": "0.30",
+    "order": 192,
+    "start_block": 284,
+    "end_block": 284,
+    "title": "Negative energy and time travel",
+    "segments": [
+      "rule-191-a"
+    ]
+  },
+  {
+    "id": "rule-192",
+    "original_id": "192",
+    "original_heading": "RULE # 192",
+    "edition": "0.30",
+    "order": 193,
+    "start_block": 285,
+    "end_block": 285,
+    "title": "Minimum cost of passing the light-speed barrier",
+    "segments": [
+      "rule-192-a"
+    ]
+  },
+  {
+    "id": "rule-193",
+    "original_id": "193",
+    "original_heading": "RULE # 193",
+    "edition": "0.30",
+    "order": 194,
+    "start_block": 286,
+    "end_block": 286,
+    "title": "A judgement about consensual sexuality",
+    "segments": [
+      "rule-193-a"
+    ]
+  },
+  {
+    "id": "rule-194",
+    "original_id": "194",
+    "original_heading": "RULE # 194",
+    "edition": "0.30",
+    "order": 195,
+    "start_block": 287,
+    "end_block": 287,
+    "title": "Strength from body measurements",
+    "segments": [
+      "rule-194-a",
+      "rule-194-b"
+    ]
+  },
+  {
+    "id": "rule-195",
+    "original_id": "195",
+    "original_heading": "RULE # 195",
+    "edition": "0.30",
+    "order": 196,
+    "start_block": 288,
+    "end_block": 288,
+    "title": "Age notice before rule 196",
+    "segments": [
+      "rule-195-a"
+    ]
+  },
+  {
+    "id": "rule-196",
+    "original_id": "196",
+    "original_heading": "RULE # 196",
+    "edition": "0.30",
+    "order": 197,
+    "start_block": 289,
+    "end_block": 289,
+    "title": "An adult physiological model",
+    "segments": [
+      "rule-196-a",
+      "rule-196-b"
+    ]
+  },
+  {
+    "id": "rule-197",
+    "original_id": "197",
+    "original_heading": "RULE # 197",
+    "edition": "0.30",
+    "order": 198,
+    "start_block": 290,
+    "end_block": 290,
+    "title": "A revised male COM function",
+    "segments": [
+      "rule-197-a"
+    ]
+  },
+  {
+    "id": "rule-198",
+    "original_id": "198",
+    "original_heading": "RULE # 198",
+    "edition": "0.30",
+    "order": 199,
+    "start_block": 291,
+    "end_block": 291,
+    "title": "Political comparisons through technology ratings",
+    "segments": [
+      "rule-198-a"
+    ]
+  },
+  {
+    "id": "rule-199",
+    "original_id": "199",
+    "original_heading": "RULE # 199",
+    "edition": "0.30",
+    "order": 200,
+    "start_block": 292,
+    "end_block": 292,
+    "title": "Height through a race-specific divisor",
+    "segments": [
+      "rule-199-a"
+    ]
+  },
+  {
+    "id": "rule-200",
+    "original_id": "200",
+    "original_heading": "RULE # 200",
+    "edition": "0.30",
+    "order": 201,
+    "start_block": 293,
+    "end_block": 293,
+    "title": "An unusual use of infinity and alphabetic magnitude",
+    "segments": [
+      "rule-200-a"
+    ]
+  },
+  {
+    "id": "rule-201",
+    "original_id": "201",
+    "original_heading": "RULE # 201",
+    "edition": "0.30",
+    "order": 202,
+    "start_block": 294,
+    "end_block": 294,
+    "title": "Dark Phoenix and a mass exponent",
+    "segments": [
+      "rule-201-a"
+    ]
+  },
+  {
+    "id": "rule-202",
+    "original_id": "202",
+    "original_heading": "RULE # 202",
+    "edition": "0.30",
+    "order": 203,
+    "start_block": 295,
+    "end_block": 295,
+    "title": "Salary probabilities and further earnings formulas",
+    "segments": [
+      "rule-202-a"
+    ]
+  },
+  {
+    "id": "rule-203",
+    "original_id": "203",
+    "original_heading": "RULE # 203",
+    "edition": "0.30",
+    "order": 204,
+    "start_block": 296,
+    "end_block": 296,
+    "title": "Credits and years of college",
+    "segments": [
+      "rule-203-a",
+      "rule-203-b"
+    ]
+  }
+]

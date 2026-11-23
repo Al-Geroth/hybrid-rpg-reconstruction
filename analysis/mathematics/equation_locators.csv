@@ -1,0 +1,305 @@
+segment_id,rule,order,title,start_offset,end_offset,candidate,basis,detailed_records,scope
+front-001,,1,"Title, authorship and edition links",0,305,0,,,no selected cue
+front-002,,2,Title and reader warnings,305,687,1,notation,,locator only
+front-003,,3,"Free access, revisions and borrowed material",687,2784,0,,,no selected cue
+front-004,,4,Two-thirds at a chosen magnitude,2784,3047,1,notation | verbal rating or relation | direct registry evidence,roll-high,direct evidence for a registered reading
+front-005,,5,Plans for a printed version,3047,4888,0,,,no selected cue
+front-006,,6,The foundational transform and the role of X,4888,6379,1,notation | catalogue math tag | direct registry evidence,class-step,direct evidence for a registered reading
+front-007,,7,The author's account of randomness,6379,8416,0,,,no selected cue
+front-008,,8,Print plans and the role of psyche,8416,10458,1,notation,,locator only
+front-009,,9,"Doom, Marvel and competing point totals",10458,12472,1,notation,,locator only
+front-010,,10,Fictional cosmology and the field analogy,12472,14483,1,notation,,locator only
+front-011,,11,Psyche expressed through life-span and power,14483,16811,1,notation,,locator only
+front-012,,12,Edition masthead and declared totals,16811,17391,1,notation,,locator only
+front-013,,13,Version correction and calculator,17391,17698,1,catalogue math tag,,locator only
+front-014,,14,Example 1. Negative energy,17698,17911,0,,,no selected cue
+front-015,,15,Example 2. Space travel,17911,18621,1,notation,,locator only
+front-016,,16,Example 3. A pointer to field effects,18621,18729,0,,,no selected cue
+front-017,,17,Example 4. Conflicting combat directions,18729,18894,0,,,no selected cue
+front-018,,18,Example 5. Rating the Comet Empire,18894,20043,1,notation | catalogue math tag,,locator only
+front-019,,19,Example 6. Projecting political history,20043,20577,1,verbal rating or relation,,locator only
+front-020,,20,A one-paragraph statement of the system,20577,22080,1,notation | catalogue math tag,,locator only
+front-021,,21,Television characters and inferred rankings,22080,24150,1,verbal rating or relation,,locator only
+front-022,,22,Astral projection and fictional chronology,24150,34681,1,notation,,locator only
+front-023,,23,Social polemic within a television comparison,34681,41789,1,verbal rating or relation,,locator only
+front-024,,24,Are unlike point costs additive?,41789,49343,1,notation | catalogue math tag,,locator only
+front-025,,25,A qualification to the HERO comparison,49343,50023,0,,,no selected cue
+front-026,,26,A recipe interrupts the text,50023,59005,1,notation,,quantitative recipe passage outside the game
+front-027,,27,Return to the central equation,59005,59528,1,notation,,locator only
+front-028,,28,Preface. The design problem,59528,64696,1,notation,,locator only
+front-029,,29,Origin of the CA to C3 classifications,64696,67121,1,notation | catalogue math tag,,locator only
+front-030,,30,C0 as a provisional rating,67121,74415,1,notation,,locator only
+front-031,,31,Galactus and the scale of a universe,74415,75512,1,notation,,locator only
+front-032,,32,Introduction through academic grades,75512,76405,1,notation | catalogue math tag,,locator only
+front-033,,33,Character glossary. A reading guide,76405,77484,0,,,no selected cue
+front-034,,34,Hint on signed fractions,77484,77708,1,notation | catalogue math tag,,locator only
+front-035,,35,Character hints for Transformers and Phoenix,77708,78074,0,,,no selected cue
+front-036,,36,Game reviews. Yu-Gi-Oh!,78074,81005,1,notation,,locator only
+front-037,,37,Dungeons & Dragons hit points,81005,81177,1,notation,,locator only
+front-038,,38,Conflicting StarCraft creature scores,81177,83177,1,notation,,locator only
+front-039,,39,Synnibarr Life Points vary by use,83177,85216,1,catalogue math tag | verbal rating or relation,,locator only
+front-040,,40,Pokémon as projected monsters,85216,86456,0,,,no selected cue
+front-041,,41,A setting comparison for Digimon,86456,86627,0,,,no selected cue
+front-042,,42,d20 Modern modifiers,86627,87328,0,,,no selected cue
+front-043,,43,Reading GURPS attributes as HYBRID ratings,87328,89207,1,notation | catalogue math tag,,locator only
+front-044,,44,Nobilis point comparisons,89207,90360,1,notation | catalogue math tag,,locator only
+front-045,,45,A Marvel SAGA conversion,90360,90760,1,notation | catalogue math tag,,locator only
+front-046,,46,Intelligence in the 1986 Marvel game,90760,92017,1,notation,,locator only
+front-047,,47,Aberrant dots,92017,92493,1,notation | catalogue math tag,,locator only
+front-048,,48,Mage and scientific magic,92493,92617,0,,,no selected cue
+front-049,,49,Rifts and magic,92617,92893,0,,,no selected cue
+front-050,,50,"Big Eyes, Small Mouth",92893,93072,1,notation,,locator only
+front-051,,51,HERO costs assigned incompatible magnitudes,93072,96772,1,notation | catalogue math tag,,locator only
+front-052,,52,Advantages and limitations in HERO,96772,98557,1,catalogue math tag,,locator only
+front-053,,53,HERO character point totals across editions,98557,103087,1,notation,,locator only
+front-054,,54,Two meanings of PL in Mutants & Masterminds,103087,103599,1,notation | catalogue math tag,,locator only
+front-055,,55,Film reviews. The Matrix,103599,104390,1,verbal rating or relation,,locator only
+front-056,,56,Blade sequel as a change in AMBS,104390,105079,1,notation,,locator only
+front-057,,57,Godzilla and release year,105079,105457,1,notation | catalogue math tag,,locator only
+front-058,,58,Beginning of the numbered text,105457,105469,0,,,no selected cue
+rule-0-a,0,59,Dating the web edition,105469,105817,1,notation | catalogue math tag | direct registry evidence,version-dating,direct evidence for a registered reading
+rule-1-a,1,60,"Order, chaos and two families of equations",105817,106194,0,,,no selected cue
+rule-2-a,2,61,Martial arts grade,106194,106287,1,notation | catalogue math tag | direct registry evidence,martial-grade,direct evidence for a registered reading
+rule-2-b,2,62,Mutant and super-mutant thresholds,106287,106641,1,notation,,locator only
+rule-3-a,3,63,Trading power for life-span,106641,108119,1,notation | catalogue math tag | direct registry evidence,class-step | opposite-operations,direct evidence for a registered reading
+rule-4-a,4,64,Height and choice of baseline,108119,108793,1,notation | catalogue math tag,,locator only
+rule-4-b,4,65,Appearance modifiers assigned by ancestry,108793,110306,1,notation,,locator only
+rule-5-a,5,66,C0 depends on the class of being,110306,111237,1,notation | catalogue math tag | direct registry evidence,brute-strength,direct evidence for a registered reading
+rule-5-b,5,67,Four further psyche conventions,111237,113384,1,notation | catalogue math tag | direct registry evidence,c0-psyche,direct evidence for a registered reading
+rule-6-a,6,68,Converting a life-span rating to years,113384,114154,1,notation | catalogue math tag | direct registry evidence,lifespan-years,direct evidence for a registered reading
+rule-7-a,7,69,Artificial and natural fields,114154,115979,1,notation | catalogue math tag,,locator only
+rule-8-a,8,70,"Intelligence, technology and default power",115979,117029,1,notation | catalogue math tag | direct registry evidence,ambs | tcp-linear | tcp-log | technology-level,direct evidence for a registered reading
+rule-9-a,9,71,A speed expressed as a fraction of light speed,117029,119150,1,notation | catalogue math tag,,locator only
+rule-10-a,10,72,Ship size and warp number,119150,121136,1,notation | catalogue math tag,,locator only
+rule-11-a,11,73,Earnings as a character rating,121136,122388,1,catalogue math tag,,locator only
+rule-11-b,11,74,The GM selects a starting magnitude,122388,122826,1,notation,,locator only
+rule-11-c,11,75,"Wealth advantage, luck and yearly income",122826,125071,1,notation,,locator only
+rule-12-a,12,76,Rating a freezing effect,125071,125417,1,notation | catalogue math tag,,locator only
+rule-13-a,13,77,Rating a heating effect,125417,125771,1,notation | catalogue math tag,,locator only
+rule-14-a,14,78,Animal size and environments,125771,127575,1,notation | catalogue math tag | direct registry evidence,one-use-damage,direct evidence for a registered reading
+rule-15-a,15,79,Height of a mutant from a damage parameter,127575,127962,1,notation | catalogue math tag,,locator only
+rule-16-a,16,80,Cost of flight by dimensions,127962,129250,1,notation | catalogue math tag,,locator only
+rule-17-a,17,81,Optional dice pool by magnitude,129250,129602,1,notation | catalogue math tag | direct registry evidence,pool-size,direct evidence for a registered reading
+rule-18-a,18,82,Clones from a C3 ratio,129602,129872,1,notation | catalogue math tag | direct registry evidence,clone-ratio,direct evidence for a registered reading
+rule-19-a,19,83,Shrinking by clone ratios or power,129872,131145,1,notation | catalogue math tag,,locator only
+rule-20-a,20,84,Building a giant monster from size,131145,132762,1,notation | catalogue math tag,,locator only
+rule-21-a,21,85,Muscle strength and material strength,132762,133415,1,notation | catalogue math tag,,locator only
+rule-22-a,22,86,Moving a rating for time travel,133415,134703,1,notation | catalogue math tag | direct registry evidence,time-travel-rating,direct evidence for a registered reading
+rule-23-a,23,87,Teleportation distance by dimensions,134703,135365,1,notation | catalogue math tag | direct registry evidence,teleport-distance,direct evidence for a registered reading
+rule-23-b,23,88,Reclassifying a human as a super-mutant,135365,135458,1,verbal rating or relation,,locator only
+rule-24-a,24,89,Galaxies as characters,135458,137666,1,notation | catalogue math tag,,locator only
+rule-25-a,25,90,Diameter to celestial psyche,137666,138965,1,notation | catalogue math tag | direct registry evidence,planet-calibration,direct evidence for a registered reading
+rule-26-a,26,91,Counting galaxies by rating,138965,140287,1,notation | catalogue math tag,,locator only
+rule-26-b,26,92,A cosmological analogy,140287,140839,1,notation,,locator only
+rule-26-c,26,93,Range and longevity of cosmic entities,140839,141900,1,notation,,locator only
+rule-27-a,27,94,Ghost readings,141900,142713,1,notation | catalogue math tag | direct registry evidence,ghost-reading,direct evidence for a registered reading
+rule-28-a,28,95,Allowance for discrepancies,142713,142918,0,,,no selected cue
+rule-29-a,29,96,Tachyons as a fictional substance,142918,143187,0,,,no selected cue
+rule-30-a,30,97,Two warp-speed exponentials,143187,145107,1,notation | catalogue math tag | direct registry evidence,fictional-warp,direct evidence for a registered reading
+rule-31-a,31,98,Immortality rating,145107,146183,1,notation | catalogue math tag | direct registry evidence,c0-immortality,direct evidence for a registered reading
+rule-32-a,32,99,Appearance as a logarithm of power,146183,146466,1,notation | catalogue math tag,,locator only
+rule-33-a,33,100,Different COM functions for different characters,146466,146807,1,notation | catalogue math tag,,locator only
+rule-34-a,34,101,Difference between two psyche ratings,146807,147336,1,notation | catalogue math tag | direct registry evidence,soul-comparison,direct evidence for a registered reading
+rule-34-b,34,102,National groups and fictional characters as examples,147336,148310,1,notation,,locator only
+rule-35-a,35,103,Success threshold for combat and skills,148310,148626,1,notation | direct registry evidence,pool-size | roll-high,direct evidence for a registered reading
+rule-36-a,36,104,Two estimates of collective effort,148626,150048,1,notation | catalogue math tag,,locator only
+rule-37-a,37,105,Changing one proportion in a height calculation,150048,150474,1,notation | catalogue math tag | direct registry evidence,size-proportion,direct evidence for a registered reading
+rule-38-a,38,106,Shape-changing by a new baseline,150474,151063,1,notation | catalogue math tag,,locator only
+rule-39-a,39,107,Running speed to required rating,151063,151228,1,notation | catalogue math tag | direct registry evidence,running-speed,direct evidence for a registered reading
+rule-40-a,40,108,Strength ratings for different power classes,151228,152104,1,notation | catalogue math tag | direct registry evidence,brute-strength,direct evidence for a registered reading
+rule-41-a,41,109,Percentage for motion through time,152104,152812,1,notation | catalogue math tag,,locator only
+rule-42-a,42,110,Technology from date of manufacture,152812,153410,1,notation | catalogue math tag,,locator only
+rule-43-a,43,111,Superhuman body density,153410,153868,1,notation | catalogue math tag,,locator only
+rule-44-a,44,112,Mass from height and a density exponent,153868,154014,1,notation | catalogue math tag,,locator only
+rule-45-a,45,113,Converting between successive scales,154014,154409,1,notation | catalogue math tag | direct registry evidence,class-step | class-inverse | iterated-scale,direct evidence for a registered reading
+rule-45-b,45,114,Making an effect permanent,154409,154963,1,verbal rating or relation | direct registry evidence,recast-rating,direct evidence for a registered reading
+rule-46-a,46,115,Multiplying before or after conversion,154963,155763,1,notation | catalogue math tag | direct registry evidence,ordered-multiplier | class-step,direct evidence for a registered reading
+rule-47-a,47,116,A notation for humanoid profiles,155763,155936,1,verbal rating or relation,,locator only
+rule-48-a,48,117,An ideal mass for a technological object,155936,157022,1,notation | catalogue math tag,,locator only
+rule-49-a,49,118,"Average Mind, Body and Soul",157022,157274,1,notation | catalogue math tag | direct registry evidence,ambs,direct evidence for a registered reading
+rule-50-a,50,119,A rating for pursuit,157274,158610,1,notation | catalogue math tag,,locator only
+rule-51-a,51,120,Degree of cinematic vampirism,158610,158833,1,notation | catalogue math tag,,locator only
+rule-52-a,52,121,Time travel and future crimes,158833,159282,1,verbal rating or relation,,locator only
+rule-53-a,53,122,Phasing and cloaking as percentages,159282,159654,1,notation | catalogue math tag | direct registry evidence,phasing,direct evidence for a registered reading
+rule-54-a,54,123,Power stunts as resonance,159654,161252,1,notation,,locator only
+rule-55-a,55,124,Encoding numerical ratings in letters,161252,161918,1,notation | catalogue math tag | direct registry evidence,letters,direct evidence for a registered reading
+rule-55-b,55,125,Evaluating the letter codes,161918,162572,1,notation | catalogue math tag | direct registry evidence,letters,direct evidence for a registered reading
+rule-56-a,56,126,Applying fields to stars and small objects,162572,162816,1,notation | catalogue math tag,,locator only
+rule-57-a,57,127,Three proposed personality types,162816,163041,0,,,no selected cue
+rule-58-a,58,128,A letter name as a power rating,163041,163671,1,notation | catalogue math tag | direct registry evidence,letters,direct evidence for a registered reading
+rule-59-a,59,129,Appearance and height through a ratio,163671,164086,1,notation | catalogue math tag,,locator only
+rule-60-a,60,130,Height and psyche as inverse expressions,164086,164849,1,notation | catalogue math tag,,locator only
+rule-61-a,61,131,Appearance treated as a partner budget,164849,165759,1,notation | catalogue math tag,,locator only
+rule-62-a,62,132,Telepathy relative to telekinesis,165759,166206,1,notation | catalogue math tag | direct registry evidence,time-travel-rating,direct evidence for a registered reading
+rule-63-a,63,133,Sublight speed and technology level,166206,166461,1,notation | catalogue math tag | direct registry evidence,running-speed,direct evidence for a registered reading
+rule-64-a,64,134,Matching speed to C3,166461,166618,1,notation | catalogue math tag | direct registry evidence,mutant-movement,direct evidence for a registered reading
+rule-65-a,65,135,Astronomical range and a discretionary modifier,166618,167531,1,notation | catalogue math tag,,locator only
+rule-66-a,66,136,A strength conversion worked at a high rating,167531,168144,1,notation | catalogue math tag,,locator only
+rule-67-a,67,137,Dimensional reach of a cosmic mutant,168144,169338,1,notation | catalogue math tag,,locator only
+rule-68-a,68,138,Where to find invisibility,169338,169392,0,,,no selected cue
+rule-69-a,69,139,A population sequence for elite characters,169392,169927,1,notation | catalogue math tag,,locator only
+rule-69-b,69,140,Cyborg hierarchy and its opponent,169927,170624,1,notation,,locator only
+rule-70-a,70,141,SAT scores at the upper end,170624,170865,1,notation | catalogue math tag,,locator only
+rule-71-a,71,142,Applying the clone analogy to marriage,170865,172209,1,notation | catalogue math tag,,locator only
+rule-72-a,72,143,A percentage rating for ghosts,172209,172539,1,notation | catalogue math tag | direct registry evidence,ghost-reading,direct evidence for a registered reading
+rule-73-a,73,144,Maximum damage as a dice pool,172539,172778,1,notation | catalogue math tag | direct registry evidence,one-use-damage,direct evidence for a registered reading
+rule-74-a,74,145,A second monster-length convention,172778,173621,1,notation | catalogue math tag,,locator only
+rule-75-a,75,146,Relating a cosmic giant to a galaxy,173621,174022,1,notation | catalogue math tag,,locator only
+rule-76-a,76,147,Earth and Mars as power profiles,174022,174597,1,notation | catalogue math tag,,locator only
+rule-77-a,77,148,Bureaucracy of a cyborg collective,174597,175044,1,notation | catalogue math tag | direct registry evidence,workshop-size,direct evidence for a registered reading
+rule-78-a,78,149,A factorial convention for strength,175044,175504,1,notation | catalogue math tag | direct registry evidence,factorial-strength,direct evidence for a registered reading
+rule-79-a,79,150,"Karma, powers and health in proportion",175504,175702,1,notation | verbal rating or relation | direct registry evidence,ideal-allocation,direct evidence for a registered reading
+rule-80-a,80,151,A polemic about gender,175702,176064,0,,,no selected cue
+rule-81-a,81,152,A factorial as a claim about dimensions,176064,176145,1,notation | catalogue math tag,,locator only
+rule-82-a,82,153,Competing strength functions,176145,176388,1,notation | catalogue math tag,,locator only
+rule-83-a,83,154,Appearance of a female clone,176388,177256,1,notation,,locator only
+rule-84-a,84,155,Shape-changing via difference and cloning,177256,177705,1,notation | catalogue math tag,,locator only
+rule-85-a,85,156,Size changes between micro and macro worlds,177705,178469,1,notation | catalogue math tag,,locator only
+rule-85-b,85,157,Remaking Yamato for interstellar travel,178469,179351,1,notation,,locator only
+rule-86-a,86,158,An appearance-based romantic probability,179351,179912,1,notation | catalogue math tag,,locator only
+rule-87-a,87,159,Death and rebirth in another dimension,179912,180296,1,catalogue math tag,,locator only
+rule-87-b,87,160,Wait before reincarnation,180296,180656,1,notation | catalogue math tag | direct registry evidence,fictional-return,direct evidence for a registered reading
+rule-87-c,87,161,Buck Rogers and passage between eras,180656,182060,1,notation,,locator only
+rule-88-a,88,162,Chromosomes as fictional character costs,182060,184245,1,notation,,locator only
+rule-88-b,88,163,Suspended animation as a variant of rebirth,184245,185613,1,notation,,locator only
+rule-89-a,89,164,Grades from credits and a character rating,185613,187513,1,notation | catalogue math tag | direct registry evidence,grade-load,direct evidence for a registered reading
+rule-90-a,90,165,A time-travel case built around Pluto,187513,192436,1,notation,,locator only
+rule-90-b,90,166,Active Points and travel costs,192436,193853,1,notation | catalogue math tag,,locator only
+rule-90-c,90,167,Returning to a temporal journey,193853,194466,1,notation,,locator only
+rule-91-a,91,168,Years of time travel from C1,194466,195004,1,notation | catalogue math tag,,locator only
+rule-92-a,92,169,A builder's rating and building height,195004,195151,1,notation | catalogue math tag,,locator only
+rule-93-a,93,170,Horsepower and environment,195151,195590,1,notation | catalogue math tag,,locator only
+rule-94-a,94,171,Diameter or radius of a temporal portal,195590,196303,1,notation | catalogue math tag,,locator only
+rule-95-a,95,172,Two formulas for interstellar range,196303,197515,1,notation | catalogue math tag,,locator only
+rule-96-a,96,173,Time to write a book,197515,197752,1,catalogue math tag,,locator only
+rule-96-b,96,174,Writing time from a reference author,197752,198365,1,catalogue math tag | direct registry evidence,work-time,direct evidence for a registered reading
+rule-97-a,97,175,Dimensions of a cybernetic vessel,198365,198976,1,notation | catalogue math tag,,locator only
+rule-98-a,98,176,A speculative military application of vehicle ratings,198976,199913,1,notation | catalogue math tag,,locator only
+rule-99-a,99,177,Length from vehicle baseline,199913,200128,1,notation | catalogue math tag,,locator only
+rule-100-a,100,178,Counting partners by a man's rating,200128,200504,1,notation | catalogue math tag,,locator only
+rule-101-a,101,179,Vessel length from power,200504,201282,1,notation | catalogue math tag,,locator only
+rule-102-a,102,180,Vehicle power and mass through a second horsepower rule,201282,201800,1,notation | catalogue math tag,,locator only
+rule-103-a,103,181,A seven-step COM and power profile,201800,203716,1,notation | catalogue math tag,,locator only
+rule-104-a,104,182,A further conversion for a woman's COM,203716,204040,1,notation | catalogue math tag,,locator only
+rule-105-a,105,183,A second marriage calculation,204040,204492,1,notation | catalogue math tag,,locator only
+rule-106-a,106,184,COM from a woman's power rating,204492,204571,1,notation | catalogue math tag,,locator only
+rule-107-a,107,185,A tentative d20 adaptation,204571,204964,1,notation,,locator only
+rule-107-b,107,186,An optional random starting baseline,204964,206387,1,notation | catalogue math tag | direct registry evidence,creation-total,direct evidence for a registered reading
+rule-107-c,107,187,Returning to superhero strength,206387,206634,1,notation | direct registry evidence,brute-strength,direct evidence for a registered reading
+rule-108-a,108,188,Mass of a large or dense body,206634,208206,1,notation | catalogue math tag,,locator only
+rule-109-a,109,189,Two more ways to shrink,208206,210834,1,notation | catalogue math tag,,locator only
+rule-110-a,110,190,An alleged relationship for a blast footprint,210834,211212,1,notation | catalogue math tag,,locator only
+rule-111-a,111,191,A monster's longest dimension,211212,211575,1,notation | catalogue math tag,,locator only
+rule-112-a,112,192,Cosmic hunger over a lifetime,211575,211968,1,notation | catalogue math tag,,locator only
+rule-113-a,113,193,An animal shape factor,211968,212488,1,notation | catalogue math tag,,locator only
+rule-114-a,114,194,Reconstructing a television cyborg from cost,212488,213207,1,notation | direct registry evidence,cyborg-calibration,direct evidence for a registered reading
+rule-114-b,114,195,Applying the cyborg model to Death's Head,213207,215945,1,notation,,locator only
+rule-115-a,115,196,Planetary diameter and speed from a piecewise rating,215945,216626,1,notation | catalogue math tag,,locator only
+rule-116-a,116,197,Comparing an incomplete and a completed Death Star,216626,217924,1,notation,,locator only
+rule-117-a,117,198,A ring with a recharge limitation,217924,219149,1,notation,,locator only
+rule-118-a,118,199,Damage class and competing pools,219149,219861,1,notation | catalogue math tag | direct registry evidence,one-use-damage,direct evidence for a registered reading
+rule-119-a,119,200,Presidential tenure as a rating,219861,220561,1,notation | catalogue math tag,,locator only
+rule-120-a,120,201,A fictional asexual humanoid,220561,221400,1,notation,,locator only
+rule-121-a,121,202,Accessible dimensions and time travel,221400,222402,1,notation | catalogue math tag,,locator only
+rule-122-a,122,203,HERO points and IQ,222402,223648,1,notation | catalogue math tag | direct registry evidence,tcp-linear | tcp-log,direct evidence for a registered reading
+rule-123-a,123,204,Ninja Scroll character ratings,223648,224644,1,notation,,locator only
+rule-123-b,123,205,A low-powered mutant built in four increments,224644,226003,1,notation | catalogue math tag | direct registry evidence,successive-advantages,direct evidence for a registered reading
+rule-124-a,124,206,Appearance as a share of C3,226003,228781,1,notation | catalogue math tag | direct registry evidence,appearance,direct evidence for a registered reading
+rule-125-a,125,207,Average psyche in Marvel SAGA,228781,230815,1,notation | catalogue math tag,,locator only
+rule-126-a,126,208,Inverting the male COM convention,230815,231125,1,notation | catalogue math tag,,locator only
+rule-127-a,127,209,Length of a fictional reign,231125,231511,1,notation | catalogue math tag,,locator only
+rule-128-a,128,210,An exponential clone count,231511,232314,1,notation | catalogue math tag | direct registry evidence,clone-alternatives,direct evidence for a registered reading
+rule-128-b,128,211,An inequivalent C3 branch and temporary clones,232314,232757,1,notation | catalogue math tag | direct registry evidence,clone-alternatives,direct evidence for a registered reading
+rule-128-c,128,212,A C2 branch for Superman,232757,233183,1,notation | catalogue math tag | direct registry evidence,clone-alternatives,direct evidence for a registered reading
+rule-129-a,129,213,Simulating time travel through clones,233183,234746,1,notation,,locator only
+rule-130-a,130,214,Warp range at a chosen warp number,234746,236802,1,notation | catalogue math tag | direct registry evidence,warp-range,direct evidence for a registered reading
+rule-131-a,131,215,Monster numbers for a Jurassic Park story,236802,237960,1,notation,,locator only
+rule-132-a,132,216,Engine power relative to hull size,237960,239137,1,notation | catalogue math tag | direct registry evidence,engine-hull,direct evidence for a registered reading
+rule-133-a,133,217,Travel over many generations,239137,239821,1,notation | catalogue math tag,,locator only
+rule-134-a,134,218,Molecular control and target size,239821,240591,1,notation | catalogue math tag,,locator only
+rule-135-a,135,219,Distance and years as interchangeable travel scales,240591,243946,1,notation | catalogue math tag,,locator only
+rule-136-a,136,220,A fictional threshold for ordinary physics,243946,244378,1,notation,,locator only
+rule-137-a,137,221,Dating the Godzilla storyline,244378,244992,1,notation | catalogue math tag,,locator only
+rule-138-a,138,222,Fractional advantages and disadvantages,244992,246727,1,notation | catalogue math tag,,locator only
+rule-139-a,139,223,"Damage dice, defence and body",246727,247827,1,notation | catalogue math tag,,locator only
+rule-140-a,140,224,Rating a kaiju's body and powers,247827,249604,1,notation,,locator only
+rule-140-b,140,225,A judgement about fictional motives,249604,250176,0,,,no selected cue
+rule-141-a,141,226,A minimum advantage for a superhuman,250176,251962,1,notation | catalogue math tag | direct registry evidence,minimum-advantage,direct evidence for a registered reading
+rule-142-a,142,227,Height-to-mass conversion and an inconsistent table,251962,252934,1,notation | catalogue math tag | direct registry evidence,cubic-mass,direct evidence for a registered reading
+rule-143-a,143,228,Building a kaiju on an astronomical scale,252934,253552,1,notation,,locator only
+rule-144-a,144,229,Nobilis and Marvel psyche crosswalk,253552,254558,1,notation | catalogue math tag,,locator only
+rule-145-a,145,230,Incompatible technology conversions,254558,254924,1,notation | catalogue math tag | direct registry evidence,technology-level,direct evidence for a registered reading
+rule-146-a,146,231,Another damage-pool convention,254924,255269,1,notation | catalogue math tag | direct registry evidence,mutant-damage,direct evidence for a registered reading
+rule-147-a,147,232,Repeated advantages across changes of scale,255269,255812,0,,,no selected cue
+rule-148-a,148,233,Re-rating StarCraft's Zerg,255812,259508,1,notation,,locator only
+rule-149-a,149,234,Scale of a vehicle body,259508,259670,1,verbal rating or relation,,locator only
+rule-150-a,150,235,Magnitude assigned to speed,259670,259761,1,verbal rating or relation,,locator only
+rule-151-a,151,236,Magnitude of magic,259761,259849,1,notation | catalogue math tag,,locator only
+rule-151-b,151,237,Reinterpreting Marvel magic ratings,259849,262229,1,notation,,locator only
+rule-152-a,152,238,Mapping a controller's rating to an affected object,262229,262517,1,catalogue math tag,,locator only
+rule-153-a,153,239,Material vulnerability and weakening,262517,263572,1,notation,,locator only
+rule-154-a,154,240,Estimating literary characters from bodies and ages,263572,265930,1,notation,,locator only
+rule-155-a,155,241,Flight velocity with a COM deduction,265930,267855,1,notation | catalogue math tag | direct registry evidence,warp-fuel,direct evidence for a registered reading
+rule-156-a,156,242,A spaceship's body near light speed,267855,268210,1,notation | catalogue math tag,,locator only
+rule-157-a,157,243,Reading a light-speed threshold from Marvel,268210,268842,1,notation | catalogue math tag,,locator only
+rule-158-a,158,244,Reusing the flight function on higher scales,268842,270239,1,notation | catalogue math tag | direct registry evidence,warp-fuel,direct evidence for a registered reading
+rule-159-a,159,245,An uncertainty allowance for faster-than-light craft,270239,270886,1,notation | catalogue math tag,,locator only
+rule-160-a,160,246,Celestial diameter in metres to C2,270886,271172,1,notation | catalogue math tag,,locator only
+rule-161-a,161,247,Synnibarr Life Points as a fourth magnitude,271172,271528,1,notation | catalogue math tag | direct registry evidence,class-step | iterated-scale,direct evidence for a registered reading
+rule-162-a,162,248,Technological length as C3 power,271528,272736,1,notation | catalogue math tag,,locator only
+rule-163-a,163,249,History of the game's premises,272736,273155,0,,,no selected cue
+rule-163-b,163,250,The IQ rule across three proposed revisions,273155,273585,1,notation | catalogue math tag,,locator only
+rule-163-c,163,251,Material strengths and Life Points,273585,273789,1,notation | catalogue math tag,,locator only
+rule-164-a,164,252,Two routes from psyche to grades,273789,274492,1,notation | catalogue math tag | direct registry evidence,grade-load,direct evidence for a registered reading
+rule-165-a,165,253,A meteorite and the limit of the damage analogy,274492,275329,1,notation | catalogue math tag,,locator only
+rule-166-a,166,254,Constructing a Transformer,275329,278949,1,notation,,locator only
+rule-167-a,167,255,Maximum genius by calendar year,278949,280302,1,notation | catalogue math tag,,locator only
+rule-168-a,168,256,Mad Thinker and Mr. Fantastic,280302,280905,1,notation,,locator only
+rule-169-a,169,257,A genetic analogy for a living machine,280905,284256,1,notation,,locator only
+rule-170-a,170,258,Astral time travel,284256,285329,1,notation | catalogue math tag | direct registry evidence,astral-time,direct evidence for a registered reading
+rule-171-a,171,259,Applying astral travel to Yamato,285329,286094,1,notation,,locator only
+rule-172-a,172,260,Apparent power and accessible dimensions,286094,286684,1,notation | catalogue math tag,,locator only
+rule-173-a,173,261,Size of a temporal traveller,286684,287916,1,notation | catalogue math tag,,locator only
+rule-174-a,174,262,A fictional group teleportation device,287916,289966,1,notation,,locator only
+rule-175-a,175,263,Comparing Q-like beings and captains,289966,290589,1,notation,,locator only
+rule-176-a,176,264,Giving the Dot a power rating,290589,291053,1,notation,,locator only
+rule-177-a,177,265,Preferred equations,291053,291560,0,,,no selected cue
+rule-178-a,178,266,Velocity from two power scales,291560,291848,1,notation | catalogue math tag | direct registry evidence,mixed-base-flight,direct evidence for a registered reading
+rule-179-a,179,267,Removing COM from flight velocity,291848,292023,1,verbal rating or relation,,locator only
+rule-180-a,180,268,An alternative fictional destructive-effect scale,292023,292573,1,notation | catalogue math tag,,locator only
+rule-181-a,181,269,Sentinel models and free will,292573,293937,1,notation,,locator only
+rule-181-b,181,270,Speculation on Nimrod's identity,293937,295888,0,,,no selected cue
+rule-181-c,181,271,Agency and combat ratings in the examples,295888,298704,1,notation,,locator only
+rule-181-d,181,272,A speculative historical aside,298704,299501,1,verbal rating or relation,,locator only
+rule-182-a,182,273,Ordinary and heroic point benchmarks,299501,299924,1,verbal rating or relation,,locator only
+rule-182-b,182,274,Wealth and luck in GURPS,299924,300997,1,notation | catalogue math tag,,locator only
+rule-183-a,183,275,Minimum cost across incompatible games,300997,303334,1,notation | direct registry evidence,opposite-operations,direct evidence for a registered reading
+rule-183-b,183,276,"DEF, BOD and material strength",303334,304113,1,notation | catalogue math tag | direct registry evidence,fictional-defense,direct evidence for a registered reading
+rule-184-a,184,277,"Power, wages and working time",304113,307118,1,notation | catalogue math tag,,locator only
+rule-184-b,184,278,From the central transform to martial artists,307118,308825,1,notation,,locator only
+rule-185-a,185,279,Chronology for Star Trek,308825,309741,1,notation | verbal rating or relation,,locator only
+rule-186-a,186,280,Distance for a starship,309741,310275,1,notation | catalogue math tag,,locator only
+rule-186-b,186,281,A reading of Voyager's captain,310275,311785,1,notation,,locator only
+rule-186-c,186,282,A second fleet and its range,311785,313006,1,notation,,locator only
+rule-187-a,187,283,"Appearance, gender and sexual orientation",313006,314318,1,notation,,locator only
+rule-187-b,187,284,Unsupported claims about sexual orientation,314318,316283,1,notation,,locator only
+rule-188-a,188,285,Combat modifiers and two external tables,316283,317633,1,notation,,locator only
+rule-188-b,188,286,A roll-under target for a stated ambition,317633,319170,1,notation | catalogue math tag | direct registry evidence,class-inverse | roll-low,direct evidence for a registered reading
+rule-189-a,189,287,Three alternatives for defensive combat value,319170,320088,1,notation | catalogue math tag,,locator only
+rule-190-a,190,288,A shared scale for kaiju and robots,320088,322333,1,notation,,locator only
+rule-191-a,191,289,Negative energy and time travel,322333,323404,1,notation,,locator only
+rule-192-a,192,290,Minimum cost of passing the light-speed barrier,323404,324398,1,catalogue math tag,,locator only
+rule-193-a,193,291,A judgement about consensual sexuality,324398,324603,0,,,no selected cue
+rule-194-a,194,292,Strength from body measurements,324603,324885,1,notation | catalogue math tag,,locator only
+rule-194-b,194,293,Reusing body proportions for animals and monsters,324885,325795,1,notation | catalogue math tag,,locator only
+rule-195-a,195,294,Age notice before rule 196,325795,326147,0,,,no selected cue
+rule-196-a,196,295,An adult physiological model,326147,329274,1,notation,,locator only
+rule-196-b,196,296,A separate growth and shrinking exception,329274,329898,1,notation | catalogue math tag,,locator only
+rule-197-a,197,297,A revised male COM function,329898,331113,1,notation | catalogue math tag | direct registry evidence,appearance,direct evidence for a registered reading
+rule-198-a,198,298,Political comparisons through technology ratings,331113,331900,1,verbal rating or relation,,locator only
+rule-199-a,199,299,Height through a race-specific divisor,331900,332047,1,notation | catalogue math tag,,locator only
+rule-200-a,200,300,An unusual use of infinity and alphabetic magnitude,332047,332903,1,notation | catalogue math tag | direct registry evidence,iterated-scale | infinity-notation,direct evidence for a registered reading
+rule-201-a,201,301,Dark Phoenix and a mass exponent,332903,334814,1,notation | catalogue math tag,,locator only
+rule-202-a,202,302,Salary probabilities and further earnings formulas,334814,336114,1,notation | catalogue math tag | direct registry evidence,fictional-salary,direct evidence for a registered reading
+rule-203-a,203,303,Credits and years of college,336114,336373,1,notation | catalogue math tag,,locator only
+rule-203-b,203,304,An extrapolation to geopolitical history,336373,336693,1,verbal rating or relation,,locator only

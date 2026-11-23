@@ -1,0 +1,392 @@
+{
+  "rules": 204,
+  "segments": 304,
+  "glossary": 70,
+  "equations": 54,
+  "issues": 20,
+  "indexed": 503,
+  "categories": {
+    "Administrative material": 12,
+    "Action resolution": 5,
+    "Core mechanic": 9,
+    "Design commentary": 10,
+    "External RPG reference": 33,
+    "Game-world assumptions": 34,
+    "Worked example": 5,
+    "Combat": 7,
+    "Pop-culture reference": 13,
+    "Prejudicial commentary": 12,
+    "Personal commentary": 2,
+    "Character creation": 50,
+    "Derived mechanic": 19,
+    "Physical simulation": 25,
+    "Powers": 66,
+    "Pseudoscientific claim": 1,
+    "Mathematical model": 1
+  },
+  "executability": {
+    "Non-mechanical": 40,
+    "Partially executable": 124,
+    "Ambiguous": 90,
+    "Executable": 48,
+    "Non-executable": 2
+  },
+  "trials": {
+    "Partially executable": 2,
+    "Executable": 2,
+    "Ambiguous": 1,
+    "Non-executable": 2
+  },
+  "graph": {
+    "nodes": 414,
+    "edges": 1133,
+    "duplicate_node_ids": 0,
+    "unmatched_endpoint_keys": 0,
+    "input_reference_rows": 528,
+    "explicit_reference_pairs": 448,
+    "source_segment_keys": 304,
+    "duplicate_source_segment_keys": 0,
+    "unmatched_reference_rows": [],
+    "reference_origins": {
+      "numbered_rule": {
+        "rows_before_target_join": 451,
+        "matched_rows": 451,
+        "distinct_pairs": 383,
+        "distinct_sources_observed": 140,
+        "distinct_targets_matched": 145,
+        "unmatched_rows": 0,
+        "repeated_pair_mentions": 68
+      },
+      "unnumbered_segment": {
+        "rows_before_target_join": 77,
+        "matched_rows": 77,
+        "distinct_pairs": 65,
+        "distinct_sources_observed": 24,
+        "distinct_targets_matched": 47,
+        "unmatched_rows": 0,
+        "repeated_pair_mentions": 12
+      }
+    },
+    "relations": {
+      "cites passage": {
+        "events_before_type_filter": 1213,
+        "matching_events": 393,
+        "distinct_directed_pairs": 393,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 393,
+        "source_kinds": [
+          "case",
+          "eq",
+          "term"
+        ],
+        "target_kinds": [
+          "passage",
+          "rule"
+        ],
+        "top_incoming": [
+          {
+            "id": "rule-45",
+            "incoming": 20
+          },
+          {
+            "id": "front",
+            "incoming": 14
+          },
+          {
+            "id": "rule-8",
+            "incoming": 13
+          },
+          {
+            "id": "rule-3",
+            "incoming": 11
+          },
+          {
+            "id": "rule-6",
+            "incoming": 11
+          }
+        ]
+      },
+      "requires calculation": {
+        "events_before_type_filter": 1213,
+        "matching_events": 13,
+        "distinct_directed_pairs": 13,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 13,
+        "source_kinds": [
+          "eq"
+        ],
+        "target_kinds": [
+          "eq"
+        ],
+        "top_incoming": [
+          {
+            "id": "eq-class-step",
+            "incoming": 10
+          },
+          {
+            "id": "eq-class-inverse",
+            "incoming": 1
+          },
+          {
+            "id": "eq-iterated-scale",
+            "incoming": 1
+          },
+          {
+            "id": "eq-pool-size",
+            "incoming": 1
+          }
+        ]
+      },
+      "related concept": {
+        "events_before_type_filter": 1213,
+        "matching_events": 217,
+        "distinct_directed_pairs": 217,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 217,
+        "source_kinds": [
+          "term"
+        ],
+        "target_kinds": [
+          "term"
+        ],
+        "top_incoming": [
+          {
+            "id": "term-dp",
+            "incoming": 20
+          },
+          {
+            "id": "term-pl",
+            "incoming": 17
+          },
+          {
+            "id": "term-c",
+            "incoming": 10
+          },
+          {
+            "id": "term-c2",
+            "incoming": 8
+          },
+          {
+            "id": "term-c3",
+            "incoming": 8
+          }
+        ]
+      },
+      "documents tension": {
+        "events_before_type_filter": 1213,
+        "matching_events": 46,
+        "distinct_directed_pairs": 46,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 46,
+        "source_kinds": [
+          "issue"
+        ],
+        "target_kinds": [
+          "passage",
+          "rule"
+        ],
+        "top_incoming": [
+          {
+            "id": "rule-45",
+            "incoming": 4
+          },
+          {
+            "id": "front",
+            "incoming": 3
+          },
+          {
+            "id": "rule-8",
+            "incoming": 3
+          },
+          {
+            "id": "rule-188",
+            "incoming": 2
+          },
+          {
+            "id": "rule-31",
+            "incoming": 2
+          }
+        ]
+      },
+      "explicit reference": {
+        "events_before_type_filter": 1213,
+        "matching_events": 528,
+        "distinct_directed_pairs": 448,
+        "duplicate_pair_events": 80,
+        "self_pairs": 23,
+        "pairs_ranked": 425,
+        "source_kinds": [
+          "passage",
+          "rule"
+        ],
+        "target_kinds": [
+          "rule"
+        ],
+        "top_incoming": [
+          {
+            "id": "rule-3",
+            "incoming": 18
+          },
+          {
+            "id": "rule-8",
+            "incoming": 13
+          },
+          {
+            "id": "rule-10",
+            "incoming": 11
+          },
+          {
+            "id": "rule-7",
+            "incoming": 11
+          },
+          {
+            "id": "rule-155",
+            "incoming": 10
+          }
+        ]
+      },
+      "states calculation": {
+        "events_before_type_filter": 1213,
+        "matching_events": 5,
+        "distinct_directed_pairs": 5,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 5,
+        "source_kinds": [
+          "rule"
+        ],
+        "target_kinds": [
+          "eq"
+        ],
+        "top_incoming": [
+          {
+            "id": "eq-ambs",
+            "incoming": 1
+          },
+          {
+            "id": "eq-class-step",
+            "incoming": 1
+          },
+          {
+            "id": "eq-pool-size",
+            "incoming": 1
+          },
+          {
+            "id": "eq-roll-low",
+            "incoming": 1
+          },
+          {
+            "id": "eq-running-speed",
+            "incoming": 1
+          }
+        ]
+      },
+      "supports interpretation": {
+        "events_before_type_filter": 1213,
+        "matching_events": 2,
+        "distinct_directed_pairs": 2,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 2,
+        "source_kinds": [
+          "rule"
+        ],
+        "target_kinds": [
+          "eq"
+        ],
+        "top_incoming": [
+          {
+            "id": "eq-martial-grade",
+            "incoming": 1
+          },
+          {
+            "id": "eq-roll-high",
+            "incoming": 1
+          }
+        ]
+      },
+      "defines term": {
+        "events_before_type_filter": 1213,
+        "matching_events": 7,
+        "distinct_directed_pairs": 7,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 7,
+        "source_kinds": [
+          "rule"
+        ],
+        "target_kinds": [
+          "term"
+        ],
+        "top_incoming": [
+          {
+            "id": "term-ambs",
+            "incoming": 1
+          },
+          {
+            "id": "term-health",
+            "incoming": 1
+          },
+          {
+            "id": "term-karma",
+            "incoming": 1
+          },
+          {
+            "id": "term-letter",
+            "incoming": 1
+          },
+          {
+            "id": "term-mag",
+            "incoming": 1
+          }
+        ]
+      },
+      "opposing roll conventions": {
+        "events_before_type_filter": 1213,
+        "matching_events": 1,
+        "distinct_directed_pairs": 1,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 1,
+        "source_kinds": [
+          "eq"
+        ],
+        "target_kinds": [
+          "eq"
+        ],
+        "top_incoming": [
+          {
+            "id": "eq-roll-low",
+            "incoming": 1
+          }
+        ]
+      },
+      "gives a conflicting point estimate": {
+        "events_before_type_filter": 1213,
+        "matching_events": 1,
+        "distinct_directed_pairs": 1,
+        "duplicate_pair_events": 0,
+        "self_pairs": 0,
+        "pairs_ranked": 1,
+        "source_kinds": [
+          "eq"
+        ],
+        "target_kinds": [
+          "eq"
+        ],
+        "top_incoming": [
+          {
+            "id": "eq-tcp-log",
+            "incoming": 1
+          }
+        ]
+      }
+    },
+    "centrality_method": "Distinct directed sources reaching a target by one edge type, excluding self-links. Ties are ordered by ID.",
+    "reference_unit": "Numbered references aggregate by original rule occurrence. Unnumbered references retain the analytical segment as their origin. General editorial citations to the preface use a separate umbrella node."
+  }
+}
